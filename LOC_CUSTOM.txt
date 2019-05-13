@@ -1,0 +1,1259 @@
+﻿// You can add your own localization in this file. Because external language support is currently under development, not all characters may display properly yet. Remember to keep a copy of this file outside of the game directory as it may be overwritten by updates.
+
+//---- Language name
+0 = "FRANÇAIS"
+
+// Strong Attack -> Attaque Power
+// Buddy -> Compagnon
+// DI -> Influence Directionnelle (ID)
+// SDI -> Influence Directionnelle Avancée (IDA)
+// Gatekeepers -> Gardiens
+
+//---- Various menu texts
+1 = "RETOUR"
+2 = "DECLARER FORFAIT" // button to forfeit the current match (online)
+3 = "ON"
+4 = "OFF"
+5 = "BASSE"
+6 = "EQUIPES"
+7 = "TYPE DE TERRAIN"
+8 = "MUSIQUE"
+9 = "ATTAQUE" // team attack btn (1)
+10 = "EQUIPE" // team attack btn (2)
+11 = "PREMIER A `1 VICTOIRE(S)"
+12 = "AUCUN" // No Profile (main menu)
+13 = "AUCUN PROFIL" // No Profile (css menu)
+14 = "EQUIPER DES RUNES" // css abyss runes
+15 = "Ouvrir le Juke-Box" // css music note button
+16 = "stick analogique" // term for Analog Stick on PC & Nintendo Switch
+17 = "stick analogique" // term for Analog Stick on Xbox
+18 = "stick analogique" // term for Analog Stick on other platforms
+19 = "PAGE"
+20 = "NOM DU JOUEUR" // generic / nintendo switch
+21 = "PSEUDO STEAM" // steam only
+22 = "GAMERTAG" // xbox only
+23 = "RANG" // player's place in the world rankings (1st, 2nd, 3rd, etc)
+24 = "SCORE MODE CLASSÉ" // player's score (1000-9999, etc)
+25 = "VICTOIRES" // win count
+26 = "DEFAITES" // lose count
+27 = "TAUX DE VICTOIRES"
+28 = "TAUX DE DECONNEXION" // displayed as a %
+29 = "Si il est supérieur à 20 %, votre score en mode" // (Line 1/2) - This is a warning about penalties for ragequitting
+30 = "classé sera à un jusqu'à ce que ce taux diminue." // (Line 2/2)
+31 = "RIVAL FAVORI" // should be translated as "fav character" - displays the character you select most often
+32 = "Aucun" // no favorite character
+33 = "TÉLÉCHARGEMENT DES DONNEES..." // displayed when loading next page of leaderboards
+34 = "VOIR LE CLASSEMENT AMIS" // button instructions - filter learderboard to only see you and your friends
+35 = "ALLER À MON SCORE" //button instructions - instantly move to your score on the leaderboards
+36 = "VOIR LE CLASSEMENT MONDIAL" //button instructions -- turn off the friends filter
+37 = "CLASSEMENT MODE ABYSSE" // title for abyss leaderboards
+38 = "SCORE" // score - for abyss leaderboard/etc
+39 = "MEILLEUR TEMPS" // quickest time story mode was cleared
+40 = "RIVAL SÉLECTIONNÉ" // should be translated as "selected character" - current story mode character
+41 = "COMMENCER" // on-screen button to begin a story mode chapter
+42 = "TEMPS" // shortened version of "BEST TIME" to fit UI
+43 = "VOIR LE CLASSEMENT" // shortened version of "VIEW FRIENDS LEADERBOARD" to fit UI
+44 = "MEILLEUR SCORE ABYSSE" // Furthest wave you've reached in abyss before dying.
+45 = " : MEILLEUR SCORE" // Same meaning as above but displayed as: "[CHARACTER NAME] BEST RUN"
+46 = "1 JOUEUR" // usage: "ONE PLAYER BEST RUN"
+47 = "2 JOUEURS" // usage: same as above
+48 = "3 JOUEURS" // ^
+49 = "4 JOUEURS" // ^
+50 = "(TOTAL)"
+51 = "TOUS" // used in My Stats screeen
+
+//---- Sound Test controls
+52 = "Lire"
+53 = "Stop"
+54 = "Repeter"
+55 = "Aleatoire"
+
+//---- Online lobby
+56 = "ACCEPTER"
+57 = "REFUSER"
+58 = "REVANCHE"
+59 = "NOUVEL ADVERSAIRE"
+60 = "Recherche..."
+61 = "Invitation..."
+62 = "ADVERSAIRE TROUVE !"
+63 = "CHARGEMENT..."
+64 = "DECISION EN COURS..."
+65 = "DECISION EN COURS..."
+
+//---- Money match
+66 = "Accept Money Match for `1 Coins \nin a Best of `2 Games?"
+67 = "Wager with these settings?"
+68 = "Your Coins"
+69 = "Bet Amount"
+70 = "MONEY MATCH"
+71 = "You won the Money Match!"
+72 = "You lost the Money Match..."
+73 = "COINS"
+74 = "GAMES"
+
+//---- Chat functions
+94 = "ENVOYER UN MESSAGE..."
+95 = "`1 a rejoint la salle."
+96 = "`1 a quitte la salle."
+
+//---- Popup Message Yes/No [100-149]
+100 = "L'adversaire veut changer les reglages pour demarrer un match sans fin. Accepter ?"
+101 = "L'adversaire veut changer les reglages pour demarrer un match sans limite de temps a `1 vie(s). Accepter ?"
+102 = "L'adversaire veut changer les reglages pour demarrer un match de `1 minute(s). Accepter ?"
+103 = "L'adversaire veut changer les reglages pour demarrer un match de `2 minute(s) a `1 vie(s). Accepter ?"
+104 = "Initier le Mode Developpeur ? Vous devez avoir les memes fichiers que votre adversaire."
+105 = "Desactiver le Mode Developpeur ?"
+106 = "Activer le choix aleatoire des terrains ?"
+107 = "Desactiver le choix aleatoire des terrains ?"
+108 = "L'adversaire veut activer le choix aleatoire des terrains. Accepter ?"
+109 = "Voulez-vous vous aventurer dans l'Abysse Infinie ?" //This popup appears after a cutscene after beating the final boss. If you choose yes, you go into the abyss stage. Otherwise you return to the main menu.
+110 = "- Mont Tempete -\nDebloquer ce terrain ?"
+111 = "- Forteresse Glaciale -\nDebloquer ce terrain ?"
+112 = "- Tower of Heaven -\nDebloquer ce terrain ?"
+113 = "Envoyer les reglages de temps et de vies ?"
+114 = "Voir Ori et Sein \nsur le magasin Steam ?"
+115 = "Voir Ranno et Clairen \nsur le magasin Steam ?"
+116 = "Voir\nSylvanos et Elliana\nsur le magasin Steam ?"
+117 = "Certains de vos replays sont incompatibles suite a la derniere mise a jour. Supprimer les replays incompatibles ?"
+118 = "Supprimer le replay ?"
+119 = "Quitter le jeu ?"
+120 = "Voir\nShovel Knight\nsur le magasin Steam ?"
+121 = "L'adversaire veut activer le Mode Turbo. Accepter ?"
+122 = "Activer le Mode Turbo ?"
+123 = "Desactiver le Mode Turbo ?"
+124 = "Acheter\n`1\npour `2 pieces ?"
+125 = "Voir\n`1\nsur le magasin Steam ?"
+126 = "Ouvrir le Navigateur Web pour comment acquerir cet article ?"
+127 = ""
+128 = ""
+129 = ""
+
+//---- Character Titles
+150 = "???"
+151 = "Prince de la Flamme"  //Zetter
+152 = "Filou Fluide"  //Orcane
+153 = "Tornade Incontrollable"  //Wrastor
+154 = "Bastion de la Terre"  //Kragg
+155 = "Stratège Déchu"  //Fors
+156 = "Gardien de la Forêt"  //Maypul
+157 = "Architecte des Tempêtes"  //Absa
+158 = "Légende Glaciale"  //Etalus
+159 = "de Ori and the Blind Forest"  //Ori
+160 = "Pacifiste Venimeux"  //Ranno
+161 = "Voyageuse Plasmique"  //Clairen
+162 = "Cœur de la Forêt"  //Sylvanos
+163 = "Arsenal Aérien"  //Elliana
+164 = "Shovel of Hope"  //Shovel Knight
+165 = "Premier Rival"  //Sandbert
+
+//---- Character Names
+169 = "Tous"
+170 = "Aleatoire"
+171 = "Zetterburn"
+172 = "Orcane"
+173 = "Wrastor"
+174 = "Kragg"
+175 = "Forsburn"
+176 = "Maypul"
+177 = "Absa"
+178 = "Etalus"
+179 = "Ori et Sein"
+180 = "Ranno"
+181 = "Clairen"
+182 = "Sylvanos"
+183 = "Elliana"
+184 = "Shovel Knight"
+185 = "Sandbert"
+186 = "Ori" // short form
+187 = "S.Knight" // short form
+188 = "Zetter" // short form
+189 = "S.K." // shortest form
+190 = "Ragnir"
+
+//----
+290 = "PRET A COMBATTRE"
+291 = "ANNULER" // cancel the Ready state
+292 = "APPUYER SUR" // "press start"
+293 = ""
+294 = ""
+295 = ""
+296 = ""
+
+//---- Popup Button Choices
+297 = "OUI"
+298 = "NON"
+299 = "OK"
+
+
+//-------------------
+// Main Menu Buttons
+//-------------------
+
+//---- Top Menu
+300 = "Local"
+301 = "Jouez seul ou invitez vos amis pour une partie en local !"
+302 = "En Ligne"
+303 = "Affrontez vos amis et des adversaires du monde entier !"
+304 = "Options"
+305 = "Configurez Rivals of Aether en fonction de votre style de jeu."
+306 = "Extras"
+307 = "Revoyez vos matches, personnalisez vos palettes personnages, et plus encore !"
+308 = "Quitter"
+309 = "Quitter le jeu."
+310 = "Écran Titre"
+311 = "Retourner à l'écran titre"
+
+//---- Local Sub-Menu
+312 = "Mode Versus"
+313 = "Combattez en 1v1, en chacun pour soi ou en équipes."
+314 = "Mode Solo"
+315 = "Accédez aux modes Histoire, Abysse, Entrainement et plus encore."
+316 = "Options"
+317 = "Ajustez les options du Mode Versus."
+318 = "Retour"
+319 = "Retournez au menu principal."
+
+//---- Online Sub-Menu
+320 = "Match Classé"
+321 = "Trouvez un adversaire pour monter dans le classement."
+322 = "Match Non Classé"
+323 = "Trouvez un adversaire pour un match sans enjeu."
+324 = "Match Amical"
+325 = "Jouez avec un ami, quelle que soit la distance."
+326 = "Match en équipes"
+327 = "Trouvez un adversaire ou invitez un ami pour un match en équipes."
+328 = "Statistiques et Options"
+329 = "Consultez le classement et vos statistiques, et configurez le mode en ligne."
+330 = "@318"
+331 = "@319"
+
+//---- Options Sub-Menu
+332 = "Commandes au clavier"
+333 = "Configurez vos commandes au clavier."
+334 = "Son"
+335 = "Adjustez le volume de la musique et des effets sonores."
+336 = "Affichage"
+337 = "Ajustez les options d'affichage pour un confort de jeu optimal."
+340 = "@318"
+341 = "@319"
+342 = "Profils"
+343 = "Personnalisez vos commandes à la manette et gérez les profils enregistrés."
+
+//---- Extras Sub-Menu
+344 = "Replays"
+345 = "Revoyez vos meilleurs matches autant que vous le souhaitez."
+346 = "Les contes d'Aether"
+347 = "Revoyez vos moments préférés du mode Histoire."
+348 = "Juke-box"
+349 = "Écoutez vos musiques préférées du jeu."
+350 = "Mes statistiques"
+351 = "Consultez vos statistiques pour chaque Rival et chaque profil."
+352 = "Personnalisation"
+353 = "Coloriez vos Rivaux à votre guise."
+354 = "Crédits"
+355 = "Qui a contribué à développer Rivals of Aether ? La réponse est ici !"
+356 = "@318"
+357 = "@319"
+358 = "Succès"
+359 = ""
+360 = "@310"
+361 = "@311"
+
+//---- Versus Settings
+362 = "Mode Tournoi"
+363 = "Activer le mode tournoi pour le jeu local."
+364 = "Vies - Tournoi"
+365 = "Choisissez le nombre de vies pour chaque match du tournoi."
+366 = "Durée - Tournoi"
+367 = "Choisissez la limite de temps pour chaque match du tournoi."
+368 = "Terrains Aether"
+369 = "Activez le type par défaut des terrains dans le mode Tournoi."
+370 = "Pause"
+371 = "Activez la pause et son mode d'enclanchement : Par simple pression du bouton ou en restant appuyé."
+372 = "Éjection"
+373 = "Changez la distance à laquelle un Rival est envoyé après une attaque."
+374 = "@352"
+375 = "Activez l'utilisation des palettes personnalisées lors des matchs locaux."
+376 = "Type par défaut"
+377 = "Choisissez le type par défaut des terrains dans le mode Versus."
+378 = "Mode Développeur"
+379 = "Activez l'utilisation des fichiers Développeur en mode Versus local."
+538 = "Mode Turbo"
+539 = "Activez le mode turbo. Annulez toutes vos attaques dès que vous touchez l'adversaire !"
+380 = "@318"
+381 = "Retournez au menu du Mode Versus."
+
+//---- Abyss Sub-Menu
+382 = "Mode Sans Fin"
+383 = "Affrontez une infinité de créatures de l'Abysse."
+384 = "Rune Versus"
+385 = "Affrontez un adversaire armé de vos Runes Abysse."
+386 = "Classements"
+387 = "Comparez votre meilleur score à ceux de la communauté."
+388 = "@318"
+389 = "@381"
+
+//---- Display Options
+390 = "Fenêtre"
+391 = "Choisissez entre le mode plein ecran et différentes tailles de fenêtres."
+392 = "UI Dégâts"
+393 = "Voir les dégâts au dessus des Rivaux."
+394 = "UI Profils"
+395 = "Voir les noms de Profils au dessus des Rivaux."
+396 = "Qualité des effets"
+397 = "Ajuster la qualité des effets pour optimiser la performance."
+398 = "Local Frame Skip"
+399 = "En Mode Local : Accélerer la logique du jeu si l'affichage descend en dessous des 60 IPS."
+400 = "@318"
+401 = "Retourner au Menu des Options."
+402 = "Vibrations de l'UI"
+403 = "Activer le retour visuel dans la barre de statut lorsque vous subissez des dégâts."
+404 = "Effets Rétro"
+405 = "Afficher certains effets de transparence à l'aide du tramage."
+406 = "Horloge"
+407 = "Changer le format de l'horloge."
+408 = "Affichage Débug"
+409 = "Afficher les informations de débug à l'écran. Pratique pour trouver les bugs."
+410 = "Langue"
+411 = "Changer la langue d'affichage du jeu."
+412 = "Vsync"
+413 = "Tenter de faire fonctionner le jeu à la même fréquence de rafraichissement que votre moniteur."
+
+//---- Sound Options
+414 = "Musique"
+415 = "Ajustez le volume de la musique."
+416 = "Effets"
+417 = "Ajustez le volume des effets sonores en combat."
+418 = "Menus"
+419 = "Ajustez le volume des effets sonores du menu."
+420 = "@318"
+421 = "@401"
+
+//---- Tutorial Mode Sub-Menu
+422 = "Débutant"
+423 = "Découvrez les bases du jeu."
+424 = "Intermédiaire"
+425 = "Découvrez de nouvelles techniques pour monter en compétences."
+426 = "Avancé"
+427 = "Perfectionnez les techniques de jeu avancées pour devenir un maître."
+428 = "Personnages - 1"
+429 = "Apprenez les spécificités de chaque personnage."
+430 = ""
+431 = ""
+432 = "@318"
+433 = "@381"
+434 = "Personnages - 2"
+435 = "@429"
+
+//---- Beginner Tutorial Sub-Menu
+436 = "Mouvement"
+437 = "Apprenez à vous déplacer. Il y a un début à tout."
+438 = "Défense"
+439 = "Apprenez à vous défendre face aux attaques adverses."
+440 = "Attaque"
+441 = "Apprenez à utiliser les différents types d'attaques."
+442 = "@318"
+443 = "Retournez au Menu des Tutoriels."
+
+//---- Intermediate Tutorial Sub-Menu
+444 = "@436"
+445 = "Apprenez quelques techniques utiles pour optimiser vos déplacements."
+446 = "@438"
+447 = "Apprenez à survivre après une attaque puissante et à sortir des combos."
+448 = "@440"
+449 = "Apprenez à causer de gros dégâts à l'adversaire."
+450 = "@318"
+451 = "@443"
+
+//---- Advanced Tutorial Sub-Menu
+452 = "@436"
+453 = "Maîtrisez ces techniques pour bouger comme un pro."
+454 = "@438"
+455 = "Maîtrisez l'art de la survie."
+456 = "@440"
+457 = "Maîtrisez ces techniques pour forcer vos adversaires à rester vigilants."
+458 = "@318"
+459 = "@443"
+
+//---- Character Specific Tutorial Sub-Menu
+460 = "@171"
+461 = "Apprenez à enflammer vos adversaires avec Zetterburn, le Prince de la Flamme."
+462 = "@172"
+463 = "Apprenez à jouer avec vos adversaires avec Orcane, le Filou Fluide."
+464 = "@173"
+465 = "Apprenez à voler avec Wrastor, la Tornade Incontrollable."
+466 = "@174"
+467 = "Apprenez à lancer des rochers avec Kragg, le Bastion de la Terre."
+468 = "@175"
+469 = "Apprenez à semer la confusion avec Forsburn, le Stratège Déchu."
+470 = "@176"
+471 = "Apprenez à vous occuper des plantes avec Maypul, le Gardien de la Forêt."
+472 = "@177"
+473 = "Apprenez à faire tomber la foudre avec Absa, l'Architecte des Tempêtes."
+474 = "@178"
+475 = "Apprenez à écraser l'opposition avec Etalus, la Légende Glaciale."
+476 = "@318"
+477 = "@443"
+
+//---- Solo Modes
+478 = "Mode Histoire"
+479 = "Découvrez l'histoire derrière les conflits du monde d'Aether."
+480 = "Mode Abysse"
+481 = "Combattez les créatures de l'Abysse pour monter en puissance."
+482 = "Entrainement"
+483 = "Entrainez-vous face à un combattant ordinateur et expérimentez avec diverses variables."
+484 = "Tutoriels"
+485 = "Découvrez tout ce qu'il y a à savoir sur Rivals of Aether !"
+486 = "@318"
+487 = "@381"
+488 = "Profil Principal"
+489 = "Sélectionnez le profil de commandes utilisé en Mode Solo et en Mode En Ligne."
+
+//---- Online Stats and Options
+490 = "Classements En Ligne"
+491 = "Comparez votre score à ceux de la communauté."
+492 = "Mes statistiques"
+493 = "@351"
+494 = "Ma Région"
+495 = "Choisissez votre région pour obtenir les meilleurs matches en ligne."
+496 = "@352"
+497 = "Affichez les Palettes Personnalisées : Toutes les Palettes ou seulement les votres."
+540 = "Compagnons"
+541 = "Affichez tous les compagnons ou seulement les votres."
+498 = "@318"
+499 = "Retournez au menu du Mode En Ligne."
+500 = "@488"
+501 = "@489"
+
+//---- Team Match Sub-Menu
+502 = "Match Non Classé"
+503 = "Trouvez un adversaire pour un Match en Équipes."
+504 = "Match Amical"
+505 = "Invitez un ami pour un Match en Équipes"
+506 = "@318"
+507 = "@499"
+
+//---- Aether Tales
+508 = "@171"
+509 = "Revoir l'aventure de Zetterburn aux Port des Marchands."
+510 = "@172"
+511 = "Revoir l'aventure d'Orcane à l'Armada de l'Air."
+512 = "@173"
+513 = "Revoir l'aventure de Wrastor à la Muraille Protectrice."
+514 = "@174"
+515 = "Revoir l'aventure de Kragg au Logis Feuillu."
+516 = "@175"
+517 = "Revoir l'aventure de Forsburn à Blazington D.C."
+518 = "@176"
+519 = "Revoir l'aventure de Maypul au Repère Infernal."
+520 = "???"
+521 = "Revoir la conclusion du Mode Histoire aux Portes d'Aether."
+522 = "@318"
+523 = "Retourner au Menu des Extras."
+
+//---- Character Specific Tutorial Sub-Menu 2
+524 = "@179"
+525 = "Apprenez à combattre en équipe avec Ori et Sein."
+526 = "@180"
+527 = "Apprenez à maintenir la paix avec Ranno, le Pacifiste Venimeux."
+528 = "@181"
+529 = "Apprenez comment sauver le futur avec Clairen, la Voyageuse Plasmique."
+530 = "@182"
+531 = "Apprenez à asservir la nature avec Sylvanos, le Cœur de la Forêt."
+532 = "@183"
+533 = "Apprenez à vous venger avec Elliana, l'Arsenal Aérien."
+534 = "@184"
+535 = "Apprenez comment vaincre le mal avec Shovel Knight."
+536 = "@318"
+537 = "@443"
+
+//----------------------------
+// Main Menu Variable Strings
+//----------------------------
+
+600 = "Ouvrez les Succès dans l'interface Steam."
+601 = "Open up the Xbox One Game Hub to view your Achievement Progress."
+602 = "Progress through Abyss Mode to unlock this feature."
+603 = "Complete Story Mode to unlock this mode."
+604 = "@362"
+605 = "Jouez en situation de tournoi avec des joueurs humains"
+606 = "Options - Tournoi"
+607 = "Ajustez les options du Mode Tournoi."
+//--- Allowed Custom Colors:
+608 = "LES MIENNES"
+609 = "AUCUN"
+610 = "TOUS"
+//--- Effects Quality:
+611 = "TRES BASSE"
+612 = "BASSE"
+613 = "ÉLEVÉE"
+//----
+614 = "N/A"
+//---- Clock Mode:
+615 = "12 HEURES"
+616 = "24 HEURES"
+//---- HUD Damage:
+617 = "PETITE"
+618 = "GRANDE"
+//----
+619 = "PLEIN ÉCRAN"
+620 = "GARDIENS"
+621 = "RESTER APPUYÉ" // Pause setting
+//---- Stage Types:
+622 = "AETHER"
+623 = "BASIQUE"
+
+//--------------------
+
+//---- CSS Various Texts
+643 = "Manche en" // Stocks button
+644 = "N." // Abyss level
+645 = "VOUS"
+646 = "NET"
+647 = "Net Player"
+648 = "Joueur"
+649 = "NIV. " // AI level
+
+//---- CSS profile buttons
+650 = "AUCUN"
+651 = "NOUVEAU"
+
+//---- CSS gamepad buttons
+652 = "DEFAUT"
+653 = "PERSO"
+
+//---- CSS various buttons
+654 = "TESTER"
+655 = "REGLER"
+656 = "@652"
+657 = "TERMINER"
+
+//---- Gamepad room buttons
+658 = "MANETTE"
+659 = "PROFIL"
+660 = "TESTER"
+
+//--------------------
+
+//---- Replay menu button: sort by
+661 = "TRIER PAR"
+662 = "RECENT"
+663 = "MARQUES" // replays marked as favorites
+664 = "ABC" // alphabetical order
+
+//---- Replay menu button: auto save
+665 = "SAUVEGARDE AUTO"
+666 = "TOUS"
+667 = "EN LIGNE"
+668 = "LOCAL"
+669 = "AUCUN"
+
+//---- Replay menu
+670 = "INCOMPATIBLE" // replay outdated
+671 = "DATE" // starting here is stage data inside the replay file
+672 = "TYPE DE MATCH" //local, friendly online, ranked, etc
+673 = "DUREE DU MATCH" //duration of the match
+674 = "VIES" //what the stocks setting was
+675 = "TEMPS" //what the time setting was
+676 = "TERRAIN" //which stage you played on
+677 = "Match Local"
+678 = "Macth Local en Equipes"
+679 = "Match Non Classe"
+680 = "Match Amical"
+681 = "Match Classe"
+682 = "Pas de Description"
+683 = "Replays" // x/128 Replays
+684 = "LES REPLAYS NON MARQUES SERONT" // (1/2)
+685 = "ECRASES SI LA PLACE VIENT A MANQUER." // (2/2)
+686 = "REGARDER"
+687 = "EDITER LE NOM"
+688 = "EDITER LA DESCRIPTION"
+689 = "SUPPRIMER"
+690 = "(IRREGARDABLE)"
+
+//---- Sound Test display
+695 = "Musique de terrain "
+696 = "Arrangee par "
+697 = "Compositeur Original "
+698 = "Remerciments speciaux "
+699 = "De `1 par `2"
+700 = "LECTURE EN COURS"
+
+//--------------------
+
+//---- Pause Menu
+701 = "`1 : Cacher l'interface"
+702 = "`1 : Quitter"
+703 = "OPTIONS D'ENTRAINEMENT"
+704 = "OPTION DE REPLAY"
+705 = "PAUSE : P`1"
+706 = "REPRENDRE" //regular menu begin
+707 = "RECOMMENCER"
+708 = "QUITTER"
+709 = "@298"
+710 = "@297"
+711 = "RECOMMENCER LE MATCH ?" //submenu begin
+712 = "REPARTIR DU NIVEAU 1 ?"
+713 = "QUITTER LE MATCH ?"
+714 = "RECOMMENCER L'HISTORE"
+
+//---- Pause: Training / Replay
+715 = "VITESSE DE JEU : "
+716 = "ENTRÉE : "
+717 = "COLLISIONS : "
+718 = "LIGNES D'ID : "
+719 = "Action ORDI : "
+720 = "DEGATS : "
+721 = "ID ORDI : "
+722 = "Dérive ORDI : "
+723 = "Tech ORDI : "
+724 = "INTERFACE : " // more like "HUD toggle": turns it on/off
+725 = "PRENDRE LE CONTROLE" //replay: allows you to control your character inside the replay
+726 = "REDEMARRER LE REPLAY"
+
+//---- Pause: Training CPU DI behaviors
+727 = "IN" //training CPU DI behaviors
+728 = "OUT"
+729 = "HAUT"
+730 = "BAS"
+761 = "GAUCHE"
+762 = "DROITE"
+731 = "PARFAIT"
+732 = "ALÉATOIRE"
+733 = "NORMAL"
+ 
+//---- Pause: Training CPU tech behaviors
+734 = "EN PLACE" //training CPU tech behaviors
+735 = "ROULADE IN"
+736 = "ROULADE OUT"
+
+//---- Pause: Training CPU actions
+737 = "ACCROUPI"
+738 = "SAUT"
+739 = "COURSE"
+740 = "PARADE"
+741 = "ROULADE"
+742 = "COMBAT"
+743 = "S'ENFUIR"
+744 = "STATIQUE"
+745 = "AUCUNE"
+746 = "IDA ORDI: " //SDI: Shift Directional Influence (also referenced in the tutorial texts)
+747 = "PERSONNAGE"
+748 = "BARRE DE STATUT"
+749 = "LES DEUX"
+
+//---- Pause: default controls
+750 = "COMMANDES PAR DEFAUT"
+751 = "ATTAQUE"
+752 = "SPECIAL"
+753 = "SAUT"
+754 = "POWER"
+755 = "ESQUIVE"
+756 = "Lorsque le replay est lu :"
+757 = "`1: Activer le controle de la camera"
+758 = "`1 / `2: Changer la vitesse de la camera"
+759 = "Appuyez sur `1 pour activer l'image par image."
+
+//--- Pause: menu header text
+760 = "MENU PAUSE"
+
+//---- HUD: Abyss Objectives
+801 = "Detruisez `1 ennemis faibles !"
+802 = "Annulez les sortileges !" //i.e. break the targets
+803 = "Evitez les explosions et detruisez les ennemis !" //vs 1 enemy with randomly-spawning explosions
+804 = "Detruisez les graines !" //falling seeds
+805 = "Detruisez l'ennemi a armure !"
+806 = "@801"
+807 = "Detruisez l'obelisque !" //failing to destroy quickly results in stage-filling explosion
+808 = "Renvoyez les ennemis dans les portails !"
+809 = "Absorbez la lumiere !"
+810 = "Ne restez pas au sol !"
+811 = "@801"
+812 = "Detruisez `1 ennemis explosifs"
+813 = "Detruisez les sbires des Gardiens !"
+814 = "Detruisez les Gardiens !"
+815 = "Soignez-vous !"
+
+//---- HUD: Abyss Status
+816 = "PORTAILS RESTANTS : "
+817 = "TEMPS RESTANT : "
+818 = "GRAINES RESTANTES : "
+819 = "ARMURE ENNEMIE : " //armor health %
+820 = "LUMIERE ABSORBEE : " // light %, absorbed from the firefly
+821 = "ENNEMIS DETRUITS : "
+822 = "ENNEMIS RESTANTS : "
+823 = " PV"
+824 = ""
+825 = ""
+826 = ""
+827 = ""
+828 = ""
+829 = "VAGUE "
+
+//---- HUD: SK Shop
+830 = "GHOST GLOVE"
+831 = "WAR HORN"
+832 = "MOBILE GEAR"
+833 = "DYNAMO MAIL"
+834 = "MAIL OF MOMENTUM"
+835 = "ORNATE PLATE"
+836 = "LAUNCH A FLURRY OF FAR-REACHING PHANTASMIC FISTS!"
+837 = "CLEAR A SPACE AROUND YOU WITH A POWERFUL BLOW!"
+838 = "RIDE OVER HAZARDS AND INTO BATTLE! HOP ON AND HOLD ON!"
+839 = "PERFORM A SHOVEL DROP TO UNLEASH AERIAL STRONG ATTACKS!"
+840 = "HEAVILY PLATED. TAKE LESS KNOCKBACK, BUT STOPPING MAY BE A PROBLEM!"
+841 = "FLASHY! ACROBATIC! USELESS!"
+842 = "ATTACK: BUY"
+843 = "TAUNT: QUIT"
+
+//---- HUD: Tower of Heaven Laws
+844 = "Loi #1: Tu ne toucheras point de blocs dores."
+845 = "Loi #2: Tu ne toucheras point le cote des murs."
+846 = "Loi #3: Tu ne toucheras point au bouton d'esquive."
+847 = "Loi #4: Tu ne toucheras point aux creatures vivantes."
+848 = "Le Livre des Lois a ete detruit."
+849 = "LOI"
+
+//---- HUD: Frame Advance
+850 = "Activer l'Image par Image"
+851 = "Desactiver l'Image par Image"
+852 = "Image Suivante"
+853 = "Moquerie : Redemarrer le chronometre"
+854 = "CHRONO"
+
+//---- HUD: Misc
+855 = "TEMPS ADDITIONNEL"
+856 = "PAUSE : RESTEZ APPUYE";
+857 = "QUITTER : RESTER APPUYE";
+858 = "TEMPS TOTAL" // story mode
+859 = "MEILLEUR TEMPS" // story mode
+860 = "NIVEAU `1" // story mode
+861 = "SCORE" // credits scene
+862 = "MONTEE DE NIVEAU !" // abyss mode
+863 = "MODE DEVELOPPEUR"
+864 = "MISE A JOUR DU MODE DEVELOPPEUR - RECHARGEZ AVEC F3"
+865 = "MODE TURBO"
+
+//---- Abyss Rune Legend
+881 = "Rune d'Objet"
+882 = "Rune de Portee"
+883 = "Rune Physique"
+884 = "Rune Speciale"
+885 = "Modifie un objet statique resultant d'une attaque."
+886 = "Modifie un projectile."
+887 = "Modifie une interaction physique avec l'adversaire."
+888 = "Ameliore les attributs d'un personnage."
+889 = "TYPES\nDE RUNES"
+890 = ""
+
+//---- Story Cutscene UI
+891 = " : Quitter"
+892 = " : Passer"
+893 = "PAGE SUIVANTE"
+894 = "CONTINUER"
+895 = "A SUIVRE..."
+896 = "COMMENCER LE NIVEAU `1"
+897 = "COMMENCER LE DERNIER NIVEAU"
+898 = "RIVAL"
+
+//---- VS Result Screen
+900 = "NIVEAU `1 TERMINE !"
+901 = "SAUVEGARDER LE REPLAY"
+902 = "REPLAY SAUVEGARDE"
+903 = "VAGUE `1 ATTEINTE !"
+904 = "CETTE FOIS : `1 VAGUE"
+905 = "L'EQUIPE ROUGE"
+906 = "L'EQUIPE BLEUE"
+907 = "L'EQUIPE LOCALE"
+908 = "L'EQUIPE EXTERIEURE"
+909 = "A GAGNE !"
+910 = "ONT GAGNE !" // used for Ori and Sein
+
+//---- VS Result Boxes
+911 = "K.O."
+912 = "Chutes"
+913 = "Suicides"
+914 = "Degats Infliges"
+915 = "Degats Subis"
+916 = "Parades"
+917 = "Combo Maximal"
+918 = "Precision"
+919 = "RESTEZ APPUYE POUR QUITTER"
+920 = ""
+
+//---- My Stats
+921 = "LOCAL"
+922 = "EN LIGNE"
+923 = "CLASSE"
+924 = "MATCHES"
+925 = "VICTOIRES"
+926 = "DEFAITES"
+927 = "@27"
+928 = "@911"
+929 = "@912"
+930 = "@913"
+931 = "@914"
+932 = "@915"
+933 = "@916"
+934 = "@918"
+935 = "TEMPS DE JEU"
+
+//---- Team Buttons
+936 = "ROUGE"
+937 = "BLEU"
+938 = "HUMAIN"
+939 = "ORDI"
+940 = "OFF"
+
+//---- Stage Select texts
+941 = "DONNEES"
+942 = "CACHER"
+943 = "BANNIR"
+944 = "LIMITE HAUTE"
+945 = "LIMITE BASSE"
+946 = "LIMITE LATERALE"
+947 = "LARGEUR DU TERRAIN"
+948 = "Bannissez un terrain !"
+949 = "Bannissez trois terrains !"
+950 = "Choisissez un terrain !"
+951 = "L'adversaire bannit..."
+952 = "L'adversaire bannit..."
+953 = "L'adversaire choisit..."
+954 = "ACH|EVEMENT"
+955 = "LE PLUS PETIT"
+956 = "LE PLUS GRAND"
+957 = "PETIT"
+958 = "GRAND"
+959 = "MOYEN"
+960 = "OPEN THE\nGATES"
+961 = "ARDENT\nRIVAL"
+962 = "COUNTERPICK"
+
+//---- Popups
+970 = "EDITER LE NOM DU REPLAY"
+971 = "EDITER LA DESCRIPTION DU REPLAY"
+972 = "IMPORTER UN CODE COULEUR"
+
+//----
+990 = "" // Reserved
+991 = "" // Reserved
+992 = "" // Reserved
+993 = "" // Reserved
+994 = "" // Reserved
+995 = "" // Reserved
+996 = ""
+997 = ""
+998 = ""
+999 = ""
+
+//--------------------
+// Custom Colors menu
+//--------------------
+
+1300 = "SAUVEGARDER"
+1301 = "SAUVEGARDE"
+1302 = "DEFAUT"
+1303 = "ANNULER"
+1304 = "CODE COULEUR"
+1306 = "ANNULER LES CHANGEMENTS ?"
+1307 = "SUPPRIMER LES CHANGEMENTS ?"
+
+1320 = "Corps" //zet
+1321 = "Visage"
+1322 = "Flamme 1"
+1323 = "Flamme 2"
+1324 = "Flamme 3"
+
+1330 = "@1320" //orc
+1331 = "Ventre"
+1332 = "Autre"
+
+1340 = "@1320" //wra
+1341 = "Mains"
+1342 = "Echarpe"
+1343 = "@1331"
+1344 = "Bec"
+
+1350 = "Rocher" //kra
+1351 = "Peau"
+1352 = "Armure"
+1353 = "Ombres"
+
+1360 = "Cape 1" //for
+1361 = "@1320"
+1362 = "@1322"
+1363 = "@1323"
+1364 = "@1324"
+1365 = "Cape 2"
+1366 = "Crane"
+
+1370 = "@1320" //may
+1371 = "@1331"
+1372 = "Feuilles"
+1373 = "Graines"
+1374 = "Lianes"
+
+1380 = "@1320" //abs
+1381 = "Cheveux"
+1382 = "Eclairs"
+1383 = "Cornes"
+1384 = "@1331"
+
+1390 = "@1320" //eta
+1391 = "Glace"
+1392 = "@1353"
+
+1400 = "@1320" //ori
+1401 = "Details"
+1402 = "Yeux"
+1403 = "Sein"
+1404 = "Energie"
+
+1410 = "Corps 1" //ran
+1411 = "Corps 2"
+1412 = "Pantalon"
+1413 = "Bandeaux"
+1414 = "Poison"
+
+1420 = "@1320" //cla
+1421 = "Costume"
+1422 = "Cape"
+1423 = "@1352"
+1424 = "Ceinture"
+1425 = "Plasma 1"
+1426 = "Plasma 2"
+
+1430 = "@1320" //syl
+1431 = "@1372"
+1432 = "Ecorce"
+1433 = "Petales 1"
+1434 = "Petales 2"
+
+1440 = "Robot" //ell
+1441 = "Taille"
+1442 = "@1320"
+1443 = "Propulseurs"
+1444 = "Armes"
+1445 = "Vetements"
+
+1450 = "Armure 1" //gus
+1451 = "Armure 2"
+1452 = "@1441"
+1453 = "@1383"
+
+//--------------------
+
+//---- Story Mode UI
+1480 = "DUREE NIVEAU"
+1481 = "DUREE TOTALE"
+1482 = "CHAPITRE TERMINE !"
+1483 = "DUREE TOTALE"
+1484 = "NOUVEAU RECORD !"
+1485 = "MODE HISTOIRE TERMINE !"
+1486 = "DUREE TOTALE"
+1487 = "FIN DE LA PARTIE"
+1488 = "CONTINUER"
+1489 = "ABANDONNER"
+1490 = "Voyage vers `1" // map
+1491 = "Combat Final " // map
+1492 = "Final" // map (short form)
+1493 = "PENALITE +1:00"
+1494 = "C'EST PARTI !"
+1495 = "SELECTIONNEZ UN RIVAL"
+1496 = "CINEMATIQUES"
+1497 = ""
+1498 = ""
+1499 = ""
+
+//---- Stage Names [2400-2459]
+2400 = "Verrouillé"
+2401 = "Aléatoire"
+2402 = "Blazington D.C." //Fire Capital
+2403 = "Armada de l'Air" //Air Armada
+2404 = "Muraille Protectrice" //The Rock Wall
+2405 = "Port des Marchands" //Merchant Port
+2406 = "Logis Feuillu" //Treetop Lodge
+2407 = "Repere Infernal" //Blazing Hideout
+2408 = "Tower of Heaven" //Tower of Heaven
+2409 = "Mont Tempete" //Tempest Peak
+2410 = "Forteresse Enneigee" //Frozen Fortress
+2411 = "Portes d'Aether" //Aetherial Gates
+2412 = "Abysse Infinie" //The Endless Abyss
+2413 = ""
+2414 = "Arène CEO" //The CEO Ring
+2415 = "Arbre aux Esprits" //Spirit Tree
+2416 = "" // reserved
+2417 = "Blazington D.C - Futur" //Neo Fire Capital
+2418 = "Marais de la Sagesse" //The Swampy Estuary
+2419 = "Coeur de la Foret" //The Forest Floor
+2420 = "Julesvale" //Julesvale
+2421 = "Etang Carponne" //Troupple Pond
+2422 = "Salle d'entrainement" //Training Room
+2423 = "" // reserved
+2424 = ""
+2425 = ""
+2426 = ""
+2427 = ""
+2428 = ""
+2429 = ""
+2430 = "@2400"
+2431 = "@2401"
+2432 = "@2402"
+2433 = "@2403"
+2434 = "@2404"
+2435 = "@2405"
+2436 = "@2406"
+2437 = "@2407"
+2438 = "@2408"
+2439 = "@2409"
+2440 = "@2410"
+2441 = "@2411"
+2442 = "@2412"
+2443 = "@2413"
+2444 = "@2414"
+2445 = "@2415"
+2446 = "@2416"
+2447 = "@2417"
+2448 = "@2418"
+2449 = "@2419"
+2450 = "@2420"
+2451 = "@2421"
+2452 = "@2422"
+2453 = "@2423"
+2454 = "@2424"
+2455 = "@2425"
+2456 = "@2426"
+2457 = "@2427"
+2458 = "@2428"
+2459 = "@2429"
+
+//---- CSS Options [2500-2549]
+2500 = "UTILISER LES COMMANDES CLAVIER PAR DEFAUT ?"
+2501 = "TESTER"
+2502 = "COMMANDES PERSONNALISEES"
+2503 = "ATTAQUE"
+2504 = "SPECIAL"
+2505 = "SAUT"
+2506 = "POWER"
+2507 = "ESQUIVE"
+2508 = "SAUT RAPIDE"
+2509 = "POWER RAPIDE"
+2510 = "VIBRATIONS" // PC & Switch
+2511 = "VIBRATIONS" // Other platforms
+2512 = "COMMANDES"
+2513 = "MOQUERIE"
+2514 = "GD SAUT"
+2515 = "PT SAUT"
+2516 = "MARCHE"
+2517 = "COURSE"
+2518 = ""
+2519 = "SENSIBILITE"
+2520 = "APPUYEZ SUR LE BOUTON POUR"
+2521 = "*Restez appuyer pour plusieurs\nboutons (`1 : annuler)"
+2522 = "CHOISIR LE PROFIL"
+2523 = "NOM"
+2524 = "POINTS"
+2525 = "ACHETER ?"
+2526 = "@297"
+2527 = "@298"
+2528 = "`1: ORDI  `2: Quitter"
+2529 = "`1 : Ajouter un ORDI."
+2530 = "`1 : Quitter."
+2531 = "SUPPRIMER CE PROFIL ?"
+2532 = "*Pour sauvegarder ces commandes, créez un profil."
+2533 = "HAUT"
+2534 = "BAS"
+2535 = "GAUCHE"
+2536 = "DROITE"
+2537 = "DBL TAP"
+2538 = "COURSE AUTO"
+2539 = "SOURIS"
+2540 = "LMB"
+2541 = "RMB"
+2542 = "ROULETTE"
+2543 = "SUP"
+2544 = "TEST..."
+2545 = "@2538"
+2546 = "DOUBLE TAP"
+2547 = "DEFAUT"
+2548 = "@2539"
+2549 = "UN COMPAGNON ?"
+
+//---- CSS Options shortened (width cannot be longer than "SPECIAL") [2550-2569]
+2550 = "ACTION" //only used to display DPAD setting in custom controls
+2551 = "@2516"
+2552 = "@2517"
+2553 = "@2503"
+2554 = "@2504"
+2555 = "@2505"
+2556 = "@2506"
+2557 = "@2507"
+2558 = ""
+2559 = "OFF"
+2560 = ""
+2561 = ""
+2562 = ""
+2563 = "@2513"
+2564 = "GD SAUT"
+2565 = "PT SAUT"
+
+//---- Online Ranking Brackets
+2570 = "Bronze"
+2571 = "Silver"
+2572 = "Gold"
+2573 = "Platinum"
+2574 = "Diamond"
+2575 = "Master"
+
+//---- Menu Header Text [2600-2699]
+2600 = "MENU"
+2601 = "PRINCIPAL"
+//
+2602 = "MODE"
+2603 = "LOCAL"
+//
+2604 = "MODE"
+2605 = "EN LIGNE"
+//
+2606 = "OPTIONS"
+2607 = ""
+//
+2608 = "EXTRAS"
+2609 = ""
+//
+2610 = "MES"
+2611 = "STATISTIQUES"
+//
+2612 = "MODE"
+2613 = "CLASSE"
+//
+2614 = "CLASSEMENTS"
+2615 = ""
+//
+2616 = "CREDITS"
+2617 = ""
+//
+2618 = "JUKE-BOX"
+2619 = ""
+//
+2620 = "MENU"
+2621 = "DES REPLAYS"
+//
+2622 = "PERSONNALISATION"
+2623 = ""
+//
+2624 = "PROFILS"
+2625 = ""
+//
+2626 = "COMMANDES"
+2627 = "AU CLAVIER"
+//
+2628 = "GAMEPLAY" // sub-section titles for keyboard controls screen
+2629 = "MENU"
+//
+2630 = "MODE"
+2631 = "EN LIGNE"
+//
+2632 = "MATCH"
+2633 = "EN EQUIPES"
+//
+2634 = "MODE"
+2635 = "TOURNOI"
+//
+2636 = "ENTRAINEMENT"
+2637 = ""
+//
+2638 = ""
+2639 = ""
+//
+2640 = "MODE"
+2641 = "VERSUS"
+//
+2642 = "MODE"
+2643 = "SANS FIN"
+//
+2644 = "RUNE"
+2645 = "VERSUS"
+//
+2646 = "MODE"
+2647 = "HISTOIRE"
+//
+2648 = "REPLAYS"
+2649 = ""
+//
+2650 = "TURBO"
+2651 = "TURBO" // Used for adding "TURBO" to main menu texts
+//
+2652 = "" // Reserved
+2653 = "" // Reserved
+//
+//2699 = ""
+//2699 = ""
+//
+//2699 = ""
+//2699 = ""
+//
+//2699 = ""
+//2699 = ""
+//
+//2699 = ""
+//2699 = ""
+//
+//2699 = ""
+//2699 = ""
+//
+//2699 = ""
+//2699 = ""
+//
+//2699 = ""
+//2699 = ""
+//
+//2699 = ""
+//2699 = ""
+//
+//2699 = ""
+//2699 = ""
+//
+//2699 = ""
+//2699 = ""
+//
+//2699 = ""
+//2699 = ""
+
+
+//-----------------------------------------
+// Keyboard and Gamepad [2750-2769]
+//-----------------------------------------
+
+2750 = "ESPACE"
+2751 = "GAUCHE"
+2752 = "DROITE"
+2753 = "HAUT"
+2754 = "BAS"
+2755 = "ACCEPTER"
+2756 = "MENU Y"
+2757 = "MENU LB"
+2758 = "MENU RB"
+2759 = "RS GAUCHE"
+2760 = "RS DROITE"
+2761 = "RS HAUT"
+2762 = "RS BAS"
+2763 = "VIEW"
+2764 = "[TOUCHPAD]"
+2765 = "D-PAD BAS"
+
+//-----------------------------------------
+// CSS Match Types [2770-2779]
+//-----------------------------------------
+
+2770 = "CLASSE"
+2771 = "MONEY MATCH"
+2772 = "NON CLASSE"
+
+
+//-------------------------
+// Buddy Names [4000-4049]
+//-------------------------
+
+4000 = "@12"
+4001 = "Ourson Frostbear"
