@@ -738,15 +738,15 @@
 865 = "MODE TURBO"
 
 //---- Abyss Rune Legend
-881 = "Rune d'Objet"
-882 = "Rune de Portee"
-883 = "Rune Physique"
-884 = "Rune Speciale"
+881 = "Objet"
+882 = "Portee"
+883 = "Physique"
+884 = "Speciale"
 885 = "Modifie un objet statique resultant d'une attaque."
 886 = "Modifie un projectile."
 887 = "Modifie une interaction physique avec l'adversaire."
 888 = "Ameliore les attributs d'un personnage."
-889 = "TYPES\nDE RUNES"
+889 = "TYPES\nDE\nRUNES"
 890 = ""
 
 //---- Story Cutscene UI
@@ -933,7 +933,7 @@
 1434 = "Petales 2"
 
 1440 = "Robot" //ell
-1441 = "Taille"
+1441 = "@1401"
 1442 = "@1320"
 1443 = "Propulseurs"
 1444 = "Armes"
@@ -959,7 +959,7 @@
 1489 = "ABANDONNER"
 1490 = "Voyage vers `1" // map
 1491 = "Combat Final " // map
-1492 = "Final" // map (short form)
+1492 = "Gardiens" // map (short form)
 1493 = "PENALITE +1:00"
 1494 = "C'EST PARTI !"
 1495 = "SELECTIONNEZ UN RIVAL"
@@ -967,6 +967,148 @@
 1497 = ""
 1498 = ""
 1499 = ""
+
+//-------------------------------------
+// Abyss Rune Descriptions [2000-2209]
+//-------------------------------------
+
+//---- ZETTERBURN
+2000 = "Ennemis brules plus longtemps"
+2001 = "Boules de feu : deux fois plus rapides"
+2002 = "Parade : Brule les adversaires"
+2003 = "Vitesse au sol : Plus elevee"
+2004 = "SPECIAL BAS : Plus rapide"
+2005 = "SPECIAL HAUT : Demarrage plus rapide"
+2006 = "Piege de feu : Explose au contact"
+2007 = "SPECIAL COTE : Boules de feu infinies"
+2008 = "AERIEN AVANT et AERIEN HAUT : Envoie les adversaires brules plus loin"
+2009 = "SPECIAL BAS : Moins de recuperation, annulable par un saut ou une esquive aerienne"
+2010 = "Boules de feu : Plus grosses, plus lentes, plus puissantes"
+2011 = "Piege de feu : Se propage sur tout le stage"
+2012 = "Boules de feu : Paralyse l'adversaire"
+2013 = "SPECIAL HAUT et SPECIAL BAS : Super Armure en mouvement"
+2014 = "SPECIAL NEUTRE : Charge plus vite, plus puissant"
+
+//---- ORCANE
+2015 = "Bulles : Plus de coups"
+2016 = "SPECIAL HAUT : Demarrage plus rapide, recuperation plus rapide"
+2017 = "SPECIAL NEUTRE : Frequence de tir augmentee"
+2018 = "Esquive Aerienne : Plus de portee"
+2019 = "SPECIAL COTE : Demarrage plus rapide"
+2020 = "SPECIAL COTE : L'angle peut etre modifie"
+2021 = "AERIEN BAS : Cree des bulles vers le bas"
+2022 = "AERIEN AVANT : Super Armure"
+2023 = "ATTAQUE EN COURSE et AERIEN NEUTRE : Peut etre continue"
+2024 = "Bulles : Envoient vers Orcane"
+2025 = "SPECIAL NEUTRE : Peut etre charge pour avoir plus de portee"
+2026 = "Flaque : Peut poser plusieurs flaques sur le terrain"
+2027 = "Bulles : Grosses bulles explosives"
+2028 = "POWER et SPECIAL COTE : Ne consomment pas les flaques"
+2029 = "POWER : Portee des attaques sur flaque augmentee"
+
+//---- WRASTOR
+2030 = "Mouvement aerien : Plus rapide"
+2031 = "Esquive Aerienne : Inflige des degats a l'adversaire"
+2032 = "POWER BAS : Annulable par un saut"
+2033 = "SPECIAL BAS : Demarrage plus rapide"
+2034 = "Courant d'air : Plus large"
+2035 = "SPECIAL NEUTRE : Plus long"
+2036 = "AERIENS : Touchent plusieurs fois"
+2037 = "Sauts : Restaure l'esquive aerienne"
+2038 = "POWER : Moins de recuperation a l'atterissage"
+2039 = "SPECIAL HAUT : Peut etre charge, sweetspot actif durant la charge"
+2040 = "POWER : Plus puissant dans le courant d'air"
+2041 = "Courant d'air : Plus d'un courant d'air peut etre en jeu"
+2042 = "Courant d'air : Defense augmentee dans le courant d'air"
+2043 = "Toutes les attaques peuvent etre annulees au contact"
+2044 = "Sauts : Quatre sauts supplementaires"
+
+//---- KRAGG
+2045 = "POWER COTE : Fait glisser Kragg"
+2046 = "AERIENS : Plus puissants"
+2047 = "SPECIAL COTE : Demarrage plus rapide"
+2048 = "SPECIAL COTE : Invincibilite totale"
+2049 = "SPECIAL BAS : Plus puissant"
+2050 = "SPECIAL NEUTRE : Lancer des rochers accelere Kragg"
+2051 = "Rocher : Plus resistant"
+2052 = "SPECIAL COTE : Plus rapide"
+2053 = "SPECIAL BAS : Cree plus de pics"
+2054 = "SPECIAL NEUTRE : Peut recreer un rocher a tout moment"
+2055 = "SPECIAL HAUT : Demarrage plus rapide, Recuperation plus rapide"
+2056 = "Rocher : Plusieurs rochers peuvent etre sur le terrain"
+2057 = "SPECIAL BAS : Tous les pics sortent instantanemment"
+2058 = "POWER : Super Armure"
+2059 = "SPECIAL HAUT : Peut etre utilise 3 fois avant de toucher terre"
+
+//---- FORSBURN
+2060 = "Air dodging creates a smoke cloud."
+2061 = "Smoke is not cleared when gaining a full charge."
+2062 = "USPECIAL has reduced startup and landing lag."
+2063 = "Smoke is immune to projectiles."
+2064 = "Initial dash is faster and longer."
+2065 = "FSPECIAL has no cooldown time."
+2066 = "Become fully charged after consuming a single cloud."
+2067 = "Clones explode shortly after being hit."
+2068 = "While in smoke, Forsburn is invisible and does double damage."
+2069 = "Smoke damages enemies."
+2070 = "Clone always acts like it's fully charged."
+2071 = "FSPECIAL creates 2 clones at once."
+2072 = "When in smoke, take reduced knockback."
+2073 = "Clone constantly spews smoke."
+2074 = "Smoke explodes when gaining a full charge."
+
+//---- MAYPUL
+2075 = "UAIR causes a strong vertical boost."
+2076 = "NSPECIAL throws three seeds."
+2077 = "Plants automatically fire seeds upward."
+2078 = "Both forms of USPECIAL have increased speed."
+2079 = "Strong attacks have reduced startup."
+2080 = "FSPECIAL and DSPECIAL have faster startup and travel speed."
+2081 = "USPECIAL hits opponents after tethering to them."
+2082 = "FSPECIAL, DSPECIAL can be jump-cancelled on hit and restore double jump."
+2083 = "Wrap duration is doubled."
+2084 = "USPECIAL tethers to plants if no opponents are marked."
+2085 = "Take less knockback from marked opponents."
+2086 = "More than one plant can be placed on the stage."
+2087 = "NSPECIAL hits opponents toward you."
+2088 = "Plants wrap opponents on contact."
+2089 = "Watcher's Mark can stack up to 3 times."
+
+//---- ABSA
+2090 = "DTILT stuns opponents."
+2091 = "DSPECIAL has decreased charge time."
+2092 = "FSPECIAL is faster."
+2093 = "USPECIAL travels faster and farther."
+2094 = "Gain an additional double jump."
+2095 = "Sweetspotting clouds doesn't destroy them."
+2096 = "Uncharged NSPECIAL teleports you to your cloud."
+2097 = "USPECIAL doesn't lead into special fall."
+2098 = "Charged DSPECIAL isn't removed when hit."
+2099 = "Clouds spike opponents when placed or popped."
+2100 = "Clouds automatically pop on contact with an enemy."
+2101 = "More than one cloud can be in play at once."
+2102 = "Strong aerials have a larger hitbox."
+2103 = "Charged NSPECIAL bolt lasts longer."
+2104 = "DSPECIAL traps opponents for the final hit."
+
+//---- ETALUS
+2105 = "DASH ATTACK has a faster boost."
+2106 = "USPECIAL has faster startup, charge, and actionability."
+2107 = "Ice tiles last longer before disappearing."
+2108 = "DSPECIAL has super armor."
+2109 = "USPECIAL hits opponents while launching."
+2110 = "USPECIAL launches into max height regardless of charge."
+2111 = "FSPECIAL creates more icicles."
+2112 = "While armored, movement is faster."
+2113 = "DSPECIAL hits all grounded opponents."
+2114 = "DASH ATTACK creates ice on the ground."
+2115 = "UAIR freezes opponents when they hit the ground."
+2116 = "Strong attacks don't remove armor."
+2117 = "Armored strong attack shards have increased knockback."
+2118 = "Take half damage when armored."
+2119 = "NSPECIAL startup decreased."
+
+//--------------------
 
 //---- Character Ability Descriptions [2300-2341]
 2300 = "Zetterburn peut faire bruler ses adversaires avec ses Attaques Speciales, ce qui leur fait subir des degats au cours du temps."
