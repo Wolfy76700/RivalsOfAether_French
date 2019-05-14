@@ -8,6 +8,9 @@
 // DI -> Influence Directionnelle (ID)
 // SDI -> Influence Directionnelle Avancée (IDA)
 // Gatekeepers -> Gardiens
+// Landing Lag -> Recupération à l'atterissage
+// Tilt -> Normal
+// Abyss Versus -> Rune Versus
 
 //---- Various menu texts
 1 = "RETOUR"
@@ -542,7 +545,7 @@
 664 = "ABC" // alphabetical order
 
 //---- Replay menu button: auto save
-665 = "SAUVEGARDE AUTO"
+665 = "SAUV. AUTO"
 666 = "TOUS"
 667 = "EN LIGNE"
 668 = "LOCAL"
@@ -964,6 +967,50 @@
 1497 = ""
 1498 = ""
 1499 = ""
+
+//---- Character Ability Descriptions [2300-2341]
+2300 = "Zetterburn peut faire bruler ses adversaires avec ses Attaques Speciales, ce qui leur fait subir des degats au cours du temps."
+2301 = "Lorsqu'un adversaire est en feu, Zetterburn peut utiliser une Attaque Power pour l'envoyer deux fois plus loin."
+2302 = "Zetterburn peut placer des pieges de feu sur le stage avec son Special Bas. Ces pieges brulent l'adversaire sans l'expulser."
+2303 = "Orcane peut créer une flaque d'eau avec son Special Neutre ou son Special Bas, puis se teleporter dans cette flaque avec son Special Haut."
+2304 = "Orcane peut transformer sa flaque en un mur de bulles a l'aide de son Special Bas, ce qui permet de pieger l'adversaire."
+2305 = "Orcane peut se placer sur sa flaque pour effectuer une Attaque Power avec une meilleure portee."
+2306 = "Wrastor peut sauter jusqu'a 4 fois, ce qui lui permet d'avoir un meilleur controle aerien et de revenir sur le terrain facilement."
+2307 = "Wrastor peut creer un courant d'air avec son Special Cote. Il se deplace plus rapidement lorsqu'il est dans le courant d'air."
+2308 = "Wrastor effectue ses Attaques Power dans les airs, et non au sol. Il peut rester immobile pour les charger."
+2309 = "Kragg peut sortir un rocher du sol avec son Special Neutre. Il peut ensuite attaquer le rocher pour le briser."
+2310 = "Kragg peut se recroqueviller en sphere avec son Special Cote. Dans cet etat, il peut prendre des degats mais sera ejecte moins loin."
+2311 = "Kragg peut utiliser son Special Haut pour faire surgir un pillier de terre sous ses pieds. Le pillier peut toucher les adversaires a la montee."
+2312 = "Forsburn peut creer un ecran de fumee avec son Special Neutre. Il peut se cacher dans la fumee mais ses adversaires y sont visibles."
+2313 = "Forsburn peut absorber la fumee avec son Special Bas. Apres avoir consomme 3 nuages, ses Attaques Speciales sont ameliorees."
+2314 = "Forsburn peut creer un clone de lui-meme avec son Special Cote, puis le faire exploser avec son Special Bas."
+2315 = "Maypul peut marquer ses adversaires d'une graine avec son Special Neutre, son Special Cote ou son Special Bas Aerien."
+2316 = "Maypul peut ligotter les adversaires marques avec une Attaque Power."
+2317 = "Maypul peut s'accrocher a un adversaire marque en restant appuyee sur Special Haut. Une pression simple lui permettra d'effectuer un uppercut."
+2318 = "Absa peut placer un nuage dans les airs a l'aide de son Special Neutre ou de son Special Cote."
+2319 = "Absa peut faire exploser un nuage en effectuant une pression simple sur Special Neutre. Rester appuye lui permettera de creer un eclair."
+2320 = "Absa peut utiliser son Special Bas pour creer une barriere electrique explosive autour d'elle ou de son nuage."
+2321 = "Etalus peut creer de la glace sur le sol a l'aide de son Normal Cote, son Special Cote ou son Special Haut au sol."
+2322 = "Etalus peut se doter d'une armure de glace a l'aide de son Special Neutre."
+2323 = "Etalus peut utiliser son Special Bas pour geler tout adversaire se trouvant sur sa glace."
+2324 = "Ori et Sein combattent en equipe. Si Sein se trouve pres d'Ori, ils peuvent combiner leur pouvoir pour ameliorer leurs Attaques Power."
+2325 = "Une simple pression de Special Neutre fera que Sein utilisera Spirit Flame. Rester appuye lui permettra d'utiliser Charged Flame."
+2326 = "Ori peut utiliser son Special Bas pour renvoyer les projectiles ou les adversaires dans n'importe quelle direction."
+2327 = "Ranno peut empoisonner ses adversaires avec ses Attaques Speciales, ce qui leur fait subir des degats a chque fois qu'ils attaquent."
+2328 = "Ranno peut pieger ses adversaires dans une bulle. Plus l'adversaire est empoinsonne, plus il reste longtemps dans la bulle."
+2329 = "Ranno peut utiliser son Special Cote pour attraper le sol avec sa langue et se projeter dans les airs."
+2330 = "La pointe de l'epee de Clairen est surchargee et peut paralyser ses adversaires."
+2331 = "Clairen peut contrer une attaque et creer un champ de force anti-projectiles a l'aide de son Special Bas"
+2332 = "Clairen peut utiliser son Special Neutre pour attraper un adversaire et le lancer vers l'avant ou vers l'arriere."
+2333 = "Sylvanos fait pousser l'herbe partout ou il marche. L'herbe reduit sa recuperation a l'atterissage et ameliore ses Attaques Speciales."
+2334 = "Sylvanos peut creuser dans la terre a l'aide de son Special Haut. Il peut croquer ses adversaires s'il sort la ou il y a de l'herbe."
+2335 = "Sylvanos peut ordonner a son herbe d'attaquer a l'aide de son Special Bas."
+2336 = "Le robot d'Elliana se rechauffe lorsqu'elle vole ou utilise ses Attaques Speciales. Si il est en surchauffe, elle perd l'acces a ces capacites."
+2337 = "Les Attaques Power d'Elliana expulsent de la fumee de son robot. En surchauffe, ces attaques deviennent des explosions."
+2338 = "Le Special Haut d'Elliana l'ejecte de son robot, ce qui la rend extremement vulnerable tant qu'elle ne touche pas le sol."
+2339 = "Shovel Knight peut amasser des tresors en infligeant des degats a ses adversaires. Il peut ensuite acheter des objets avec sa moquerie."
+2340 = "L'Attaque Aerienne Basse de Shovel Knight peut etre tenue pour rebondir sur les adversaires."
+2341 = "Si Shovel Knight charge son Attaque Power Haute au maximum, il enverra un enorme bloc de terre plein de tresors vers le haut."
 
 //---- Stage Names [2400-2459]
 2400 = "Verrouillé"
