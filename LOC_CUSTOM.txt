@@ -17,7 +17,7 @@
 
 //---- Various menu texts
 1 = "RETOUR"
-2 = "DECLARER FORFAIT" // button to forfeit the current match (online)
+2 = "FORFAIT" // button to forfeit the current match (online)
 3 = "ON"
 4 = "OFF"
 5 = "BASSE"
@@ -176,6 +176,58 @@
 189 = "S.K." // shortest form
 190 = "Ragnir"
 
+//---- Popup Message OK [200-289]
+200 = "Utilisateur deconnecte\nVeuillez vous connecter avec un autre utilisateur."
+201 = "Choisissez votre region pour commencer a jouer en ligne."
+202 = "Money Match Accepted"
+203 = "Money Match Declined"
+204 = "L'adversaire a refuse les nouvelles options."
+205 = "L'adversaire a desactive le Mode Developpeur."
+206 = "L'adversaire a desactive le choix aleatoire des terrains."
+207 = "Difference de version. \nVotre adversaire utilise la version `1"
+208 = "L'adversaire a refuse le match."
+209 = "L'adversaire a declare forfait."
+210 = "@202"
+211 = "@203"
+212 = "- Erreur de connexion -\nVous etes deconnecte."
+213 = "- Erreur de connexion -\nVous n'avez pas d'abonnement aux services en ligne." //(displayed if you do not have xbox live / nintendo switch online membership)
+214 = "- Erreur de connexion -\nErreur de matchmaking. Veuillez reessayer."
+215 = "- Erreur de connexion -\nVos parametres de confidentialite bloquent cette action."
+216 = "- Erreur de connexion -\nLe match que vous avez essaye de rejoindre est plein."
+217 = "- Erreur de connexion -\nL'adversaire a annule le match."
+218 = "- Erreur de connexion -\nLa connexion a ete perdue."
+219 = "- Erreur de connexion -\nLa connexion a echoue." // (generic message for errors)
+220 = "Le Matchmaking Steam est indisponible."
+221 = "Les Invitations Steam sont indisponibles."
+222 = "Les Donnees Steam sont indisponibles."
+223 = "L'interface Steam est desactivee."
+224 = "Vous avez besoin de `1 pieces\npour debloquer ce contenu."
+225 = "Obtenez le succes \nOpen the Gates \npour debloquer ce contenu." // feature is locked behind said achievement. Retain the English achievement name. (Limited textbox size - keep it short)
+226 = "Obtenez le succes \nThe Ardent Rival \npour debloquer ce contenu." // feature is locked behind said achievement. Retain the English achievement name. (Limited textbox size - keep it short)
+227 = "Achetez le DLC \nOri et Sein \npour debloquer ce contenu." // (Limited textbox size - keep it short)
+228 = "Achetez le DLC \nRanno et Clairen \npour debloquer ce contenu." // (Limited textbox size - keep it short)
+229 = "Achetez le DLC \nSylvanos et Elliana \npour debloquer ce contenu." // (Limited textbox size - keep it short)
+230 = "- Erreur de connexion -\nUne desynchonisation a eu lieu." // (When online game clients became out of sync during a match)
+231 = "Vous avez besoin de plus de pieces\npour debloquer ce contenu." // Displayed when you don't have enough coins to purchase said feature
+232 = "- Erreur de connexion -\nAucun adversaire n'a ete trouve.\nVeuillez reessayer."
+233 = "Code Couleur invalide"
+234 = "Obtenez le succes \nThe Swift Rival \npour debloquer ce contenu." // retain the English achievement name.
+235 = "Felicitations !\nVous avez debloque \nles Portes d'Aether !"
+236 = "Felicitations !\nVous avez debloque \nl'Abysse Infinie !"
+237 = "Felicitations !\nVous avez debloque un deuxieme \nemplacement de personnalisation !"
+238 = "Felicitations !\nVous avez debloque \nle Mode Abysse !"
+239 = "Vous avez debloque \nla couleur Abysse de \n`1 !" // Ingame, `1 is replaced with the character name (eg. ZETTERBURN)
+240 = "- Erreur -\nLe replay est corrompu." // when attempting to view a replay that has corrupted data
+241 = "Achetez le DLC \nShovel Knight \npour debloquer ce contenu." // for Troupple Pond unlock
+242 = "- Echec de l'envoi -\nAucun adversaire connecte."
+243 = "- Echec de l'envoi -\nLe match n'a pas encore ete accepte."
+244 = "Atteignez le niveau classe\n3 pour debloquer ce contenu."
+245 = "Felicitations !\nVous avez debloque \nles Couleurs Classees !"
+246 = "L'adversaire a desactive le Mode Developpeur.."
+247 = "Finissez les tutoriels\npour debloquer ce contenu."
+248 = "Felicitations !\nVous avez debloque\n" // reserved
+249 = "- Bientot disponible -"
+
 //----
 290 = "PRET A COMBATTRE"
 291 = "ANNULER" // cancel the Ready state
@@ -189,7 +241,6 @@
 297 = "OUI"
 298 = "NON"
 299 = "OK"
-
 
 //-------------------
 // Main Menu Buttons
@@ -513,7 +564,7 @@
 
 //---- CSS Various Texts
 643 = "Manche en" // Stocks button
-644 = "N." // Abyss level
+644 = "Niv." // Abyss level
 645 = "VOUS"
 646 = "NET"
 647 = "Net Player"
@@ -601,7 +652,7 @@
 711 = "RECOMMENCER LE MATCH ?" //submenu begin
 712 = "REPARTIR DU NIVEAU 1 ?"
 713 = "QUITTER LE MATCH ?"
-714 = "RECOMMENCER L'HISTORE"
+714 = "RECOMMENCER L'HISTOIRE"
 
 //---- Pause: Training / Replay
 715 = "VITESSE DE JEU : "
@@ -709,8 +760,8 @@
 839 = "PERFORM A SHOVEL DROP TO UNLEASH AERIAL STRONG ATTACKS!"
 840 = "HEAVILY PLATED. TAKE LESS KNOCKBACK, BUT STOPPING MAY BE A PROBLEM!"
 841 = "FLASHY! ACROBATIC! USELESS!"
-842 = "ATTACK: BUY"
-843 = "TAUNT: QUIT"
+842 = "ATTAQUE : ACHETER"
+843 = "MOQUERIE : QUITTER"
 
 //---- HUD: Tower of Heaven Laws
 844 = "Loi #1: Tu ne toucheras point de blocs dores."
@@ -971,6 +1022,19 @@
 1498 = ""
 1499 = ""
 
+//---- VARIOUS TUTORIAL TEXTS
+1822 = " : Revoir les instructions." // press VIEW to repeat instructions.
+1823 = "MOUVEMENT\nNIVEAU : DEBUTANT"
+1824 = "DEFENSE\nNIVEAU : DEBUTANT"
+1825 = "ATTAQUE\nNIVEAU : DEBUTANT"
+1826 = "MOUVEMENT\nNIVEAU : INTERMEDIAIRE"
+1827 = "DEFENSE\nNIVEAU : INTERMEDIAIRE"
+1828 = "ATTAQUE\nNIVEAU : INTERMEDIAIRE"
+1829 = "MOUVEMENT\nNIVEAU : AVANCE"
+1830 = "DEFENSE\nNIVEAU : AVANCE"
+1831 = "ATTAQUE\nNIVEAU : AVANCE"
+1832 = "FELICITATIONS !"
+
 //-------------------------------------
 // Abyss Rune Descriptions [2000-2209]
 //-------------------------------------
@@ -996,7 +1060,7 @@
 2015 = "BULLES : Plus de coups"
 2016 = "SPECIAL HAUT : Demarrage plus rapide, recuperation plus rapide"
 2017 = "SPECIAL NEUTRE : Frequence de tir augmentee"
-2018 = "Esquive Aerienne : Plus de portee"
+2018 = "ESQUIVE AERIENNE : Plus de portee"
 2019 = "SPECIAL COTE : Demarrage plus rapide"
 2020 = "SPECIAL COTE : L'angle peut etre modifie"
 2021 = "AERIEN BAS : Cree des bulles vers le bas"
@@ -1291,11 +1355,11 @@
 
 //---- Online Ranking Brackets
 2570 = "Bronze"
-2571 = "Silver"
-2572 = "Gold"
-2573 = "Platinum"
-2574 = "Diamond"
-2575 = "Master"
+2571 = "Argent"
+2572 = "Or"
+2573 = "Platine"
+2574 = "Diamant"
+2575 = "Maitre"
 
 //---- Menu Header Text [2600-2699]
 2600 = "MENU"
