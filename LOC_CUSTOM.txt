@@ -1365,11 +1365,11 @@
 2600 = "MENU"
 2601 = "PRINCIPAL"
 //
-2602 = "MODE"
-2603 = "LOCAL"
+2602 = "LOCAL"
+2603 = ""
 //
-2604 = "MODE"
-2605 = "EN LIGNE"
+2604 = "EN LIGNE"
+2605 = ""
 //
 2606 = "OPTIONS"
 2607 = ""
@@ -1392,8 +1392,8 @@
 2618 = "JUKE-BOX"
 2619 = ""
 //
-2620 = "MENU"
-2621 = "DES REPLAYS"
+2620 = "REPLAYS"
+2621 = ""
 //
 2622 = "PERSONNALISATION"
 2623 = ""
@@ -1407,14 +1407,14 @@
 2628 = "GAMEPLAY" // sub-section titles for keyboard controls screen
 2629 = "MENU"
 //
-2630 = "MODE"
-2631 = "EN LIGNE"
+2630 = "EN LIGNE"
+2631 = ""
 //
 2632 = "MATCH"
 2633 = "EN EQUIPES"
 //
-2634 = "MODE"
-2635 = "TOURNOI"
+2634 = "TOURNOI"
+2635 = ""
 //
 2636 = "ENTRAINEMENT"
 2637 = ""
@@ -1422,14 +1422,14 @@
 2638 = ""
 2639 = ""
 //
-2640 = "MODE"
-2641 = "VERSUS"
+2640 = "VERSUS"
+2641 = ""
 //
 2642 = "MODE"
 2643 = "SANS FIN"
 //
-2644 = "RUNE"
-2645 = "VERSUS"
+2644 = "RUNE VERSUS"
+2645 = ""
 //
 2646 = "MODE"
 2647 = "HISTOIRE"
@@ -1437,8 +1437,8 @@
 2648 = "REPLAYS"
 2649 = ""
 //
-2650 = "TURBO"
-2651 = "TURBO" // Used for adding "TURBO" to main menu texts
+2650 = "MODE TURBO"
+2651 = "(Turbo)" // Used for adding "TURBO" to main menu texts
 //
 2652 = "" // Reserved
 2653 = "" // Reserved
