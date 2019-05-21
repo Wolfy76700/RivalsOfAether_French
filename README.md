@@ -1,7 +1,5 @@
 # RivalsOfAether_French
 
-***
-
 ## English
 
 French localisation project for Rivals of Aether  

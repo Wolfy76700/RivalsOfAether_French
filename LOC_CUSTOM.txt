@@ -14,6 +14,7 @@
 // Dash Attack -> Attaque en Course
 // Sweetspot -> Sweetspot (Can be changed)
 // Special Fall -> Chute Speciale
+// Money Match -> Defi
 
 //---- Various menu texts
 1 = "RETOUR"
@@ -87,15 +88,15 @@
 65 = "DECISION EN COURS..."
 
 //---- Money match
-66 = "Accept Money Match for `1 Coins \nin a Best of `2 Games?"
-67 = "Wager with these settings?"
-68 = "Your Coins"
-69 = "Bet Amount"
-70 = "MONEY MATCH"
-71 = "You won the Money Match!"
-72 = "You lost the Money Match..."
-73 = "COINS"
-74 = "GAMES"
+66 = "Accepter le defi ?\n`1 pieces, `2 matchs"
+67 = "Lancer un defi ?"
+68 = "Vos pieces"
+69 = "Pari"
+70 = "DEFI"
+71 = "Vous avez gagne le defi !"
+72 = "Vous avez perdu le defi..."
+73 = "PIECES"
+74 = "MATCHS"
 
 //---- Chat functions
 94 = "ENVOYER UN MESSAGE..."
@@ -179,8 +180,8 @@
 //---- Popup Message OK [200-289]
 200 = "Utilisateur deconnecte\nVeuillez vous connecter avec un autre utilisateur."
 201 = "Choisissez votre region pour commencer a jouer en ligne."
-202 = "Money Match Accepted"
-203 = "Money Match Declined"
+202 = "Defi accepte"
+203 = "Defi refuse"
 204 = "L'adversaire a refuse les nouvelles options."
 205 = "L'adversaire a desactive le Mode Developpeur."
 206 = "L'adversaire a desactive le choix aleatoire des terrains."
@@ -564,7 +565,7 @@
 
 //---- CSS Various Texts
 643 = "Manche en" // Stocks button
-644 = "Niv." // Abyss level
+644 = "N." // Abyss level
 645 = "VOUS"
 646 = "NET"
 647 = "Net Player"
@@ -1035,6 +1036,61 @@
 1831 = "ATTAQUE\nNIVEAU : AVANCE"
 1832 = "FELICITATIONS !"
 
+//----------------------------------
+// Online Chat Messages [1900-1979]
+//----------------------------------
+
+//---- Online chat pg1 (greetings)
+1900 = "Bonjour !"
+1901 = "C'est parti !"
+1902 = "Bonne chance !"
+1903 = "Doucement avec moi !"
+1904 = "C'est quand tu veux !"
+1905 = "Je vais tout donner !"
+1906 = "J'ai le trac..."
+1907 = "Ce sera un jeu d'enfant !"
+
+//---- Online chat pg2 (responses)
+1908 = "OK !"
+1909 = "Merci !"
+1910 = "Bien joue !"
+1911 = "Refaisons un match !"
+1912 = "Genial !"
+1913 = "Pardon !"
+1914 = "Aie..."
+1915 = "Je t'aurai la prochaine fois !"
+
+//---- Online chat pg3 (misc)
+1916 = "Donne-moi un instant."
+1917 = "Je te defie !"
+1918 = "Je vais en rester la."
+1919 = "J'ai oublie mes commandes."
+1920 = "Tu as eu de la chance !"
+1921 = "C'est ma derniere !"
+1922 = "A plus !"
+1923 = "Je joue avec le gyroscope !"
+
+//---- Online chat pg4 (chars 1)
+1924 = "Il est temps d'allumer le feu !" // zetterburn
+1925 = "Un match en coup de vent !" // wrastor
+1926 = "Je me suis fait fumer..." // forsburn
+1927 = "C'etait foudroyant." // absa
+1928 = "A plus tard dans la mare !" // orcane
+1929 = "Tu t'es fait rouler dessus !" // kragg
+1930 = "C'est le moment de remballer." // maypul
+1931 = "Je reviens, je me rafraichis." // etalus
+
+//---- Online chat pg5 (chars 2)
+1932 = "Peace!" // ranno
+1933 = "Aouuuuh !" // sylvanos
+1934 = "Souris !" // ori
+1935 = ""
+1936 = "Ma presence est un present." // clairen
+1937 = "J'explose de rage !" // elliana
+1938 = "Une pelle partie, pas vrai ?" // shovel knight
+1939 = ""
+
+
 //-------------------------------------
 // Abyss Rune Descriptions [2000-2209]
 //-------------------------------------
@@ -1503,7 +1559,7 @@
 //-----------------------------------------
 
 2770 = "CLASSE"
-2771 = "MONEY MATCH"
+2771 = "DEFI"
 2772 = "NON CLASSE"
 
 
