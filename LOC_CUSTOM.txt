@@ -1034,7 +1034,7 @@
 //-----------------------------------------
 
 //---- ADVANCED OFFENSE TUTORIAL
-1500 = "RÉCUPÉRATION RAPIDE : (Aérien Neutre -> Normal Haut)"
+1500 = "RÉCUPÉRATION RAPIDE : (Aérien Neutre → Normal Haut) "
 1501 = "{-1,PR_JUMP} puis {-1,PR_ATTACK} et atterrir avant le dernier coup. Puis {90,PR_ATTACK}"
 1502 = "ATTAQUE AÉRIENNE ARRIÈRE RETOURNÉE : "
 1503 = "AAR : OUI"
@@ -1044,7 +1044,7 @@
 1507 = "{270,PR_SPÉCIAL} puis immédiatement {180,-1}"
 1508 = "FEINTE : "
 1509 = "S'approcher de l'adversaire, puis le frapper après sa parade"
-1510 = "CHUTE À L'IMPACT : (Aérien Arrière -> Power Haut)"
+1510 = "CHUTE À L'IMPACT : (Aérien Arrière → Power Haut) "
 1511 = "{180,PR_ATTACK}{12,JOY}{-1,PR_STRONG} puis {271,-1} juste avant la fin de la Pause à l'impact, puis {90,PR_STRONG}"
 
 //---- INTERMEDIATE DEFENSE TUTORIAL
