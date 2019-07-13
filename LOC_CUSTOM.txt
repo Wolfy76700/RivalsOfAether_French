@@ -1153,7 +1153,7 @@
 1586 = "{-1,PR_JUMP} puis {90,PR_SPECIAL} lorsqu'une flaque existe"
 1587 = "RETOURS SUR LE TERRAIN : (Après un Spécial Côté Amélioré) "
 1588 = "{0,PR_SPECIAL} sur une flaque, puis revenir sur le terrain"
-1589 = "PROPULSIONS DU POPOTIN : "
+1589 = "PROPULSIONS BULLISTIQUES : "
 1590 = "{-1,PR_JUMP} puis {0,PR_ATTACK}{12,JOY}{-1,PR_STRONG} puis tenir {180,-1}"
 1591 = "ORCA-SAUTS : "
 1592 = "{-1,PR_JUMP} puis {-1,PR_JUMP} puis {90,PR_SPECIAL} immédiatement sans flaque"
@@ -1320,7 +1320,7 @@
 
 //---- CLAIREN TUTORIAL
 1721 = "EXTRÉMITÉ LÉTHALE : "
-1722 = "Avec 3 types distincts d'attaques, toucher Ori avec le bout de l'épée."
+1722 = "Avec 3 types distincts d'attaques, toucher Orby avec le bout de l'épée."
 1723 = "PROJECTILES BLOQUÉS : "
 1724 = "COUPS FINAUX DU SPÉCIAL HAUT : "
 1725 = "{90,PR_SPECIAL} puis rester appuyé ou appuyer sur {-1,PR_SPECIAL}"
@@ -1328,11 +1328,11 @@
 1727 = "{-1,PR_SPECIAL} puis rester appuyé ou appuyer sur {0,-1}"
 1728 = "PRISE ARRIÈRE : "
 1729 = "{-1,PR_SPECIAL} puis rester appuyé ou appuyer sur {180,-1}"
-1730 = "ENCHAÎNEMENTS : (Aérien bas → Aérien Neutre) "
+1730 = "ENCHAÎNEMENTS : (Aérien bas → Spécial Neutre) "
 1731 = "{-1,PR_JUMP} puis {270,PR_ATTACK}{12,JOY}{-1,PR_STRONG} puis {-1,PR_SPECIAL}"
 
 //---- SYLVANOS TUTORIAL
-1732 = "ANNULATION DU JAB NEUTRE PAR UN SPÉCIAL NEUTRE : "
+1732 = "ANNULATION DU NORMAL NEUTRE PAR UN SPÉCIAL NEUTRE : "
 1733 = "{-1,PR_ATTACK} puis {-1,PR_ATTACK} puis {-1,PR_SPECIAL}"
 1734 = "NORMAUX CÔTÉ : "
 1735 = "{2,PR_ATTACK} avec de l'herbe devant Sylvanos"
