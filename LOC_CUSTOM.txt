@@ -32,6 +32,11 @@
 // Tipper -> Extrémité léthale
 // Hovering aerial -> Aérien flottant
 
+// ABREVIATIONS :
+// Attaque = Atq.
+// Moquerie = Mq.
+// Niveau = Niv. / N.
+
 //---- Various menu texts
 1 = "RETOUR"
 2 = "FORFAIT" // button to forfeit the current match (online)
@@ -774,11 +779,11 @@
 836 = "LANCEZ UNE RAFALE DE POINGS FANTÔMES À LONGUE PORTÉE !" // Check in Shovel Knight + Amiibo (Custom Knight)
 837 = "NETTOYEZ TOUT AUTOUR DE VOUS D'UN SEUL COUP !"
 838 = "CONTOURNEZ LES DANGERS ET GAGNEZ DE LA HAUTEUR !"
-839 = "EFFECTUEZ UNE PLANTE-PELLE POUR UTILISER VOS ATTAQUES POWER DANS LES AIRS !"
-840 = "LOURDEMENT RENFORCÉE. NE RECULEZ PLUS SOUS LES COUPS, MAIS VOUS ARRÊTER PEUT POSER PROBLÈME..."
+839 = "EFFECTUEZ UNE PLANTE-PELLE POUR UTILISER VOS POWER DANS LES AIRS !"
+840 = "NE RECULEZ PLUS SOUS LES COUPS, MAIS VOUS ARRÊTER PEUT POSER PROBLÈME..."
 841 = "FLASHY ! ACROBATIQUE ! INUTILE !"
-842 = "ATTAQUE : ACHETER"
-843 = "MOQUERIE : QUITTER"
+842 = "ATQ. : ACHETER"
+843 = "MQ. : QUITTER"
 
 //---- HUD: Tower of Heaven Laws
 844 = "Loi #1: Tu ne toucheras point de blocs dorés."
