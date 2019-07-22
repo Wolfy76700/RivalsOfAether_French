@@ -770,7 +770,7 @@
 829 = "VAGUE "
 
 //---- HUD: SK Shop
-830 = "POINGS FANTASMIQUES" // Check in Shovel Knight + Amiibo (Custom Knight)
+830 = "GANT FANTÔME"
 831 = "COR DE GUERRE"
 832 = "MÉCAMOBILE"
 833 = "MAILLE DYNAMO"
