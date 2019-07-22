@@ -32,7 +32,17 @@
 // Tipper -> Extrémité léthale
 // Hovering aerial -> Aérien flottant
 
-// ABREVIATIONS :
+// FROM SHOVEL KNIGHT:
+// War Horn -> Cor de guerre
+// Mobile Gear -> Mécamobile
+// Dynamo Mail -> Maille Dynamo
+// Mail of Momentum -> Armure d'Élan
+// Ornate Plate -> Armure Ornementale
+// Rising Dagger -> Poignard Volant
+// Infinidagger -> Infini-Dague
+// Ghost Glove -> Poing Fantôme
+
+// ABREVIATIONS:
 // Attaque = Atq.
 // Moquerie = Mq.
 // Niveau = Niv. / N.
@@ -776,7 +786,7 @@
 833 = "MAILLE DYNAMO"
 834 = "ARMURE D'ÉLAN"
 835 = "ARMURE ORNEMENTALE"
-836 = "LANCEZ UNE RAFALE DE POINGS FANTÔMES À LONGUE PORTÉE !" // Check in Shovel Knight + Amiibo (Custom Knight)
+836 = "LANCEZ UNE VOLÉE DE POINGS FANTASMATIQUES LONGUE PORTÉE !"
 837 = "NETTOYEZ TOUT AUTOUR DE VOUS D'UN SEUL COUP !"
 838 = "CONTOURNEZ LES DANGERS ET GAGNEZ DE LA HAUTEUR !"
 839 = "EFFECTUEZ UNE PLANTE-PELLE POUR UTILISER VOS POWER DANS LES AIRS !"

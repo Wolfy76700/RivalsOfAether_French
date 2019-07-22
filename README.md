@@ -26,7 +26,7 @@ NB: Game updates may overwrite `LOC_CUSTOM.txt`. If so, just overwrite that file
 Localisation française pour *Rivals of Aether*  
 (Fichiers en anglais présents comme référence)
 
-## COMMENT UTILISER CETTE TRADUCTION :
+### COMMENT UTILISER CETTE TRADUCTION :
 - Ouvrir Steam  
 - Faire un clic droit sur votre installation de *Rivals of Aether* et sélectionner "Propriétés"
 - Dans l'onglet "Fichiers locaux", cliquer sur "Parcourir les fichiers locaux"
