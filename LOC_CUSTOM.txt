@@ -42,6 +42,12 @@
 // Infinidagger -> Infini-Dague
 // Ghost Glove -> Poing Fantôme
 
+// FROM ORI:
+// Sein -> Seyn
+// Bash -> Frapper
+// Spirit Flame -> Flamme Spirituelle
+// Charged Flame -> Flamme Attisée
+
 // ABREVIATIONS:
 // Attaque = Atq.
 // Moquerie = Mq.
@@ -149,7 +155,7 @@
 111 = "- Forteresse Enneigée -\nDébloquer ce terrain ?"
 112 = "- Tower of Heaven -\nDébloquer ce terrain ?"
 113 = "Envoyer les réglages de temps et de vies ?"
-114 = "Voir Ori et Sein \nsur le magasin Steam ?"
+114 = "Voir Ori et Seyn \nsur le magasin Steam ?"
 115 = "Voir Ranno et Clairen \nsur le magasin Steam ?"
 116 = "Voir\nSylvanos et Elliana\nsur le magasin Steam ?"
 117 = "Certains de vos replays sont incompatibles suite à la derniere mise à jour. Supprimer les replays incompatibles ?"
@@ -195,7 +201,7 @@
 176 = "Maypul"
 177 = "Absa"
 178 = "Etalus"
-179 = "Ori et Sein"
+179 = "Ori et Seyn"
 180 = "Ranno"
 181 = "Clairen"
 182 = "Sylvanos"
@@ -236,7 +242,7 @@
 224 = "Vous avez besoin de `1 pièces\npour débloquer ce contenu."
 225 = "Obtenez le succès \nOpen the Gates \npour débloquer ce contenu." // feature is locked behind said achievement. Retain the English achievement name. (Limited textbox size - keep it short)
 226 = "Obtenez le succès \nThe Ardent Rival \npour débloquer ce contenu." // feature is locked behind said achievement. Retain the English achievement name. (Limited textbox size - keep it short)
-227 = "Achetez le DLC \nOri et Sein \npour débloquer ce contenu." // (Limited textbox size - keep it short)
+227 = "Achetez le DLC \nOri et Seyn \npour débloquer ce contenu." // (Limited textbox size - keep it short)
 228 = "Achetez le DLC \nRanno et Clairen \npour débloquer ce contenu." // (Limited textbox size - keep it short)
 229 = "Achetez le DLC \nSylvanos et Elliana \npour débloquer ce contenu." // (Limited textbox size - keep it short)
 230 = "- Erreur de connexion -\nUne desynchonisation a eu lieu." // (When online game clients became out of sync during a match)
@@ -542,7 +548,7 @@
 
 //---- Character Specific Tutorial Sub-Menu 2
 524 = "@179"
-525 = "Apprenez à combattre en équipe avec Ori et Sein."
+525 = "Apprenez à combattre en équipe avec Ori et Seyn."
 526 = "@180"
 527 = "Apprenez à maintenir la paix avec Ranno, le Pacifiste Venimeux."
 528 = "@181"
@@ -995,7 +1001,7 @@
 1400 = "@1320" //ori
 1401 = "Détails"
 1402 = "Yeux"
-1403 = "Sein"
+1403 = "Seyn"
 1404 = "Énergie"
 
 1410 = "Corps 1" //ran
@@ -1291,29 +1297,29 @@
 1681 = "{-1,PR_JUMP} puis rester appuyé sur {0,PR_ATTACK}{12,JOY}{-1,PR_STRONG}"
 
 //---- ORI TUTORIAL
-1682 = "SPIRIT FLAME COMBOS: "
+1682 = "ENCHAÎNEMENTS DE FLAMMES SPIRITUELLES : "
 1683 = "{-1,PR_SPECIAL} x3"
-1684 = "CHARGED FLAMES: "
-1685 = "Hold {-1,PR_SPECIAL}"
-1686 = "FSTRONGS: "
-1687 = "{0,PR_STRONG} while Sein is not near"
-1688 = "TEAM-UP FSTRONGS: "
-1689 = "{0,PR_STRONG} while Sein is near"
-1690 = "USTRONGS: "
-1691 = "{90,PR_STRONG} while Sein is not near"
-1692 = "TEAM-UP USTRONGS: "
-1693 = "{90,PR_STRONG} while Sein is near"
-1694 = "DSTRONGS: "
-1695 = "{270,PR_STRONG} while Sein is not near"
-1696 = "TEAM-UP DSTRONGS: "
-1697 = "{270,PR_STRONG} while Sein is near"
-1698 = "DSPÉCIALS: "
-1699 = "{270,PR_SPECIAL} then launch Orby downward"
-1700 = "REFLECTED PROJECTILES: "
-1701 = "REDIRECTED FSPÉCIALS: "
-1702 = "{0,PR_SPECIAL} then {-1,PR_JUMP} then {270,PR_SPECIAL} then launch projectile toward Orby"
-1703 = "DOUBLE USPÉCIALS: "
-1704 = "{90,PR_SPECIAL} then {-1,PR_DODGE} then {90,PR_SPECIAL}"
+1684 = "FLAMMES ATTISÉES : "
+1685 = "Rester appuyé sur {-1,PR_SPECIAL}"
+1686 = "POWER CÔTÉ : "
+1687 = "{0,PR_STRONG} quand Seyn est loin"
+1688 = "POWER CÔTÉ EN ÉQUIPE : "
+1689 = "{0,PR_STRONG} quand Seyn est près"
+1690 = "POWER HAUT : "
+1691 = "{90,PR_STRONG} quand Seyn est loin"
+1692 = "POWER HAUT EN ÉQUIPE : "
+1693 = "{90,PR_STRONG} quand Seyn est près"
+1694 = "POWER BAS : "
+1695 = "{270,PR_STRONG} quand Seyn est loin"
+1696 = "POWER BAS EN ÉQUIPE : "
+1697 = "{270,PR_STRONG} quand Seyn est près"
+1698 = "SPÉCIAUX BAS : "
+1699 = "{270,PR_SPECIAL} puis lancer Orby vers le bas"
+1700 = "PROJECTILES REFLÉTÉS : "
+1701 = "SPÉCIAUX CÔTÉ REDIRIGÉS : "
+1702 = "{0,PR_SPECIAL} puis {-1,PR_JUMP} puis {270,PR_SPECIAL} puis lancer le projectile vers Orby"
+1703 = "DOUBLE SPÉCIAUX HAUTS : "
+1704 = "{90,PR_SPECIAL} puis {-1,PR_DODGE} puis {90,PR_SPECIAL}"
 
 //---- RANNO TUTORIAL
 1705 = "SUPER SAUTS : "
@@ -1664,8 +1670,8 @@
 2321 = "Etalus peut créer de la glace sur le sol à l'aide de son Normal Cote, son Spécial Cote ou son Spécial Haut au sol."
 2322 = "Etalus peut se doter d'une armure de glace à l'aide de son Spécial Neutre."
 2323 = "Etalus peut utiliser son Spécial Bas pour geler tout adversaire se trouvant sur sa glace."
-2324 = "Ori et Sein combattent en equipe. Si Sein se trouve pres d'Ori, ils peuvent combiner leurs pouvoirs pour améliorer leurs Attaques Power."
-2325 = "Une simple pression de Spécial Neutre fera que Sein utilisera Spirit Flame. Rester appuye lui permettra d'utiliser Charged Flame." // Need official translation from Ori and the Blind Forest
+2324 = "Ori et Seyn combattent en equipe. Si Seyn se trouve pres d'Ori, ils peuvent combiner leurs pouvoirs pour améliorer leurs Attaques Power."
+2325 = "Une simple pression de Spécial Neutre fera que Seyn utilisera la Flamme Spirituelle. Rester appuyé lui permettra d'utiliser la Flamme Attisée." // Need official translation from Ori and the Blind Forest
 2326 = "Ori peut utiliser son Spécial Bas pour renvoyer les projectiles ou les adversaires dans n'importe quelle direction."
 2327 = "Ranno peut empoisonner ses adversaires avec ses Attaques Spéciales, ce qui leur fait subir des dégâts à chque fois qu'ils attaquent."
 2328 = "Ranno peut piéger ses adversaires dans une bulle. Plus l'adversaire est empoinsonné, plus il reste longtemps dans la bulle."
