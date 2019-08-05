@@ -176,7 +176,7 @@
 150 = "???"
 151 = "Prince de la Flamme"  //Zetter
 152 = "Filou Fluide"  //Orcane
-153 = "Tornade Incontrollable"  //Wrastor
+153 = "Tornade Incontrôlable"  //Wrastor
 154 = "Bastion de la Terre"  //Kragg
 155 = "Stratège Déchu"  //Fors
 156 = "Gardien de la Forêt"  //Maypul
@@ -292,7 +292,7 @@
 304 = "Options"
 305 = "Configurez Rivals of Aether en fonction de votre style de jeu."
 306 = "Extras"
-307 = "Revoyez vos matches, personnalisez vos palettes personnages, et plus encore !"
+307 = "Replays, personnalisation et plus encore !"
 308 = "Quitter"
 309 = "Quitter le jeu."
 310 = "Écran Titre"
@@ -318,7 +318,7 @@
 326 = "Match en équipes"
 327 = "Trouvez un adversaire ou invitez un ami pour un match en équipes."
 328 = "Statistiques et Options"
-329 = "Consultez le classement et vos statistiques, et configurez le mode en ligne."
+329 = "Consultez le classement et personnalisez le Mode En Ligne."
 330 = "@318"
 331 = "@319"
 
@@ -332,7 +332,7 @@
 340 = "@318"
 341 = "@319"
 342 = "Profils"
-343 = "Personnalisez vos commandes à la manette et gérez les profils enregistrés."
+343 = "Gérez les profils de commandes enregistrés."
 
 //---- Extras Sub-Menu
 344 = "Replays"
@@ -346,7 +346,7 @@
 352 = "Personnalisation"
 353 = "Coloriez vos Rivaux à votre guise."
 354 = "Crédits"
-355 = "Qui a contribué à développer Rivals of Aether ? La réponse est ici !"
+355 = "Qui a contribué à développer Rivals of Aether ? La réponse est ici !" // Too long
 356 = "@318"
 357 = "@319"
 358 = "Succès"
@@ -364,17 +364,17 @@
 368 = "Terrains Aether"
 369 = "Activez le type par défaut des terrains dans le mode Tournoi."
 370 = "Pause"
-371 = "Activez la pause et son mode d'enclanchement : Par simple pression du bouton ou en restant appuyé."
+371 = "Activez la pause et son mode d'enclanchement."
 372 = "Éjection"
-373 = "Changez la distance à laquelle un Rival est envoyé après une attaque."
+373 = "Changez la distance à laquelle un Rival est envoyé après une attaque." // Too long
 374 = "@352"
-375 = "Activez l'utilisation des palettes personnalisées lors des matchs locaux."
+375 = "Activez l'utilisation des palettes personnalisées lors des matchs locaux." // Too long
 376 = "Type par défaut"
 377 = "Choisissez le type par défaut des terrains dans le mode Versus."
 378 = "Mode Développeur"
-379 = "Activez l'utilisation des fichiers Développeur en mode Versus local."
+379 = "Activez l'utilisation des fichiers Développeur en mode Versus local." // Too long
 538 = "Mode Turbo"
-539 = "Activez le mode turbo. Annuléz toutes vos attaques dès que vous touchez l'adversaire !"
+539 = "Annulez toutes vos attaques dès que vous touchez l'adversaire !"
 380 = "@318"
 381 = "Retournez au menu du Mode Local."
 
@@ -390,7 +390,7 @@
 
 //---- Display Options
 390 = "Fenêtre"
-391 = "Choisissez entre le mode plein ecran et différentes tailles de fenêtres."
+391 = "Choisir la taille de la fenêtre ou le mode Plein Écran"
 392 = "UI Dégâts"
 393 = "Voir les dégâts au dessus des Rivaux."
 394 = "UI Profils"
@@ -398,21 +398,21 @@
 396 = "Qualité des effets"
 397 = "Ajuster la qualité des effets pour optimiser la performance."
 398 = "Local Frame Skip"
-399 = "En Mode Local : Accélerer la logique du jeu si l'affichage descend en dessous des 60 IPS."
+399 = "Mode Local : Accélerer la logique du jeu si l'affichage descend en dessous des 60 IPS." // Too long
 400 = "@318"
 401 = "Retourner au Menu des Options."
 402 = "Vibrations de l'UI"
-403 = "Activer le retour visuel dans la barre de statut lorsque vous subissez des dégâts."
+403 = "Faire vibrer la barre de statut lorsque vous subissez des dégâts."
 404 = "Effets Rétro"
 405 = "Afficher certains effets de transparence à l'aide du tramage."
 406 = "Horloge"
 407 = "Changer le format de l'horloge."
 408 = "Affichage Débug"
-409 = "Afficher les informations de débug à l'écran. Pratique pour trouver les bugs."
+409 = "Afficher les informations de débug à l'écran."
 410 = "Langue"
 411 = "Changer la langue d'affichage du jeu."
 412 = "Vsync"
-413 = "Tenter de faire fonctionner le jeu à la même fréquence de rafraichissement que votre moniteur."
+413 = "Synchroniser le jeu avec la fréquence de rafraichissement du moniteur."
 
 //---- Sound Options
 414 = "Musique"
@@ -430,7 +430,7 @@
 424 = "Intermédiaire"
 425 = "Découvrez de nouvelles techniques pour monter en compétences."
 426 = "Avancé"
-427 = "Perfectionnez les techniques de jeu avancées pour devenir un maître."
+427 = "Perfectionnez les techniques de jeu avancées pour devenir un maître." // Too long
 428 = "Personnages - 1"
 429 = "Apprenez les spécificités de chaque personnage."
 430 = ""
@@ -452,9 +452,9 @@
 
 //---- Intermediate Tutorial Sub-Menu
 444 = "@436"
-445 = "Apprenez quelques techniques utiles pour optimiser vos déplacements."
+445 = "Apprenez quelques techniques utiles pour optimiser vos déplacements." // Too long
 446 = "@438"
-447 = "Apprenez à survivre après une attaque puissante et à sortir des combos."
+447 = "Apprenez à survivre après une attaque puissante et à sortir des combos." // Too long
 448 = "@440"
 449 = "Apprenez à causer de gros dégâts à l'adversaire."
 450 = "@318"
@@ -466,27 +466,27 @@
 454 = "@438"
 455 = "Maîtrisez l'art de la survie."
 456 = "@440"
-457 = "Maîtrisez ces techniques pour forcer vos adversaires à rester vigilants."
+457 = "Maîtrisez ces techniques pour forcer vos adversaires à rester vigilants." // Too long
 458 = "@318"
 459 = "@443"
 
 //---- Character Specific Tutorial Sub-Menu
 460 = "@171"
-461 = "Apprenez à enflammer vos adversaires avec Zetterburn, le Prince de la Flamme."
+461 = "Apprenez à embraser vos adversaires avec Zetterburn, le Prince de la Flamme." // Too long
 462 = "@172"
-463 = "Apprenez à jouer avec vos adversaires avec Orcane, le Filou Fluide."
+463 = "Apprenez à jouer avec vos adversaires avec Orcane, le Filou Fluide." // Too long
 464 = "@173"
-465 = "Apprenez à voler avec Wrastor, la Tornade Incontrollable."
+465 = "Apprenez à voler avec Wrastor, la Tornade Incontrôlable."
 466 = "@174"
-467 = "Apprenez à lancer des rochers avec Kragg, le Bastion de la Terre."
+467 = "Apprenez à commander aux minéraux avec Kragg, le Bastion de la Terre." // Too long
 468 = "@175"
 469 = "Apprenez à semer la confusion avec Forsburn, le Stratège Déchu."
 470 = "@176"
-471 = "Apprenez à vous occuper des plantes avec Maypul, le Gardien de la Forêt."
+471 = "Apprenez à protéger les plantes avec Maypul, le Gardien de la Forêt." // Too long
 472 = "@177"
-473 = "Apprenez à faire tomber la foudre avec Absa, l'Architecte des Tempêtes."
+473 = "Apprenez à faire tomber la foudre avec Absa, l'Architecte des Tempêtes." // Too long
 474 = "@178"
-475 = "Apprenez à écraser l'opposition avec Etalus, la Légende Glaciale."
+475 = "Apprenez à écraser l'opposition avec Etalus, la Légende Glaciale." // Too long
 476 = "@318"
 477 = "@443"
 
@@ -496,13 +496,13 @@
 480 = "Mode Abysse"
 481 = "Combattez les créatures de l'Abysse pour monter en puissance."
 482 = "Entrainement"
-483 = "Entrainez-vous face à un combattant ordinateur et expérimentez avec diverses variables."
+483 = "Entrainez-vous et expérimentez avec diverses variables."
 484 = "Tutoriels"
 485 = "Découvrez tout ce qu'il y a à savoir sur Rivals of Aether !"
 486 = "@318"
 487 = "@381"
 488 = "Profil Principal"
-489 = "Sélectionnez le profil de commandes utilisé en Mode Solo et en Mode En Ligne."
+489 = "Sélectionnez le profil de commandes par défaut."
 
 //---- Online Stats and Options
 490 = "Classements En Ligne"
@@ -512,7 +512,7 @@
 494 = "Ma Région"
 495 = "Choisissez votre région pour obtenir les meilleurs matches en ligne."
 496 = "@352"
-497 = "Affichez les Palettes Personnalisées : Toutes les Palettes ou seulement les votres."
+497 = "Choisissez quel type de Palettes vou souhaîtez afficher."
 540 = "Compagnons"
 541 = "Affichez tous les compagnons ou seulement les votres."
 498 = "@318"
@@ -552,11 +552,11 @@
 526 = "@180"
 527 = "Apprenez à maintenir la paix avec Ranno, le Pacifiste Venimeux."
 528 = "@181"
-529 = "Apprenez comment sauver le futur avec Clairen, la Voyageuse Plasmique."
+529 = "Apprenez comment sauver le futur avec Clairen, la Voyageuse Plasmique." // Too long
 530 = "@182"
-531 = "Apprenez à asservir la nature avec Sylvanos, le Cœur de la Forêt."
+531 = "Apprenez à asservir la nature avec Sylvanos, le Cœur de la Forêt." // Too long
 532 = "@183"
-533 = "Apprenez à vous venger avec Elliana, l'Arsenal Aérien."
+533 = "Apprenez à piloter avec Elliana, l'Arsenal Aérien."
 534 = "@184"
 535 = "Apprenez comment vaincre le mal avec Shovel Knight."
 536 = "@318"
@@ -575,7 +575,7 @@
 606 = "Options - Tournoi"
 607 = "Ajustez les options du Mode Tournoi."
 //--- Allowed Custom Colors:
-608 = "LES MIENNES"
+608 = "LES MIENNES" // Should be "LES MIENS" when selecting the Buddy System, currently not implemented
 609 = "AUCUN"
 610 = "TOUS"
 //--- Effects Quality:
@@ -633,7 +633,7 @@
 //---- Replay menu button: sort by
 661 = "TRIER PAR"
 662 = "RÉCENT"
-663 = "MARQUES" // replays marked as favorites
+663 = "MARQUÉS" // replays marked as favorites
 664 = "ABC" // alphabetical order
 
 //---- Replay menu button: auto save
@@ -868,8 +868,8 @@
 911 = "K.O."
 912 = "Chutes"
 913 = "Suicides"
-914 = "Dégats Infliges"
-915 = "Dégats Subis"
+914 = "Dégâts Infliges"
+915 = "Dégâts Subis"
 916 = "Parades"
 917 = "Combo Maximal"
 918 = "Précision"
