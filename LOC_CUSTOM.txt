@@ -1979,19 +1979,19 @@
 //--------------------------------
 
 //---- BEGINNER MOVEMENT TUTORIAL
-3000 = "Welcome to the beginner movement tutorial! I'm Orby, your host and guide to learning the basics of Rivals of Aether."
-3001 = "Let's begin with the basic controls for walking."
-3002 = "To walk, gently move the control stick. Don't push too hard, or you'll run instead."
-3003 = "Good. Now let's try running."
-3004 = "To run, quickly flick the control stick in the direction you want to go."
-3005 = "Let's tackle jumping next."
-3006 = "To jump, just press the jump button. Make sure to hold the button long enough for a full jump."
-3007 = "Now, follow me by using double jumps."
-3008 = "To perform a double jump, press the jump button while in the air."
-3009 = "Careful though, you can only double jump once until you touch the ground again."
-3010 = "These platforms are different from your usual ground. Not only can you jump through them, you can also drop down from them."
-3011 = "Quickly press down on the control stick to fall through the platforms.\nWhile falling, you can keep holding down to pass through subsequent platforms."
-3012 = "Fantastic! Now that you've mastered the basics of movement, we can move on to the more advanced lessons."
+3000 = "Bienvenue dans le tutoriel de mouvement pour débutants ! Je m'appelle Orby et vais vous apprendre comment jouer à Rivals of Aether."
+3001 = "Commencons par apprendre à marcher."
+3002 = "Pour marcher, poussez doucement le stick analogique vers une direction. Ne le poussez pas trop rapidement, sinon vous vous metterez à courir."
+3003 = "Bien. Maintenant, passons à la course."
+3004 = "Pour courrir, poussez rapidement le stick analogique vers la direction de votre choix."
+3005 = "Abordons maintenant les sauts."
+3006 = "Pour sauter, appuyez sur le bouton de saut. Faites attention à bien rester appuyé assez longtemps pour effectuer un grand saut."
+3007 = "Maintenant, suivez-moi à l'aide de double sauts."
+3008 = "Pour effectuer un double saut, appuyez sur le bouton de saut pendant que vous êtes dans les airs."
+3009 = "Cependant, faites attention car vous ne pouvez effectuer qu'un seul double saut avant de devoir revenir sur le sol."
+3010 = "Ces plateformes sont différentes du sol habituel. Non seulement vous pouvez sauter à travers elles, mais vous pouvez aussi descendre en dessous d'elles."
+3011 = "Poussez rapidement le stick analogique pour traverser la plateforme.\nVous pouvez garder le stick vers le bas pour passer au travers des plateformes suivantes."
+3012 = "Magnifique ! Maintenant que vous maîtrisez les bases du mouvement, nous pouvons passer à des leçons plus poussées."
 
 //---- BEGINNER DEFENSE TUTORIAL
 3013 = "Welcome to the beginner defense tutorial! The following lessons will teach you basic techniques to defend yourself from enemy attacks."
