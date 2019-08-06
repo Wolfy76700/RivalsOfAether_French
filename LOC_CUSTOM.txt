@@ -1981,3 +1981,5 @@
 
 4000 = "@12"
 4001 = "Ourson Frostbear"
+4003 = "Kraggy"
+4004 = "Thomas Désépine"
