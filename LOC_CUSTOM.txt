@@ -1080,13 +1080,13 @@
 
 //---- INTERMEDIATE DEFENSE TUTORIAL
 1512 = "ATTAQUES SURVÉCUES : "
-1513 = "Tenir le Stick Analogique à 90° vers le haut de l'angle de projection original"
+1513 = "Incliner le Stick Analogique à 90° vers le haut de l'angle de projection original"
 1514 = "ENCHAÎNEMENTS ÉVITÉS : "
-1515 = "Tenir le Stick Analogique à 90° vers le bas de l'angle de projection original"
+1515 = "Incliner le Stick Analogique à 90° vers le bas de l'angle de projection original"
 1516 = "TECHS : "
 1517 = "{-1,PR_JUMP} vers l'adversaire, puis {-1,PR_DODGE} juste avant de toucher le sol"
 1518 = "TECHS MURALES : "
-1519 = "Tenir le Stick Analogique à 90° vers le bas de l'angle de projection original, puis {-1,PR_DODGE} juste avant de toucher le mur"
+1519 = "Incliner le Stick Analogique à 90° vers le bas de l'angle de projection original, puis {-1,PR_DODGE} juste avant de toucher le mur"
 
 //---- BEGINNER DEFENSE TUTORIAL
 1520 = "PARADES : "
@@ -1101,9 +1101,9 @@
 1527 = "TECHS AU BORD : "
 1528 = "{90,PR_SPECIAL} vers l'adversaire, puis {-1,PR_DODGE} dès que vous êtes touché"
 1529 = "ÉVASIONS via IDA: "
-1530 = "Hold {180,-1}"
+1530 = "Tenir {180,-1}"
 1531 = "ÉVASIONS via l'INFLUENCE SUR LA DÉRIVE : "
-1532 = "Hold {90,-1} and {0,-1} to DI the first hit inward, then hold {180,-1}"
+1532 = "Tenir {90,-1} puis {0,-1} (Le premier coup enverra vers l'adversaire), puis tenir {180,-1}"
 
 //---- ADVANCED MOVEMENT TUTORIAL
 1533 = "DASH DANCES : "
@@ -1189,7 +1189,7 @@
 1802 = "AÉRIEN CÔTÉ"
 1803 = "{-1,PR_JUMP} puis {0,PR_ATTACK}{12,JOY}{-1,PR_STRONG}"
 1804 = "SPÉCIAL BAS"
-1805 = "{270,PR_SPECIAL}  avec une flaque sur le terrain"
+1805 = "{270,PR_SPECIAL} avec une flaque sur le terrain"
 
 //---- WRASTOR TUTORIAL
 1595 = "POWER CÔTÉ : "
@@ -1257,7 +1257,7 @@
 
 //---- ABSA TUTORIAL
 1645 = "SPÉCIAUX CÔTÉ : "
-1646 = "Tenir {0,PR_SPECIAL} puis {90,-1}{12,JOY}{270,-1}"
+1646 = "Rester appuyé sur {0,PR_SPECIAL} puis {90,-1}{12,JOY}{270,-1}"
 1647 = "SPÉCIAUX NEUTRES NON CHARGÉS : "
 1648 = "{-1,PR_SPECIAL} puis appuyer rapidement sur {-1,PR_SPECIAL}"
 1649 = "SPÉCIAUX NEUTRES CHARGÉS : "
@@ -1267,7 +1267,7 @@
 1653 = "SPÉCIAUX BAS CHARGÉS : "
 1654 = "Rester appuyé sur {270,PR_SPECIAL}"
 1655 = "TOUCHES AVEC LA DEUXIÈME MOITIÉ DU SPÉCIAL HAUT : "
-1656 = "{90,PR_SPECIAL} puis tenir une direction, puis tenir une deuxième direction."
+1656 = "{90,PR_SPECIAL} puis incliner le stick analogique vers une direction, puis vers une deuxième direction."
 1657 = "ANNULATIONS DU SPÉCIAL HAUT : "
 1658 = "{90,PR_SPECIAL} depuis le sol, puis {-1,PR_ATTACK}{12,JOY}{-1,PR_STRONG}"
 1659 = "AÉRIENS AVANT STATIQUES : "
