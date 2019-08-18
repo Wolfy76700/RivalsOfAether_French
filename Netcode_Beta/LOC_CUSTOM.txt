@@ -31,6 +31,7 @@
 // Tongue Tether/Sling -> Catapultage Lingual
 // Tipper -> Extrémité léthale
 // Hovering aerial -> Aérien flottant
+// Free For All -> 1v1v1v1
 
 // FROM SHOVEL KNIGHT:
 // War Horn -> Cor de guerre
@@ -123,6 +124,16 @@
 63 = "CHARGEMENT..."
 64 = "DÉCISION EN COURS..."
 65 = "DÉCISION EN COURS..."
+75 = "ANNULER LA RECHERCHE"
+76 = "TROUVER UN MATCH"
+80 = "ANNULER" // shorten version of "CANCEL SEARCH"
+81 = "SÉLECTIONNEZ UN\nPERSONNAGE POUR\nLANCER LA RECHERCHE"
+
+//---- Casual Match Types
+77 = "1v1"
+78 = "2v2"
+79 = "1v1v1v1"
+
 
 //---- Money match
 66 = "Accepter le défi ?\n`1 pièces, `2 matchs"
@@ -141,15 +152,15 @@
 96 = "`1 a quitté la salle."
 
 //---- Popup Message Yes/No [100-149]
-100 = "L'adversaire veut changer les réglages pour démarrer un match sans fin. Accepter ?"
-101 = "L'adversaire veut changer les réglages pour démarrer un match sans limite de temps à `1 vie(s). Accepter ?"
-102 = "L'adversaire veut changer les réglages pour démarrer un match de `1 minute(s). Accepter ?"
-103 = "L'adversaire veut changer les réglages pour démarrer un match de `2 minute(s) a `1 vie(s). Accepter ?"
+100 = "`1 veut changer les réglages pour démarrer un match sans fin. Accepter ?"
+101 = "`1 veut changer les réglages pour démarrer un match sans limite de temps à `1 vie(s). Accepter ?"
+102 = "`1 veut changer les réglages pour démarrer un match de `1 minute(s). Accepter ?"
+103 = "`1 veut changer les réglages pour démarrer un match de `2 minute(s) a `1 vie(s). Accepter ?"
 104 = "Initier le Mode Développeur ? Vous devez avoir les memes fichiers que votre adversaire."
 105 = "Désactiver le Mode Développeur ?"
 106 = "Activer le choix aléatoire des terrains ?"
 107 = "Désactiver le choix aléatoire des terrains ?"
-108 = "L'adversaire veut activer le choix aléatoire des terrains. Accepter ?"
+108 = "`1 veut activer le choix aléatoire des terrains. Accepter ?"
 109 = "Voulez-vous vous aventurer dans l'Abysse Infinie ?" //This popup appears after a cutscene after beating the final boss. If you choose yes, you go into the abyss stage. Otherwise you return to the main menu.
 110 = "- Mont Tempête -\nDébloquer ce terrain ?"
 111 = "- Forteresse Enneigée -\nDébloquer ce terrain ?"
@@ -162,15 +173,19 @@
 118 = "Supprimer le replay ?"
 119 = "Quitter le jeu ?"
 120 = "Voir\nShovel Knight\nsur le magasin Steam ?"
-121 = "L'adversaire veut activer le Mode Turbo. Accepter ?"
+121 = "`1 veut activer le Mode Turbo. Accepter ?"
 122 = "Activer le Mode Turbo ?"
 123 = "Désactiver le Mode Turbo ?"
 124 = "Acheter\n`1\npour `2 pièces ?"
 125 = "Voir\n`1\nsur le magasin Steam ?"
 126 = "Ouvrir le Navigateur Web pour acquérir cet article ?"
-127 = ""
-128 = ""
-129 = ""
+127 = "`1 veut activer le mode en Équipes. Accepter ?"
+128 = "Activer les Équipes ?"
+129 = "Désactiver les Équipes ?"
+130 = "`1 veut activer le mode Abysse. Accepter ?" // Is it endless mode or versus mode?
+131 = "Activer le mode Abysse ?"
+132 = "Désactiver le mode Abysse ?"
+133 = "Souhaitez-vous rester dans la\nalle pour un nouveau combat?"
 
 //---- Character Titles
 150 = "???"
@@ -219,9 +234,9 @@
 201 = "Choisissez votre région pour commencer a jouer en ligne."
 202 = "Défi accepté"
 203 = "Défi refusé"
-204 = "L'adversaire a refusé les nouvelles options."
+204 = "`1 a refusé les nouvelles options."
 205 = "L'adversaire a désactivé le Mode Développeur."
-206 = "L'adversaire a désactivé le choix aléatoire des terrains."
+206 = "`1 a désactivé le choix aléatoire des terrains."
 207 = "Difference de version. \nVotre adversaire utilise la version `1"
 208 = "L'adversaire a refusé le match."
 209 = "L'adversaire a déclaré forfait."
@@ -259,12 +274,19 @@
 241 = "Achetez le DLC \nShovel Knight \npour débloquer ce contenu." // for Troupple Pond unlock
 242 = "- Échec de l'envoi -\nAucun adversaire connecte."
 243 = "- Échec de l'envoi -\nLe match n'a pas encore été accepte."
-244 = "Atteignez le niveau classé\n3 pour débloquer ce contenu."
+244 = "Atteignez le niveau\n`1 avec ce personnage pour\ndébloquer ce contenu."
 245 = "Félicitations !\nVous avez débloqué \nles Couleurs Classées !"
-246 = "L'adversaire a désactivé le Mode Développeur.."
+246 = "`1 a désactivé le Mode Développeur.."
 247 = "Finissez les tutoriels\npour débloquer ce contenu."
 248 = "Félicitations !\nVous avez débloqué\n" // reserved
 249 = "- Bientôt disponible -"
+250 = "Un nouveau joueur s'est connecté.\nLes réglages de la salle ont été réinitialisés."
+251 = "`1 a désactivé les Équipes."
+252 = "`1 a désactivé le Mode Abysse."
+253 = "L'adversaire a quitté la salle."
+254 = "Pour commencer à jouer en ligne, indiquez vos réglages de connexion."
+255 = "Pour commencer à jouer en ligne, indiquez votre région et vos réglages de connexion."
+256 = "" // reserved
 
 //----
 290 = "PARÉ AU COMBAT"
@@ -511,6 +533,8 @@
 493 = "@351"
 494 = "Ma Région"
 495 = "Choisissez votre région pour obtenir les meilleurs matches en ligne."
+542 = "Filtre régional"
+543 = "Choisissez les régions dans lesquelles vous souhaitez trouver des adversaires."
 496 = "@352"
 497 = "Choisissez quel type de Palettes vou souhaîtez afficher."
 540 = "Compagnons"
@@ -519,6 +543,12 @@
 499 = "Retournez au menu du Mode En Ligne."
 500 = "@488"
 501 = "@489"
+546 = "Mode Wi-Fi"
+547 = "Si vous utilisez la Wi-Fi, activez ce réglage pour optimiser la connexion."
+548 = "Non indiqué"
+549 = "OFF" // for Wi-Fi Mode (must fit in 4 characters)
+550 = "ON" // for Wi-Fi Mode (must fit in 4 characters)
+551 = "OFF" // for Wi-Fi Mode
 
 //---- Team Match Sub-Menu
 502 = "Match Non Classé"
@@ -562,6 +592,10 @@
 536 = "@318"
 537 = "@443"
 
+//----
+544 = "Défis"
+545 = "Atteignez des objectifs pour gagner des récompenses !"
+
 //----------------------------
 // Main Menu Variable Strings
 //----------------------------
@@ -597,6 +631,9 @@
 //---- Stage Types:
 622 = "AETHER"
 623 = "BASIQUE"
+//----
+624 = "FILTRE RÉGIONAL"
+625 = "SAUVEGARDER"
 
 //--------------------
 
@@ -667,6 +704,7 @@
 690 = "(IRREGARDABLE)"
 
 //---- Sound Test display
+694 = "Aucun son"
 695 = "Musique de terrain "
 696 = "Arrangée par "
 697 = "Compositeur Original "
@@ -911,9 +949,9 @@
 948 = "Bannissez un terrain !"
 949 = "Bannissez trois terrains !"
 950 = "Choisissez un terrain !"
-951 = "L'adversaire bannit..."
-952 = "L'adversaire bannit..."
-953 = "L'adversaire choisit..."
+951 = "`1 bannit..."
+952 = "@951"
+953 = "`1 choisit..."
 954 = "ACH|EVEMENT"
 955 = "LE PLUS PETIT"
 956 = "LE PLUS GRAND"
@@ -923,6 +961,7 @@
 960 = "OPEN THE\nGATES"
 961 = "ARDENT\nRIVAL"
 962 = "COUNTERPICK"
+963 = "@948"
 
 //---- Popups
 970 = "ÉDITER LE NOM DU REPLAY"
@@ -1510,16 +1549,16 @@
 //---- ZETTERBURN
 2000 = "BRÛLURE : Ennemis brûlés plus longtemps"
 2001 = "BOULES DE FEU : Deux fois plus rapides"
-2002 = "PARADE : Brûle les adversaires"
+2002 = "POWER CÔTÉ : Va plus loin"
 2003 = "VITESSE AU SOL : Plus élévee"
 2004 = "SPÉCIAL BAS : Plus rapide"
 2005 = "SPÉCIAL HAUT : Démarrage plus rapide"
 2006 = "PIÈGE DE FEU : Explose au contact"
 2007 = "SPÉCIAL CÔTÉ : Boules de feu infinies"
 2008 = "AÉRIEN AVANT et AÉRIEN HAUT : Envoie les adversaires brulés plus loin"
-2009 = "SPÉCIAL BAS : Moins de récuperation, Annulable par un saut ou une esquive aérienne"
+2009 = "SPÉCIAL HAUT : Va plus loin, la direction peut être changée pendant le mouvement"
 2010 = "BOULES DE FEU : Plus grosses, plus lentes, plus puissantes"
-2011 = "PIÈGE DE FEU : Se propage sur tout le stage"
+2011 = "SPÉCIAL BAS : Crée une pluie de météores à l'atterissage"
 2012 = "BOULES DE FEU : Paralyse l'adversaire"
 2013 = "SPÉCIAL HAUT et SPÉCIAL BAS : Super Armure en mouvement"
 2014 = "SPÉCIAL NEUTRE : Charge plus vite, plus puissant"
@@ -1543,19 +1582,19 @@
 
 //---- WRASTOR
 2030 = "MOUVEMENT AÉRIEN : Plus rapide"
-2031 = "ESQUIVE AÉRIENNE : Inflige des dégâts a l'adversaire"
-2032 = "POWER BAS : Annulable par un saut"
+2031 = "SPÉCIAL CÔTÉ : Envoie plus loin"
+2032 = "AÉRIENS : Moins de récupération"
 2033 = "SPÉCIAL BAS : Démarrage plus rapide"
-2034 = "COURANT D'AIR : Plus large"
+2034 = "COURANT D'AIR : Amélioration plus importante de la vitesse"
 2035 = "SPÉCIAL NEUTRE : Plus long"
-2036 = "AÉRIENS : Touchent plusieurs fois"
-2037 = "SAUTS : Restaure l'esquive aérienne"
+2036 = "SPÉCIAL BAS : Plus puissant, traverse les adversaires"
+2037 = "SPÉCIAL CÔTÉ : Va vers Wrastor" // Assuming it's about the FSpecial Projectile
 2038 = "POWER : Moins de récuperation a l'atterissage"
 2039 = "SPÉCIAL HAUT : Peut être chargé, sweetspot actif durant la charge"
-2040 = "POWER : Plus puissant dans le courant d'air"
+2040 = "SPÉCIAL CÔTÉ : L'ennemi explose peu après avoir été touché"
 2041 = "COURANT D'AIR : Plus d'un courant d'air peut être en jeu"
 2042 = "COURANT D'AIR : Défense augmentée dans le courant d'air"
-2043 = "GENERAL : Toutes les attaques peuvent être annulées au contact"
+2043 = "SPÉCIAL NEUTRE : Crée une tornade au dessus de Wrastor"
 2044 = "SAUTS : Quatre sauts supplémentaires"
 
 //---- KRAGG
@@ -1585,12 +1624,12 @@
 2066 = "CHARGE MAXIMALE : Un seul nuage suffit"
 2067 = "CLONE : Explose apres avoir été touche"
 2068 = "FUMÉE : Forsburn est invisible et deux fois plus puissant dans la fumée"
-2069 = "FUMÉE : Inflige des dégâts"
+2069 = "SPÉCIAL HAUT : Ne met pas en chute libre"
 2070 = "CLONE : Se comporte toujours comme le clone amélioré"
 2071 = "SPÉCIAL CÔTÉ : Crée deux clones a la fois"
 2072 = "FUMÉE : Défense augmentée dans la fumée"
-2073 = "CLONE : Crée de la fumée en continu"
-2074 = "FUMÉE : Explose lors de l'obtention de la charge maximale"
+2073 = "SPÉCIAL NEUTRE NON CHARGÉ : Identique à la version chargée"
+2074 = "SPÉCIAL BAS CHARGÉ : Est un projectile"
 
 //---- MAYPUL
 2075 = "AÉRIEN HAUT : Distance verticale parcourue augmentée"
@@ -1642,6 +1681,108 @@
 2117 = "ÉCLATS : Plus puissants"
 2118 = "ARMURE : Défense augmentée"
 2119 = "SPÉCIAL NEUTRE : Démarrage plus rapide"
+
+//---- ORI
+2120 = "Gain an additional jump."
+2121 = "Spirit Flame always deals hitstun."
+2122 = "DAIR startup decreased."
+2123 = "Heavier weight and higher gravity in hitstun."
+2124 = "DSPECIAL doesn't lead into special fall."
+2125 = "USPECIAL goes higher upward."
+2126 = "Sein can join your Strong Attacks while you're charging them."
+2127 = "Sein can hit enemies while charging NSPECIAL."
+2128 = "Double radius on Spirit Flame and Charged Flame."
+2129 = "FSPECIAL throws 3 projectiles."
+2130 = "DSPECIAL has super armor."
+2131 = "DSPECIAL has faster startup and can be released anytime."
+2132 = "Landing 3 Spirit Flame hits in a row stuns enemies."
+2133 = "Charged Flame no longer requires charging."
+2134 = "Taunt to place a checkpoint once per stock."
+
+//---- RANNO
+2135 = "Poison Darts move faster."
+2136 = "Retain horizontal speed when jumping."
+2137 = "Move around while spinning during USPECIAL."
+2138 = "FSPECIAL startup reduced."
+2139 = "USPECIAL goes farther and is stronger."
+2140 = "FSTRONG shoots a projectile."
+2141 = "FSPECIAL has longer range."
+2142 = "Strong attacks are stronger against poisoned opponents."
+2143 = "Enemies are trapped in bubbles longer."
+2144 = "Take less knockback for each stack of poison your opponent has."
+2145 = "Poison darts spike opponents."
+2146 = "More than one bubble can be in play at once."
+2147 = "Avoid fighting to make your next attack KO."
+2148 = "Bubbles explode when popping. Strength depends on damage done to the bubble."
+2149 = "Hitting a bubble causes it to burst into small bubbles."
+
+//---- CLAIREN
+2150 = "Plasma field is twice as large."
+2151 = "Aerials have less startup and landing lag."
+2152 = "The final hit of DSPECIAL stuns opponents."
+2153 = "DSPECIAL can be used while a plasma field is active."
+2154 = "Consecutive tippers deal increased knockback."
+2155 = "Air movement is faster."
+2156 = "NSPECIAL can throw upward or downward."
+2157 = "USPECIAL part 1 doesn't go into special fall. Part 2 is stronger."
+2158 = "Take less knockback in the plasma field."
+2159 = "Plasma field slowly moves toward you."
+2160 = "FSPECIAL is chargeable and can hit enemies while traveling."
+2161 = "Strong attacks fire plasma projectiles."
+2162 = "DSPECIAL is a chargeable attack, creating a plasma field at full charge."
+2163 = "FSPECIAL is faster and doesn't go into special fall."
+2164 = "Stun duration doubled."
+
+//---- SYLVANOS
+2165 = "BAIR startup decreased."
+2166 = "USPECIAL's burrow wraps opponents."
+2167 = "Flowers can take up to 10 damage before being destroyed."
+2168 = "USTRONG startup decreased."
+2169 = "DSPECIAL has more vertical range."
+2170 = "FSPECIAL is faster and always behaves as if it's on grass."
+2171 = "Grass grows instantly and regrows faster after DSPECIAL."
+2172 = "FTILT creates a wave of wooden spikes."
+2173 = "Grass lasts longer once you leave the ground and is not removed by flowers."
+2174 = "BAIR launches all 3 angles at once (only pins in the held direction)."
+2175 = "DSPECIAL can be charged for more knockback."
+2176 = "Seeds plant minions that behave like Lily."
+2177 = "More than three flowers can be active at once."
+2178 = "DSPECIAL explodes flowers."
+2179 = "Deal more knockback when near a flower."
+
+//---- ELLIANA
+2180 = "DSPECIAL shoots the mine forward."
+2181 = "Hovering enabled during the recovery of aerial attacks."
+2182 = "FSPECIAL charge time shortened."
+2183 = "USPECIAL explodes faster and knocks opponents away from the explosion."
+2184 = "DSPECIAL activation time and cooldown removed."
+2185 = "Specials build up less heat."
+2186 = "Mines explode for longer."
+2187 = "FSPECIAL turn speed drastically increased."
+2188 = "NSPECIAL and FSPECIAL cannot be destroyed."
+2189 = "Press special again to launch NSPECIAL early."
+2190 = "Steam cloud knockback increased."
+2191 = "Hold special to rapid fire NSPECIAL fists."
+2192 = "Lose heat faster. Strong attacks are always overheated."
+2193 = "More than one mine can be active at once."
+2194 = "Take less knockback and hit opponents after using USPECIAL."
+
+//---- SHOVEL KNIGHT
+2195 = "JAB sends out a Drop Spark."
+2196 = "NSPECIAL becomes Ichor of Fortune: permanently attract gems."
+2197 = "Diagonal Drop: DAIR quickly dives downward and forward."
+2198 = "Trench Blade: DTILT creates a treasure rock."
+2199 = "Rising Dagger: UAIR rises instantly and is stronger."
+2200 = "Dash Boots: Faster run speed."
+2201 = "Glide Cloud: Aerial DSPECIAL leaves a cloud platform."
+2202 = "Dust Knuckles replaced with Burrow Bomber, a leaping attack."
+2203 = "DSPECIAL replaced with Bait Bomb, a travelling explosive."
+2204 = "UTILT throws a Chaos Orb that stuns opponents."
+2205 = "Ghost Glove, War Horn, and Mobile Gear are stronger."
+2206 = "Start with 9000 gems."
+2207 = "Tap USPECIAL to release a Throwing Anchor."
+2208 = "FSPECIAL is always Infinidagger."
+2209 = "Ornate Plate has the effects of both other armor sets."
 
 //--------------------
 
@@ -1821,6 +1962,15 @@
 2564 = "GD SAUT"
 2565 = "PT SAUT"
 
+//--- CSS Input Options [2780-2789]
+2780 = "ENTRÉE"
+2781 = "AUTO"
+2782 = "BUFFER D'ENTRÉE"
+2783 = "BUFFER DE COURSE"
+2784 = "MODE WI-FI"
+2785 = "ROLLBACK MAX"
+//----
+
 //---- Online Ranking Brackets
 2570 = "Bronze"
 2571 = "Argent"
@@ -1828,6 +1978,10 @@
 2573 = "Platine"
 2574 = "Diamant"
 2575 = "Maître"
+
+//---- CSS Spectators Sub-Menu
+2580 = "SPECTATEUR"
+2581 = "COMBATTANT"
 
 //---- Menu Header Text [2600-2699]
 2600 = "MENU"
@@ -1908,8 +2062,8 @@
 2650 = "MODE TURBO"
 2651 = "(Turbo)" // Used for adding "TURBO" to main menu texts
 //
-2652 = "" // Reserved
-2653 = "" // Reserved
+2652 = "DÉFIS"
+2653 = ""
 //
 //2699 = ""
 //2699 = ""
