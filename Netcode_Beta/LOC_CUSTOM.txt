@@ -1,0 +1,2751 @@
+// You can add your own localization in this file. Because external language support is currently under development, not all characters may display properly yet. Remember to keep a copy of this file outside of the game directory as it may be overwritten by updates.
+
+//---- Language name
+0 = "FRANÇAIS"
+
+// Strong Attack -> Attaque Power
+// Buddy -> Compagnon
+// DI -> Influence Directionnelle (ID)
+// SDI -> Influence Directionnelle Avancée (IDA)
+// Gatekeepers -> Gardiens
+// Landing Lag -> Recupération à l'atterissage
+// Tilt -> Normal
+// Abyss Versus -> Rune Versus
+// Dash Attack -> Attaque en Course
+// Sweetspot -> Sweetspot (Can be changed)
+// Special Fall -> Chute Spéciale
+// Money Match -> Défi
+// RAR -> Attaque Aérienne Retournée (AAR)
+// B-Reverse -> Spéciaux Retournés
+// Fastfall -> Chute rapide
+// Hitpause -> Pause à l'impact
+// Hitfall -> Chute à l'impact
+// Autocancel (Aerial) -> Récupération rapide
+// Drift DI -> Influence sur la Dérive
+// Edgeguard -> Protection du terrain
+// Combo -> Enchaînement
+// Bubble Butt -> Propulsion Bullistique
+// Orcahops -> Orca-saut
+// Double Jump Cancelled N-Air -> Aérien Neutre Statique
+// Rising N-Air -> Aérien Neutre Montant
+// Tongue Tether/Sling -> Catapultage Lingual
+// Tipper -> Extrémité léthale
+// Hovering aerial -> Aérien flottant
+
+// FROM SHOVEL KNIGHT:
+// War Horn -> Cor de guerre
+// Mobile Gear -> Mécamobile
+// Dynamo Mail -> Maille Dynamo
+// Mail of Momentum -> Armure d'Élan
+// Ornate Plate -> Armure Ornementale
+// Rising Dagger -> Poignard Volant
+// Infinidagger -> Infini-Dague
+// Ghost Glove -> Poing Fantôme
+
+// FROM ORI:
+// Sein -> Seyn
+// Bash -> Frapper
+// Spirit Flame -> Flamme Spirituelle
+// Charged Flame -> Flamme Attisée
+
+// ABREVIATIONS:
+// Attaque = Atq.
+// Moquerie = Mq.
+// Niveau = Niv. / N.
+
+//---- Various menu texts
+1 = "RETOUR"
+2 = "FORFAIT" // button to forfeit the current match (online)
+3 = "ON"
+4 = "OFF"
+5 = "BASSE"
+6 = "ÉQUIPES"
+7 = "TYPE DE TERRAIN"
+8 = "MUSIQUE"
+9 = "ATTAQUE" // team attack btn (1)
+10 = "ÉQUIPE" // team attack btn (2)
+11 = "PREMIER À `1 VICTOIRE(S)"
+12 = "AUCUN" // No Profile (main menu)
+13 = "AUCUN PROFIL" // No Profile (css menu)
+14 = "ÉQUIPER DES RUNES" // css abyss runes
+15 = "Ouvrir le Juke-Box" // css music note button
+16 = "stick analogique" // term for Analog Stick on PC & Nintendo Switch
+17 = "stick analogique" // term for Analog Stick on Xbox
+18 = "stick analogique" // term for Analog Stick on other platforms
+19 = "PAGE"
+20 = "NOM DU JOUEUR" // generic / nintendo switch
+21 = "PSEUDO STEAM" // steam only
+22 = "GAMERTAG" // xbox only
+23 = "RANG" // player's place in the world rankings (1st, 2nd, 3rd, etc)
+24 = "SCORE MODE CLASSÉ" // player's score (1000-9999, etc)
+25 = "VICTOIRES" // win count
+26 = "DEFAITES" // lose count
+27 = "TAUX DE VICTOIRES"
+28 = "TAUX DE DECONNEXION" // displayed as a %
+29 = "Si il est supérieur à 20 %, votre score en mode" // (Line 1/2) - This is a warning about penalties for ragequitting
+30 = "classé sera de 1 jusqu'à ce que ce taux diminue." // (Line 2/2)
+31 = "RIVAL FAVORI" // should be translated as "fav character" - displays the character you select most often
+32 = "Aucun" // no favorite character
+33 = "TÉLÉCHARGEMENT DES DONNEES..." // displayed when loading next page of leaderboards
+34 = "VOIR LE CLASSEMENT AMIS" // button instructions - filter learderboard to only see you and your friends
+35 = "ALLER À MON SCORE" //button instructions - instantly move to your score on the leaderboards
+36 = "VOIR LE CLASSEMENT MONDIAL" //button instructions -- turn off the friends filter
+37 = "CLASSEMENT MODE ABYSSE" // title for abyss leaderboards
+38 = "SCORE" // score - for abyss leaderboard/etc
+39 = "MEILLEUR TEMPS" // quickest time story mode was cleared
+40 = "RIVAL SELECTIONNÉ" // should be translated as "selected character" - current story mode character
+41 = "COMMENCER" // on-screen button to begin a story mode chapter
+42 = "TEMPS" // shortened version of "BEST TIME" to fit UI
+43 = "VOIR LE CLASSEMENT" // shortened version of "VIEW FRIENDS LEADERBOARD" to fit UI
+44 = "MEILLEUR SCORE ABYSSE" // Furthest wave you've reached in abyss before dying.
+45 = " : MEILLEUR SCORE" // Same meaning as above but displayed as: "[CHARACTER NAME] BEST RUN"
+46 = "1 JOUEUR" // usage: "ONE PLAYER BEST RUN"
+47 = "2 JOUEURS" // usage: same as above
+48 = "3 JOUEURS" // ^
+49 = "4 JOUEURS" // ^
+50 = "(TOTAL)"
+51 = "TOUS" // used in My Stats screeen
+
+//---- Sound Test controls
+52 = "Lire"
+53 = "Stop"
+54 = "Répéter"
+55 = "Aléatoire"
+
+//---- Online lobby
+56 = "ACCEPTER"
+57 = "REFUSER"
+58 = "REVANCHE"
+59 = "NOUVEL ADVERSAIRE"
+60 = "Recherche..."
+61 = "Invitation..."
+62 = "ADVERSAIRE TROUVÉ !"
+63 = "CHARGEMENT..."
+64 = "DÉCISION EN COURS..."
+65 = "DÉCISION EN COURS..."
+
+//---- Money match
+66 = "Accepter le défi ?\n`1 pièces, `2 matchs"
+67 = "Lancer un défi ?"
+68 = "Vos pièces"
+69 = "Pari"
+70 = "DÉFI"
+71 = "Vous avez gagné le défi !"
+72 = "Vous avez perdu le défi..."
+73 = "PIÈCES"
+74 = "MATCHS"
+
+//---- Chat functions
+94 = "ENVOYER UN MESSAGE..."
+95 = "`1 a rejoint la salle."
+96 = "`1 a quitté la salle."
+
+//---- Popup Message Yes/No [100-149]
+100 = "L'adversaire veut changer les réglages pour démarrer un match sans fin. Accepter ?"
+101 = "L'adversaire veut changer les réglages pour démarrer un match sans limite de temps à `1 vie(s). Accepter ?"
+102 = "L'adversaire veut changer les réglages pour démarrer un match de `1 minute(s). Accepter ?"
+103 = "L'adversaire veut changer les réglages pour démarrer un match de `2 minute(s) a `1 vie(s). Accepter ?"
+104 = "Initier le Mode Développeur ? Vous devez avoir les memes fichiers que votre adversaire."
+105 = "Désactiver le Mode Développeur ?"
+106 = "Activer le choix aléatoire des terrains ?"
+107 = "Désactiver le choix aléatoire des terrains ?"
+108 = "L'adversaire veut activer le choix aléatoire des terrains. Accepter ?"
+109 = "Voulez-vous vous aventurer dans l'Abysse Infinie ?" //This popup appears after a cutscene after beating the final boss. If you choose yes, you go into the abyss stage. Otherwise you return to the main menu.
+110 = "- Mont Tempête -\nDébloquer ce terrain ?"
+111 = "- Forteresse Enneigée -\nDébloquer ce terrain ?"
+112 = "- Tower of Heaven -\nDébloquer ce terrain ?"
+113 = "Envoyer les réglages de temps et de vies ?"
+114 = "Voir Ori et Seyn \nsur le magasin Steam ?"
+115 = "Voir Ranno et Clairen \nsur le magasin Steam ?"
+116 = "Voir\nSylvanos et Elliana\nsur le magasin Steam ?"
+117 = "Certains de vos replays sont incompatibles suite à la derniere mise à jour. Supprimer les replays incompatibles ?"
+118 = "Supprimer le replay ?"
+119 = "Quitter le jeu ?"
+120 = "Voir\nShovel Knight\nsur le magasin Steam ?"
+121 = "L'adversaire veut activer le Mode Turbo. Accepter ?"
+122 = "Activer le Mode Turbo ?"
+123 = "Désactiver le Mode Turbo ?"
+124 = "Acheter\n`1\npour `2 pièces ?"
+125 = "Voir\n`1\nsur le magasin Steam ?"
+126 = "Ouvrir le Navigateur Web pour acquérir cet article ?"
+127 = ""
+128 = ""
+129 = ""
+
+//---- Character Titles
+150 = "???"
+151 = "Prince de la Flamme"  //Zetter
+152 = "Filou Fluide"  //Orcane
+153 = "Tornade Incontrôlable"  //Wrastor
+154 = "Bastion de la Terre"  //Kragg
+155 = "Stratège Déchu"  //Fors
+156 = "Gardien de la Forêt"  //Maypul
+157 = "Architecte des Tempêtes"  //Absa
+158 = "Légende Glaciale"  //Etalus
+159 = "de Ori and the Blind Forest"  //Ori
+160 = "Pacifiste Venimeux"  //Ranno
+161 = "Voyageuse Plasmique"  //Clairen
+162 = "Cœur de la Forêt"  //Sylvanos
+163 = "Arsenal Aérien"  //Elliana
+164 = "Shovel of Hope"  //Shovel Knight
+165 = "Premier Rival"  //Sandbert
+
+//---- Character Names
+169 = "Tous"
+170 = "Aléatoire"
+171 = "Zetterburn"
+172 = "Orcane"
+173 = "Wrastor"
+174 = "Kragg"
+175 = "Forsburn"
+176 = "Maypul"
+177 = "Absa"
+178 = "Etalus"
+179 = "Ori et Seyn"
+180 = "Ranno"
+181 = "Clairen"
+182 = "Sylvanos"
+183 = "Elliana"
+184 = "Shovel Knight"
+185 = "Sandbert"
+186 = "Ori" // short form
+187 = "S.Knight" // short form
+188 = "Zetter" // short form
+189 = "S.K." // shortest form
+190 = "Ragnir"
+
+//---- Popup Message OK [200-289]
+200 = "Utilisateur déconnecté\nVeuillez vous connecter avec un autre utilisateur."
+201 = "Choisissez votre région pour commencer a jouer en ligne."
+202 = "Défi accepté"
+203 = "Défi refusé"
+204 = "L'adversaire a refusé les nouvelles options."
+205 = "L'adversaire a désactivé le Mode Développeur."
+206 = "L'adversaire a désactivé le choix aléatoire des terrains."
+207 = "Difference de version. \nVotre adversaire utilise la version `1"
+208 = "L'adversaire a refusé le match."
+209 = "L'adversaire a déclaré forfait."
+210 = "@202"
+211 = "@203"
+212 = "- Erreur de connexion -\nVous étés déconnecté."
+213 = "- Erreur de connexion -\nVous n'avez pas d'abonnement aux services en ligne." //(displayed if you do not have xbox live / nintendo switch online membership)
+214 = "- Erreur de connexion -\nErreur de matchmaking. Veuillez réessayér."
+215 = "- Erreur de connexion -\nVos paramêtres de confidentialité bloquent cette action."
+216 = "- Erreur de connexion -\nLe match que vous avez essayé de rejoindre est plein."
+217 = "- Erreur de connexion -\nL'adversaire a annulé le match."
+218 = "- Erreur de connexion -\nLa connexion a été perdue."
+219 = "- Erreur de connexion -\nLa connexion a échoué." // (generic message for errors)
+220 = "Le Matchmaking Steam est indisponible."
+221 = "Les Invitations Steam sont indisponibles."
+222 = "Les Données Steam sont indisponibles."
+223 = "L'interface Steam est désactivée."
+224 = "Vous avez besoin de `1 pièces\npour débloquer ce contenu."
+225 = "Obtenez le succès \nOpen the Gates \npour débloquer ce contenu." // feature is locked behind said achievement. Retain the English achievement name. (Limited textbox size - keep it short)
+226 = "Obtenez le succès \nThe Ardent Rival \npour débloquer ce contenu." // feature is locked behind said achievement. Retain the English achievement name. (Limited textbox size - keep it short)
+227 = "Achetez le DLC \nOri et Seyn \npour débloquer ce contenu." // (Limited textbox size - keep it short)
+228 = "Achetez le DLC \nRanno et Clairen \npour débloquer ce contenu." // (Limited textbox size - keep it short)
+229 = "Achetez le DLC \nSylvanos et Elliana \npour débloquer ce contenu." // (Limited textbox size - keep it short)
+230 = "- Erreur de connexion -\nUne desynchonisation a eu lieu." // (When online game clients became out of sync during a match)
+231 = "Vous avez besoin de plus de pièces\npour débloquer ce contenu." // Displayed when you don't have enough coins to purchase said feature
+232 = "- Erreur de connexion -\nAucun adversaire n'a été trouve.\nVeuillez réessayér."
+233 = "Code Couleur invalide"
+234 = "Obtenez le succès \nThe Swift Rival \npour débloquer ce contenu." // retain the English achievement name.
+235 = "Félicitations !\nVous avez débloqué \nles Portes d'Aether !"
+236 = "Félicitations !\nVous avez débloqué \nl'Abysse Infinie !"
+237 = "Félicitations !\nVous avez débloqué un deuxieme \nemplacement de personnalisation !"
+238 = "Félicitations !\nVous avez débloqué \nle Mode Abysse !"
+239 = "Vous avez débloqué \nla couleur Abysse de \n`1 !" // Ingame, `1 is replaced with the character name (eg. ZETTERBURN)
+240 = "- Erreur -\nLe replay est corrompu." // when attempting to view a replay that has corrupted data
+241 = "Achetez le DLC \nShovel Knight \npour débloquer ce contenu." // for Troupple Pond unlock
+242 = "- Échec de l'envoi -\nAucun adversaire connecte."
+243 = "- Échec de l'envoi -\nLe match n'a pas encore été accepte."
+244 = "Atteignez le niveau classé\n3 pour débloquer ce contenu."
+245 = "Félicitations !\nVous avez débloqué \nles Couleurs Classées !"
+246 = "L'adversaire a désactivé le Mode Développeur.."
+247 = "Finissez les tutoriels\npour débloquer ce contenu."
+248 = "Félicitations !\nVous avez débloqué\n" // reserved
+249 = "- Bientôt disponible -"
+
+//----
+290 = "PARÉ AU COMBAT"
+291 = "ANNULER" // cancel the Ready state
+292 = "APPUYER SUR" // "press start"
+293 = ""
+294 = ""
+295 = ""
+296 = ""
+
+//---- Popup Button Choices
+297 = "OUI"
+298 = "NON"
+299 = "OK"
+
+//-------------------
+// Main Menu Buttons
+//-------------------
+
+//---- Top Menu
+300 = "Local"
+301 = "Jouez seul ou invitez vos amis pour une partie en local !"
+302 = "En Ligne"
+303 = "Affrontez vos amis et des adversaires du monde entier !"
+304 = "Options"
+305 = "Configurez Rivals of Aether en fonction de votre style de jeu."
+306 = "Extras"
+307 = "Replays, personnalisation et plus encore !"
+308 = "Quitter"
+309 = "Quitter le jeu."
+310 = "Écran Titre"
+311 = "Retourner à l'écran titre"
+
+//---- Local Sub-Menu
+312 = "Mode Versus"
+313 = "Combattez en 1v1, en chacun pour soi ou en équipes."
+314 = "Mode Solo"
+315 = "Accédez aux modes Histoire, Abysse, Entrainement et plus encore."
+316 = "Options"
+317 = "Ajustez les options du Mode Versus."
+318 = "Retour"
+319 = "Retournez au menu principal."
+
+//---- Online Sub-Menu
+320 = "Match Classé"
+321 = "Trouvez un adversaire pour monter dans le classement."
+322 = "Match Non Classé"
+323 = "Trouvez un adversaire pour un match sans enjeu."
+324 = "Match Amical"
+325 = "Jouez avec un ami, quelle que soit la distance."
+326 = "Match en équipes"
+327 = "Trouvez un adversaire ou invitez un ami pour un match en équipes."
+328 = "Statistiques et Options"
+329 = "Consultez le classement et personnalisez le Mode En Ligne."
+330 = "@318"
+331 = "@319"
+
+//---- Options Sub-Menu
+332 = "Commandes au clavier"
+333 = "Configurez vos commandes au clavier."
+334 = "Son"
+335 = "Adjustez le volume de la musique et des effets sonores."
+336 = "Affichage"
+337 = "Ajustez les options d'affichage pour un confort de jeu optimal."
+340 = "@318"
+341 = "@319"
+342 = "Profils"
+343 = "Gérez les profils de commandes enregistrés."
+
+//---- Extras Sub-Menu
+344 = "Replays"
+345 = "Revoyez vos meilleurs matches autant que vous le souhaitez."
+346 = "Les contes d'Aether"
+347 = "Revoyez vos moments préférés du mode Histoire."
+348 = "Juke-box"
+349 = "Écoutez vos musiques préférées du jeu."
+350 = "Mes statistiques"
+351 = "Consultez vos statistiques pour chaque Rival et chaque profil."
+352 = "Personnalisation"
+353 = "Coloriez vos Rivaux à votre guise."
+354 = "Crédits"
+355 = "Qui a contribué à développer Rivals of Aether ? La réponse est ici !" // Too long
+356 = "@318"
+357 = "@319"
+358 = "Succès"
+359 = ""
+360 = "@310"
+361 = "@311"
+
+//---- Versus Settings
+362 = "Mode Tournoi"
+363 = "Activer le mode tournoi pour le jeu local."
+364 = "Vies - Tournoi"
+365 = "Choisissez le nombre de vies pour chaque match du tournoi."
+366 = "Durée - Tournoi"
+367 = "Choisissez la limite de temps pour chaque match du tournoi."
+368 = "Terrains Aether"
+369 = "Activez le type par défaut des terrains dans le mode Tournoi."
+370 = "Pause"
+371 = "Activez la pause et son mode d'enclanchement."
+372 = "Éjection"
+373 = "Changez la distance à laquelle un Rival est envoyé après une attaque." // Too long
+374 = "@352"
+375 = "Activez l'utilisation des palettes personnalisées lors des matchs locaux." // Too long
+376 = "Type par défaut"
+377 = "Choisissez le type par défaut des terrains dans le mode Versus."
+378 = "Mode Développeur"
+379 = "Activez l'utilisation des fichiers Développeur en mode Versus local." // Too long
+538 = "Mode Turbo"
+539 = "Annulez toutes vos attaques dès que vous touchez l'adversaire !"
+380 = "@318"
+381 = "Retournez au menu du Mode Local."
+
+//---- Abyss Sub-Menu
+382 = "Mode Sans Fin"
+383 = "Affrontez une infinité de créatures de l'Abysse."
+384 = "Rune Versus"
+385 = "Affrontez un adversaire armé de vos Runes Abysse."
+386 = "Classements"
+387 = "Comparez votre meilleur score à ceux de la communauté."
+388 = "@318"
+389 = "Retournez au menu du Mode Solo."
+
+//---- Display Options
+390 = "Fenêtre"
+391 = "Choisir la taille de la fenêtre ou le mode Plein Écran"
+392 = "UI Dégâts"
+393 = "Voir les dégâts au dessus des Rivaux."
+394 = "UI Profils"
+395 = "Voir les noms de Profils au dessus des Rivaux."
+396 = "Qualité des effets"
+397 = "Ajuster la qualité des effets pour optimiser la performance."
+398 = "Local Frame Skip"
+399 = "Mode Local : Accélerer la logique du jeu si l'affichage descend en dessous des 60 IPS." // Too long
+400 = "@318"
+401 = "Retourner au Menu des Options."
+402 = "Vibrations de l'UI"
+403 = "Faire vibrer la barre de statut lorsque vous subissez des dégâts."
+404 = "Effets Rétro"
+405 = "Afficher certains effets de transparence à l'aide du tramage."
+406 = "Horloge"
+407 = "Changer le format de l'horloge."
+408 = "Affichage Débug"
+409 = "Afficher les informations de débug à l'écran."
+410 = "Langue"
+411 = "Changer la langue d'affichage du jeu."
+412 = "Vsync"
+413 = "Synchroniser le jeu avec la fréquence de rafraichissement du moniteur."
+
+//---- Sound Options
+414 = "Musique"
+415 = "Ajustez le volume de la musique."
+416 = "Effets"
+417 = "Ajustez le volume des effets sonores en combat."
+418 = "Menus"
+419 = "Ajustez le volume des effets sonores du menu."
+420 = "@318"
+421 = "@401"
+
+//---- Tutorial Mode Sub-Menu
+422 = "Débutant"
+423 = "Découvrez les bases du jeu."
+424 = "Intermédiaire"
+425 = "Découvrez de nouvelles techniques pour monter en compétences."
+426 = "Avancé"
+427 = "Perfectionnez les techniques de jeu avancées pour devenir un maître." // Too long
+428 = "Personnages - 1"
+429 = "Apprenez les spécificités de chaque personnage."
+430 = ""
+431 = ""
+432 = "@318"
+433 = "@389"
+434 = "Personnages - 2"
+435 = "@429"
+
+//---- Beginner Tutorial Sub-Menu
+436 = "Mouvement"
+437 = "Apprenez à vous déplacer. Il y a un début à tout."
+438 = "Défense"
+439 = "Apprenez à vous défendre face aux attaques adverses."
+440 = "Attaque"
+441 = "Apprenez à utiliser les différents types d'attaques."
+442 = "@318"
+443 = "Retournez au Menu des Tutoriels."
+
+//---- Intermediate Tutorial Sub-Menu
+444 = "@436"
+445 = "Apprenez quelques techniques utiles pour optimiser vos déplacements." // Too long
+446 = "@438"
+447 = "Apprenez à survivre après une attaque puissante et à sortir des combos." // Too long
+448 = "@440"
+449 = "Apprenez à causer de gros dégâts à l'adversaire."
+450 = "@318"
+451 = "@443"
+
+//---- Advanced Tutorial Sub-Menu
+452 = "@436"
+453 = "Maîtrisez ces techniques pour bouger comme un pro."
+454 = "@438"
+455 = "Maîtrisez l'art de la survie."
+456 = "@440"
+457 = "Maîtrisez ces techniques pour forcer vos adversaires à rester vigilants." // Too long
+458 = "@318"
+459 = "@443"
+
+//---- Character Specific Tutorial Sub-Menu
+460 = "@171"
+461 = "Apprenez à embraser vos adversaires avec Zetterburn, le Prince de la Flamme." // Too long
+462 = "@172"
+463 = "Apprenez à jouer avec vos adversaires avec Orcane, le Filou Fluide." // Too long
+464 = "@173"
+465 = "Apprenez à voler avec Wrastor, la Tornade Incontrôlable."
+466 = "@174"
+467 = "Apprenez à commander aux minéraux avec Kragg, le Bastion de la Terre." // Too long
+468 = "@175"
+469 = "Apprenez à semer la confusion avec Forsburn, le Stratège Déchu."
+470 = "@176"
+471 = "Apprenez à protéger les plantes avec Maypul, le Gardien de la Forêt." // Too long
+472 = "@177"
+473 = "Apprenez à faire tomber la foudre avec Absa, l'Architecte des Tempêtes." // Too long
+474 = "@178"
+475 = "Apprenez à écraser l'opposition avec Etalus, la Légende Glaciale." // Too long
+476 = "@318"
+477 = "@443"
+
+//---- Solo Modes
+478 = "Mode Histoire"
+479 = "Découvrez l'histoire derrière les conflits du monde d'Aether."
+480 = "Mode Abysse"
+481 = "Combattez les créatures de l'Abysse pour monter en puissance."
+482 = "Entrainement"
+483 = "Entrainez-vous et expérimentez avec diverses variables."
+484 = "Tutoriels"
+485 = "Découvrez tout ce qu'il y a à savoir sur Rivals of Aether !"
+486 = "@318"
+487 = "@381"
+488 = "Profil Principal"
+489 = "Sélectionnez le profil de commandes par défaut."
+
+//---- Online Stats and Options
+490 = "Classements En Ligne"
+491 = "Comparez votre score à ceux de la communauté."
+492 = "Mes statistiques"
+493 = "@351"
+494 = "Ma Région"
+495 = "Choisissez votre région pour obtenir les meilleurs matches en ligne."
+496 = "@352"
+497 = "Choisissez quel type de Palettes vou souhaîtez afficher."
+540 = "Compagnons"
+541 = "Affichez tous les compagnons ou seulement les votres."
+498 = "@318"
+499 = "Retournez au menu du Mode En Ligne."
+500 = "@488"
+501 = "@489"
+
+//---- Team Match Sub-Menu
+502 = "Match Non Classé"
+503 = "Trouvez un adversaire pour un Match en Équipes."
+504 = "Match Amical"
+505 = "Invitez un ami pour un Match en Équipes"
+506 = "@318"
+507 = "@499"
+
+//---- Aether Tales
+508 = "@171"
+509 = "Revoir l'aventure de Zetterburn aux Port des Marchands."
+510 = "@172"
+511 = "Revoir l'aventure d'Orcane à l'Armada de l'Air."
+512 = "@173"
+513 = "Revoir l'aventure de Wrastor à la Muraille Protectrice."
+514 = "@174"
+515 = "Revoir l'aventure de Kragg au Logis Feuillu."
+516 = "@175"
+517 = "Revoir l'aventure de Forsburn à Blazington D.C."
+518 = "@176"
+519 = "Revoir l'aventure de Maypul au Repère Infernal."
+520 = "???"
+521 = "Revoir la conclusion du Mode Histoire aux Portes d'Aether."
+522 = "@318"
+523 = "Retourner au Menu des Extras."
+
+//---- Character Specific Tutorial Sub-Menu 2
+524 = "@179"
+525 = "Apprenez à combattre en équipe avec Ori et Seyn."
+526 = "@180"
+527 = "Apprenez à maintenir la paix avec Ranno, le Pacifiste Venimeux."
+528 = "@181"
+529 = "Apprenez comment sauver le futur avec Clairen, la Voyageuse Plasmique." // Too long
+530 = "@182"
+531 = "Apprenez à asservir la nature avec Sylvanos, le Cœur de la Forêt." // Too long
+532 = "@183"
+533 = "Apprenez à piloter avec Elliana, l'Arsenal Aérien."
+534 = "@184"
+535 = "Apprenez comment vaincre le mal avec Shovel Knight."
+536 = "@318"
+537 = "@443"
+
+//----------------------------
+// Main Menu Variable Strings
+//----------------------------
+
+600 = "Ouvrez les Succès dans l'interface Steam."
+601 = "Ouvrez les Succès dans l'interface XBox One."
+602 = "Continuez le Mode Sans Fin pour accéder à cette fonctionnalité."
+603 = "Finissez le Mode Histoire pour accéder à cette fonctionnalité."
+604 = "@362"
+605 = "Jouez en situation de tournoi avec des joueurs humains"
+606 = "Options - Tournoi"
+607 = "Ajustez les options du Mode Tournoi."
+//--- Allowed Custom Colors:
+608 = "LES MIENNES" // Should be "LES MIENS" when selecting the Buddy System, currently not implemented
+609 = "AUCUN"
+610 = "TOUS"
+//--- Effects Quality:
+611 = "TRÈS BASSE"
+612 = "BASSE"
+613 = "ÉLEVÉE"
+//----
+614 = "N/A"
+//---- Clock Mode:
+615 = "12 HEURES"
+616 = "24 HEURES"
+//---- HUD Damage:
+617 = "PETITE"
+618 = "GRANDE"
+//----
+619 = "PLEIN ÉCRAN"
+620 = "GARDIENS"
+621 = "RESTER APPUYÉ" // Pause setting
+//---- Stage Types:
+622 = "AETHER"
+623 = "BASIQUE"
+
+//--------------------
+
+//---- CSS Various Texts
+643 = "Manche en" // Stocks button
+644 = "N." // Abyss level
+645 = "VOUS"
+646 = "NET"
+647 = "Joueur en ligne"
+648 = "Joueur"
+649 = "NIV. " // AI level
+
+//---- CSS profile buttons
+650 = "AUCUN"
+651 = "NOUVEAU"
+
+//---- CSS gamepad buttons
+652 = "DÉFAUT"
+653 = "PERSO"
+
+//---- CSS various buttons
+654 = "TESTER"
+655 = "RÉGLER"
+656 = "@652"
+657 = "TERMINER"
+
+//---- Gamepad room buttons
+658 = "MANETTE"
+659 = "PROFIL"
+660 = "TESTER"
+
+//--------------------
+
+//---- Replay menu button: sort by
+661 = "TRIER PAR"
+662 = "RÉCENT"
+663 = "MARQUÉS" // replays marked as favorites
+664 = "ABC" // alphabetical order
+
+//---- Replay menu button: auto save
+665 = "SAUV. AUTO"
+666 = "TOUS"
+667 = "EN LIGNE"
+668 = "LOCAL"
+669 = "AUCUN"
+
+//---- Replay menu
+670 = "INCOMPATIBLE" // replay outdated
+671 = "DATE" // starting here is stage data inside the replay file
+672 = "TYPE DE MATCH" //local, friendly online, ranked, etc
+673 = "DURÉE DU MATCH" //duration of the match
+674 = "VIES" //what the stocks setting was
+675 = "TEMPS" //what the time setting was
+676 = "TERRAIN" //which stage you played on
+677 = "Match Local"
+678 = "Macth Local en Équipes"
+679 = "Match Non Classé"
+680 = "Match Amical"
+681 = "Match Classé"
+682 = "Pas de Description"
+683 = "Replays" // x/128 Replays
+684 = "LES REPLAYS NON MARQUÉS SERONT" // (1/2)
+685 = "ÉCRASÉS SI LA PLACE VIENT À MANQUER." // (2/2)
+686 = "REGARDER"
+687 = "ÉDITER LE NOM"
+688 = "ÉDITER LA DESCRIPTION"
+689 = "SUPPRIMER"
+690 = "(IRREGARDABLE)"
+
+//---- Sound Test display
+695 = "Musique de terrain "
+696 = "Arrangée par "
+697 = "Compositeur Original "
+698 = "Remerciments spéciaux "
+699 = "De `1 par `2"
+700 = "LECTURE EN COURS"
+
+//--------------------
+
+//---- Pause Menu
+701 = "`1 : Cacher l'interface"
+702 = "`1 : Quitter"
+703 = "OPTIONS D'ENTRAINEMENT"
+704 = "OPTION DE REPLAY"
+705 = "PAUSE : P`1"
+706 = "REPRENDRE" //regular menu begin
+707 = "RECOMMENCER"
+708 = "QUITTER"
+709 = "@298"
+710 = "@297"
+711 = "RECOMMENCER LE MATCH ?" //submenu begin
+712 = "REPARTIR DU NIVEAU 1 ?"
+713 = "QUITTER LE MATCH ?"
+714 = "RECOMMENCER LE CHAPITRE"
+
+//---- Pause: Training / Replay
+715 = "VITESSE DE JEU : "
+716 = "ENTRÉE : "
+717 = "COLLISIONS : "
+718 = "LIGNES D'ID : "
+719 = "Action ORDI : "
+720 = "DEGATS : "
+721 = "ID ORDI : "
+722 = "Dérive ORDI : "
+723 = "Tech ORDI : "
+724 = "INTERFACE : " // more like "HUD toggle": turns it on/off
+725 = "PRENDRE LE CONTRÔLE" //replay: allows you to control your character inside the replay
+726 = "REDÉMARRER LE REPLAY"
+
+//---- Pause: Training CPU DI behaviors
+727 = "IN" //training CPU DI behaviors
+728 = "OUT"
+729 = "HAUT"
+730 = "BAS"
+761 = "GAUCHE"
+762 = "DROITE"
+731 = "PARFAIT"
+732 = "ALÉATOIRE"
+733 = "NORMAL"
+ 
+//---- Pause: Training CPU tech behaviors
+734 = "EN PLACE" //training CPU tech behaviors
+735 = "ROULADE IN"
+736 = "ROULADE OUT"
+
+//---- Pause: Training CPU actions
+737 = "ACCROUPI"
+738 = "SAUT"
+739 = "COURSE"
+740 = "PARADE"
+741 = "ROULADE"
+742 = "COMBAT"
+743 = "S'ENFUIR"
+744 = "STATIQUE"
+745 = "AUCUNE"
+746 = "IDA ORDI: " //SDI: Shift Directional Influence (also referenced in the tutorial texts)
+747 = "PERSONNAGE"
+748 = "BARRE DE STATUT"
+749 = "LES DEUX"
+
+//---- Pause: default controls
+750 = "COMMANDES PAR DÉFAUT"
+751 = "ATTAQUE"
+752 = "SPÉCIAL"
+753 = "SAUT"
+754 = "POWER"
+755 = "ESQUIVE"
+756 = "Lorsque le replay est lu :"
+757 = "`1: Activer le contrôle de la camera"
+758 = "`1 / `2: Changer la vitesse de la camera"
+759 = "Appuyez sur `1 pour activer l'image par image."
+
+//--- Pause: menu header text
+760 = "MENU PAUSE"
+
+//---- HUD: Abyss Objectives
+801 = "Détruisez `1 ennemis faibles !"
+802 = "Annulez les sortilèges !" //i.e. break the targets
+803 = "Évitez les explosions et détruisez les ennemis !" //vs 1 enemy with randomly-spawning explosions
+804 = "Détruisez les graines !" //falling seeds
+805 = "Détruisez l'ennemi à armure !"
+806 = "@801"
+807 = "Détruisez l'obélisque !" //failing to destroy quickly results in stage-filling explosion
+808 = "Renvoyez les ennemis dans les portails !"
+809 = "Absorbez la lumière !"
+810 = "Ne restez pas au sol !"
+811 = "@801"
+812 = "Détruisez `1 ennemis explosifs"
+813 = "Détruisez les sbires des Gardiens !"
+814 = "Détruisez les Gardiens !"
+815 = "Soignez-vous !"
+
+//---- HUD: Abyss Status
+816 = "PORTAILS RESTANTS : "
+817 = "TEMPS RESTANT : "
+818 = "GRAINES RESTANTES : "
+819 = "ARMURE ENNEMIE : " //armor health %
+820 = "LUMIÈRE ABSORBÉE : " // light %, absorbed from the firefly
+821 = "ENNEMIS DETRUITS : "
+822 = "ENNEMIS RESTANTS : "
+823 = " PV"
+824 = ""
+825 = ""
+826 = ""
+827 = ""
+828 = ""
+829 = "VAGUE "
+
+//---- HUD: SK Shop
+830 = "GANT FANTÔME"
+831 = "COR DE GUERRE"
+832 = "MÉCAMOBILE"
+833 = "MAILLE DYNAMO"
+834 = "ARMURE D'ÉLAN"
+835 = "ARMURE ORNEMENTALE"
+836 = "LANCEZ UNE VOLÉE DE POINGS FANTASMATIQUES LONGUE PORTÉE !"
+837 = "NETTOYEZ TOUT AUTOUR DE VOUS D'UN SEUL COUP !"
+838 = "CONTOURNEZ LES DANGERS ET GAGNEZ DE LA HAUTEUR !"
+839 = "EFFECTUEZ UNE PLANTE-PELLE POUR UTILISER VOS POWER DANS LES AIRS !"
+840 = "NE RECULEZ PLUS SOUS LES COUPS, MAIS VOUS ARRÊTER PEUT POSER PROBLÈME..."
+841 = "FLASHY ! ACROBATIQUE ! INUTILE !"
+842 = "ATQ. : ACHETER"
+843 = "MQ. : QUITTER"
+
+//---- HUD: Tower of Heaven Laws
+844 = "Loi #1: Tu ne toucheras point de blocs dorés."
+845 = "Loi #2: Tu ne toucheras point le côté des murs."
+846 = "Loi #3: Tu ne toucheras point au bouton d'esquive."
+847 = "Loi #4: Tu ne toucheras point aux créatures vivantes."
+848 = "Le Livre des Lois a été détruit."
+849 = "LOI"
+
+//---- HUD: Frame Advance
+850 = "Activer l'Image par Image"
+851 = "Désactiver l'Image par Image"
+852 = "Image Suivante"
+853 = "Moquerie : Redémarrer le chronomètre"
+854 = "CHRONO"
+
+//---- HUD: Misc
+855 = "TEMPS ADDITIONNEL"
+856 = "PAUSE : RESTEZ APPUYÉ";
+857 = "QUITTER : RESTER APPUYÉ";
+858 = "TEMPS TOTAL" // story mode
+859 = "MEILLEUR TEMPS" // story mode
+860 = "NIVEAU `1" // story mode
+861 = "SCORE" // credits scene
+862 = "MONTÉE DE NIVEAU !" // abyss mode
+863 = "MODE DÉVELOPPEUR"
+864 = "MISE A JOUR DU MODE DÉVELOPPEUR - RECHARGEZ AVEC F3"
+865 = "MODE TURBO"
+
+//---- Abyss Rune Legend
+881 = "Objet"
+882 = "Portée"
+883 = "Physique"
+884 = "Spéciale"
+885 = "Modifie un objet statique résultant d'une attaque."
+886 = "Modifie un projectile."
+887 = "Modifie une interaction physique avec l'adversaire."
+888 = "Améliore les attributs d'un personnage."
+889 = "TYPES\nDE\nRUNES"
+890 = ""
+
+//---- Story Cutscene UI
+891 = " : Quitter"
+892 = " : Passer"
+893 = "PAGE SUIVANTE"
+894 = "CONTINUER"
+895 = "A SUIVRE..."
+896 = "COMMENCER LE NIVEAU `1"
+897 = "COMMENCER LE DERNIER NIVEAU"
+898 = "RIVAL"
+
+//---- VS Result Screen
+900 = "NIVEAU `1 TERMINÉ !"
+901 = "SAUVEGARDER LE REPLAY"
+902 = "REPLAY SAUVEGARDÉ"
+903 = "VAGUE `1 ATTEINTE !"
+904 = "CETTE FOIS : `1 VAGUE"
+905 = "L'EQUIPE ROUGE"
+906 = "L'EQUIPE BLEUE"
+907 = "L'EQUIPE LOCALE"
+908 = "L'EQUIPE EXTERIEURE"
+909 = "A GAGNÉ !"
+910 = "ONT GAGNÉ !" // used for Ori and Sein
+
+//---- VS Result Boxes
+911 = "K.O."
+912 = "Chutes"
+913 = "Suicides"
+914 = "Dégâts Infliges"
+915 = "Dégâts Subis"
+916 = "Parades"
+917 = "Combo Maximal"
+918 = "Précision"
+919 = "RESTEZ APPUYÉ POUR QUITTER"
+920 = ""
+
+//---- My Stats
+921 = "LOCAL"
+922 = "EN LIGNE"
+923 = "CLASSÉ"
+924 = "MATCHES"
+925 = "VICTOIRES"
+926 = "DÉFAITES"
+927 = "@27"
+928 = "@911"
+929 = "@912"
+930 = "@913"
+931 = "@914"
+932 = "@915"
+933 = "@916"
+934 = "@918"
+935 = "TEMPS DE JEU"
+
+//---- Team Buttons
+936 = "ROUGE"
+937 = "BLEU"
+938 = "HUMAIN"
+939 = "ORDI"
+940 = "OFF"
+
+//---- Stage Select texts
+941 = "DONNÉES"
+942 = "CACHER"
+943 = "BANNIR"
+944 = "LIMITE HAUTE"
+945 = "LIMITE BASSE"
+946 = "LIMITE LATÉRALE"
+947 = "LARGEUR DU TERRAIN"
+948 = "Bannissez un terrain !"
+949 = "Bannissez trois terrains !"
+950 = "Choisissez un terrain !"
+951 = "L'adversaire bannit..."
+952 = "L'adversaire bannit..."
+953 = "L'adversaire choisit..."
+954 = "ACH|EVEMENT"
+955 = "LE PLUS PETIT"
+956 = "LE PLUS GRAND"
+957 = "PETIT"
+958 = "GRAND"
+959 = "MOYEN"
+960 = "OPEN THE\nGATES"
+961 = "ARDENT\nRIVAL"
+962 = "COUNTERPICK"
+
+//---- Popups
+970 = "ÉDITER LE NOM DU REPLAY"
+971 = "ÉDITER LA DESCRIPTION DU REPLAY"
+972 = "IMPORTER UN CODE COULEUR"
+
+//----
+990 = "" // Reserved
+991 = "" // Reserved
+992 = "" // Reserved
+993 = "" // Reserved
+994 = "" // Reserved
+995 = "" // Reserved
+996 = ""
+997 = ""
+998 = ""
+999 = ""
+
+//--------------------
+// Custom Colors menu
+//--------------------
+
+1300 = "SAUVEGARDER"
+1301 = "SAUVEGARDE"
+1302 = "DÉFAUT"
+1303 = "ANNULER"
+1304 = "CODE COULEUR"
+1306 = "ANNULER LES CHANGEMENTS ?"
+1307 = "SUPPRIMER LES CHANGEMENTS ?"
+
+1320 = "Corps" //zet
+1321 = "Visage"
+1322 = "Flamme 1"
+1323 = "Flamme 2"
+1324 = "Flamme 3"
+
+1330 = "@1320" //orc
+1331 = "Ventre"
+1332 = "Autre"
+
+1340 = "@1320" //wra
+1341 = "Mains"
+1342 = "Écharpe"
+1343 = "@1331"
+1344 = "Bec"
+
+1350 = "Rocher" //kra
+1351 = "Peau"
+1352 = "Armure"
+1353 = "Ombres"
+
+1360 = "Cape 1" //for
+1361 = "@1320"
+1362 = "@1322"
+1363 = "@1323"
+1364 = "@1324"
+1365 = "Cape 2"
+1366 = "Crâne"
+
+1370 = "@1320" //may
+1371 = "@1331"
+1372 = "Feuilles"
+1373 = "Graines"
+1374 = "Lianes"
+
+1380 = "@1320" //abs
+1381 = "Cheveux"
+1382 = "Éclairs"
+1383 = "Cornes"
+1384 = "@1331"
+
+1390 = "@1320" //eta
+1391 = "Glace"
+1392 = "@1353"
+
+1400 = "@1320" //ori
+1401 = "Détails"
+1402 = "Yeux"
+1403 = "Seyn"
+1404 = "Énergie"
+
+1410 = "Corps 1" //ran
+1411 = "Corps 2"
+1412 = "Pantalon"
+1413 = "Bandeaux"
+1414 = "Poison"
+
+1420 = "@1320" //cla
+1421 = "Costume"
+1422 = "Cape"
+1423 = "@1352"
+1424 = "Ceinture"
+1425 = "Plasma 1"
+1426 = "Plasma 2"
+
+1430 = "@1320" //syl
+1431 = "@1372"
+1432 = "Écorce"
+1433 = "Petales 1"
+1434 = "Petales 2"
+
+1440 = "Robot" //ell
+1441 = "@1401"
+1442 = "@1320"
+1443 = "Propulseurs"
+1444 = "Armes"
+1445 = "Vétéments"
+
+1450 = "Armure 1" //gus
+1451 = "Armure 2"
+1452 = "@1441"
+1453 = "@1383"
+
+//--------------------
+
+//---- Story Mode UI
+1480 = "DURÉE NIVEAU"
+1481 = "DURÉE TOTALE"
+1482 = "CHAPITRE TERMINÉ !"
+1483 = "DURÉE TOTALE"
+1484 = "NOUVEAU RECORD !"
+1485 = "MODE HISTOIRE TERMINÉ !"
+1486 = "DURÉE TOTALE"
+1487 = "FIN DE LA PARTIE"
+1488 = "CONTINUER"
+1489 = "ABANDONNER"
+1490 = "Voyage vers `1" // map
+1491 = "Combat Final " // map
+1492 = "Gardiens" // map (short form)
+1493 = "PÉNALITÉ +1:00"
+1494 = "C'EST PARTI !"
+1495 = "SELECTIONNEZ UN RIVAL"
+1496 = "CINÉMATIQUES"
+1497 = ""
+1498 = ""
+1499 = ""
+
+//-----------------------------------------
+// Tutorial Input Instructions [1500-1899]
+//-----------------------------------------
+
+//---- ADVANCED OFFENSE TUTORIAL
+1500 = "RÉCUPÉRATIONS RAPIDES : (Aérien Neutre → Normal Haut) "
+1501 = "{-1,PR_JUMP} puis {-1,PR_ATTACK} et atterrir avant le dernier coup. Puis {90,PR_ATTACK}"
+1502 = "ATTAQUES AÉRIENNES ARRIÈRE RETOURNÉES : "
+1503 = "AAR : OUI"
+1504 = "AAR : NON"
+1505 = "{1,-1} puis (après le début de course) {181,-1} puis appuyer immédiatement sur {-1,PR_JUMP} puis immédiatement tenir {0,-1} puis {0,PR_ATTACK}{12,JOY}{-1,PR_STRONG}"
+1506 = "SPÉCIAUX BAS RETOURNÉS : "
+1507 = "{270,PR_SPECIAL} puis {180,-1} immédiatement"
+1508 = "FEINTES : "
+1509 = "S'approcher de l'adversaire, puis le frapper après sa parade"
+1510 = "CHUTES À L'IMPACT : (Aérien Arrière → Power Haut) "
+1511 = "{180,PR_ATTACK}{12,JOY}{-1,PR_STRONG} puis {271,-1} juste avant la fin de la Pause à l'impact, puis {90,PR_STRONG}"
+
+//---- INTERMEDIATE DEFENSE TUTORIAL
+1512 = "ATTAQUES SURVÉCUES : "
+1513 = "Incliner le Stick Analogique à 90° vers le haut de l'angle de projection original"
+1514 = "ENCHAÎNEMENTS ÉVITÉS : "
+1515 = "Incliner le Stick Analogique à 90° vers le bas de l'angle de projection original"
+1516 = "TECHS : "
+1517 = "{-1,PR_JUMP} vers l'adversaire, puis {-1,PR_DODGE} juste avant de toucher le sol"
+1518 = "TECHS MURALES : "
+1519 = "Incliner le Stick Analogique à 90° vers le bas de l'angle de projection original, puis {-1,PR_DODGE} juste avant de toucher le mur"
+
+//---- BEGINNER DEFENSE TUTORIAL
+1520 = "PARADES : "
+1521 = "PROJECTILES RENVOYÉS : "
+1522 = "ROULADES : "
+1523 = "ESQUIVES AÉRIENNES : "
+1524 = "{-1,PR_JUMP} vers l'adversaire, puis {-1,PR_DODGE}"
+
+//---- ADVANCED DEFENSE TUTORIAL
+1525 = "MÉTÉORES SURVÉCUS : "
+1526 = "Tenir {180,-1} puis {-1,PR_DODGE} juste avant de toucher le mur"
+1527 = "TECHS AU BORD : "
+1528 = "{90,PR_SPECIAL} vers l'adversaire, puis {-1,PR_DODGE} dès que vous êtes touché"
+1529 = "ÉVASIONS via IDA: "
+1530 = "Tenir {180,-1}"
+1531 = "ÉVASIONS via l'INFLUENCE SUR LA DÉRIVE : "
+1532 = "Tenir {90,-1} puis {0,-1} (Le premier coup enverra vers l'adversaire), puis tenir {180,-1}"
+
+//---- ADVANCED MOVEMENT TUTORIAL
+1533 = "DASH DANCES : "
+1534 = "{1,-1} puis {181,-1} pendant l'élan initial"
+1535 = "WAVELANDS : "
+1536 = "{-1,PR_JUMP} puis, au dessus de la plateforme, {270,PR_DODGE} ou {0,PR_DODGE}"
+1814 = "WAVEDASHES : "
+1815 = "{-1,PR_JUMP} puis {0,PR_DODGE} immédiatement"
+
+//---- INTERMEDIATE MOVEMENT TUTORIAL
+1537 = "PETITS SAUTS : "
+1538 = "Appuyer rapidement sur {-1,PR_JUMP}"
+1539 = "CHUTES RAPIDES : "
+1540 = "{-1,PR_JUMP} puis {271,-1} à l'apogée du saut"
+1541 = "SAUTS MURAUX : "
+1542 = "{-1,PR_JUMP} vers le mur, puis {0,PR_JUMP}"
+1543 = "SAUTS MURAUX EN CHUTE SPÉCIALE : "
+1544 = "{90,PR_SPECIAL} en finissant près du mur, puis {0,PR_JUMP}, puis à nouveau {90,PR_SPECIAL}"
+
+//---- INTERMEDIATE OFFENSE TUTORIAL
+1545 = "SWEETSPOTS: "
+1546 = "{-1,PR_JUMP} puis {0,PR_ATTACK}{12,JOY}{-1,PR_STRONG} ou {90,PR_ATTACK}{12,JOY}{-1,PR_STRONG}"
+1547 = "ENCHAÎNEMENTS : (NORMAL HAUT → AÉRIEN ou ATTAQUE EN COURSE)"
+1548 = "{90,PR_ATTACK} suivi de {-1,PR_JUMP} puis {-1,PR_ATTACK}{12,JOY}{-1,PR_STRONG} ou {1,PR_ATTACK}"
+1549 = "PROTECTIONS DU TERRAIN : "
+1550 = "PARADES ÉVITÉES : "
+1551 = "{-1,PR_ATTACK} (en option : {-1,PR_ATTACK} supplémentaire) puis {181,-1}"
+1552 = "NORMAUX NEUTRES ANNULÉS : "
+1553 = "{-1,PR_ATTACK} (en option : {-1,PR_ATTACK}) puis {2,PR_ATTACK}{12,JOY}{90,PR_ATTACK}{12,JOY}{270,PR_ATTACK}"
+
+//---- BEGINNER OFFENSE TUTORIAL
+1554 = "NORMAUX NEUTRES : "
+1555 = "{-1,PR_ATTACK} puis {-1,PR_ATTACK} puis {-1,PR_ATTACK}"
+1556 = "ATTAQUES EN COURSE : "
+1557 = "NORMAUX CÔTÉ : "
+1558 = "NORMAUX HAUT : "
+1559 = "NORMAUX BAS: "
+1560 = "POWER CÔTÉ : "
+1561 = "POWER HAUT : "
+1562 = "POWER BAS : "
+1563 = "AÉRIENS NEUTRES : "
+1564 = "{-1,PR_JUMP} puis {-1,PR_ATTACK}"
+1565 = "AÉRIENS AVANT : "
+1566 = "{-1,PR_JUMP} puis {0,PR_ATTACK}{12,JOY}{-1,PR_STRONG}"
+1567 = "AÉRIENS ARRIÈRE : "
+1568 = "{-1,PR_JUMP} puis {180,PR_ATTACK}{12,JOY}{-1,PR_STRONG}"
+1569 = "AÉRIENS HAUT : "
+1570 = "{-1,PR_JUMP} puis {90,PR_ATTACK}{12,JOY}{-1,PR_STRONG}"
+1571 = "AÉRIENS BAS : "
+1572 = "{-1,PR_JUMP} puis {270,PR_ATTACK}{12,JOY}{-1,PR_STRONG}"
+1573 = "SPÉCIAUX NEUTRE : "
+1574 = "SPÉCIAUX CÔTÉ : "
+1575 = "SPÉCIAUX HAUT : "
+1576 = "SPÉCIAUX BAS : "
+
+//---- ZETTER TUTORIAL
+1577 = "POWER ENFLAMMÉS : "
+1578 = "{-1,PR_STRONG} sur un adversaire brûlé"
+1579 = "SPÉCIAUX HAUT ANNULÉS : "
+1580 = "{90,PR_SPECIAL} puis {-1,PR_DODGE}"
+1581 = "ENCHAINEMENTS GATLING : "
+1582 = "{1,PR_ATTACK} puis (au moment où l'attaque touche) {90,PR_STRONG}"
+1583 = "SPÉCIAUX NEUTRES ANNULÉS : "
+1584 = "{-1,PR_SPECIAL} puis {-1,PR_JUMP} immédiatement"
+
+//---- ORCANE TUTORIAL
+1585 = "TÉLÉPORTS AÉRIENS : (Spécial Haut) "
+1586 = "{-1,PR_JUMP} puis {90,PR_SPECIAL} lorsqu'une flaque existe"
+1587 = "RETOURS SUR LE TERRAIN : (Après un Spécial Côté Amélioré) "
+1588 = "{0,PR_SPECIAL} sur une flaque, puis revenir sur le terrain"
+1589 = "PROPULSIONS BULLISTIQUES : "
+1590 = "{-1,PR_JUMP} puis {0,PR_ATTACK}{12,JOY}{-1,PR_STRONG} puis tenir {180,-1}"
+1591 = "ORCA-SAUTS : "
+1592 = "{-1,PR_JUMP} puis {-1,PR_JUMP} puis {90,PR_SPECIAL} immédiatement sans flaque"
+1593 = "POWER HAUT GLISSANTS : "
+1594 = "{1,-1} puis (après l'élan initial) {181,-1} sur la flaque, puis tenir {90,PR_STRONG} immédiatement"
+1796 = "POWER CÔTÉ SUR FLAQUE"
+1797 = "{0,PR_STRONG} sur une flaque"
+1798 = "POWER HAUT SUR FLAQUE"
+1799 = "{90,PR_STRONG} sur une flaque"
+1800 = "POWER BAS SUR FLAQUE"
+1801 = "{270,PR_STRONG} sur une flaque"
+1802 = "AÉRIEN CÔTÉ"
+1803 = "{-1,PR_JUMP} puis {0,PR_ATTACK}{12,JOY}{-1,PR_STRONG}"
+1804 = "SPÉCIAL BAS"
+1805 = "{270,PR_SPECIAL} avec une flaque sur le terrain"
+
+//---- WRASTOR TUTORIAL
+1595 = "POWER CÔTÉ : "
+1596 = "{-1,PR_JUMP} puis {0,PR_STRONG}"
+1597 = "POWER HAUT : "
+1598 = "{-1,PR_JUMP} puis {90,PR_STRONG}"
+1599 = "POWER BAS : "
+1600 = "{-1,PR_JUMP} puis {270,PR_STRONG}"
+1601 = "SWEETSPOTS DU SPÉCIAL HAUT : "
+1602 = "{90,PR_SPECIAL} près de l'adversaire"
+1603 = "ANNULATIONS DES NORMAUX PAR UN SAUT : "
+1604 = "{2,PR_ATTACK}{12,JOY}{90,PR_ATTACK}{12,JOY}{270,PR_ATTACK} puis {-1,PR_JUMP}"
+1806 = "UTILISEZ TOUS LES SAUTS DE WRASTOR"
+1807 = "ÉLÉVATIONS DU SPÉCIAL NEUTRE :"
+1808 = "Rester appuyé sur {-1,PR_SPECIAL}"
+1809 = "BOUGEZ DANS LE COURANT D'AIR PENDANT 2 SECONDES"
+1810 = "{0,PR_SPECIAL} puis {0,-1}{12,JOY}{180,-1}"
+
+//---- KRAGG TUTORIAL
+1605 = "LANCER NEUTRE : "
+1606 = "{-1,PR_SPECIAL} pour sortir un rocher, puis {-1,PR_SPECIAL}"
+1607 = "LANCER CÔTÉ : "
+1608 = "{-1,PR_SPECIAL} pour sortir un rocher, puis {0,PR_SPECIAL}"
+1609 = "LANCER HAUT : "
+1610 = "{-1,PR_SPECIAL} pour sortir un rocher, puis {90,PR_SPECIAL}"
+1611 = "LANCER BAS : "
+1612 = "{-1,PR_SPECIAL} pour sortir un rocher, puis {270,PR_SPECIAL}"
+1613 = "ATTAQUES SURVÉCUES : "
+1614 = "ANNULATIONS DU SPÉCIAL CÔTÉ : "
+1615 = "{0,PR_SPECIAL} puis (après avoir touché l'adversaire) {-1,PR_JUMP} puis {-1,PR_ATTACK}{12,JOY}{-1,PR_STRONG}"
+1616 = "SPÉCIAUX HAUT : "
+1617 = "ANNULATIONS DE L'ATTAQUE EN COURSE : "
+1618 = "{1,PR_ATTACK} puis (après avoir touché l'adversaire) {-1,PR_ATTACK}"
+1619 = "TOUCHES AVEC LES ÉCLATS : "
+
+//---- FORSBURN TUTORIAL
+1620 = "ATTAQUES AU CLONE : "
+1621 = "{0,PR_SPECIAL} puis {270,PR_SPECIAL}"
+1622 = "SPÉCIAUX BAS AMÉLIORÉS : "
+1623 = "{270,PR_SPECIAL} après avoir absorbé 3 nuages avec {270,PR_SPECIAL}"
+1624 = "SPÉCIAUX HAUT DOUBLES : "
+1625 = "{90,PR_SPECIAL} dans un nuage, puis {90,PR_SPECIAL} à nouveau"
+1626 = "ENCHAÎNEMENTS AU POWER CÔTÉ : "
+1627 = "Charger {0,PR_STRONG} au maximum, puis {-1,PR_ATTACK}{12,JOY}{-1,PR_STRONG}"
+1811 = "CRÉER DE LA FUMÉE AVEC LE SPÉCIAL NEUTRE"
+
+//---- MAYPUL TUTORIAL
+1628 = "SPÉCIAUX NEUTRES : "
+1629 = "SPÉCIAUX CÔTÉ : "
+1630 = "SPÉCIAUX BAS AÉRIENS : "
+1631 = "{-1,PR_JUMP} puis {270,PR_SPECIAL}"
+1632 = "LIGOTTAGES VIA LES ATTAQUES POWER : "
+1633 = "Marquer l'adversaire, puis {-1,PR_STRONG}"
+1634 = "HARPONNAGES : "
+1635 = "Marquer l'adversaire, puis {90,PR_SPECIAL}"
+1636 = "UPPERCUTS LORSQUE L'ADVERSAIRE EST MARQUÉ : "
+1637 = "Marquer l'adversaire, puis appuyer rapidement sur {90,PR_SPECIAL}"
+1638 = "ATTAQUES DE LILY : "
+1639 = "ACCROCHAGES AU MUR : "
+1640 = "Hold {0,-1} toward wall and hold {-1,PR_JUMP}"
+1641 = "AÉRIENS HAUT AMÉLIORÉS : "
+1642 = "{-1,PR_JUMP} puis {-1,PR_JUMP} puis {90,PR_ATTACK}{12,JOY}{-1,PR_STRONG} immédiatement"
+1643 = "ENCHAÎNEMENTS : (Spécial Côté Retourné → Normal Côté) "
+1644 = "{0,PR_SPECIAL} puis tenir {180,-1} immédiatement, puis {90,PR_ATTACK}"
+
+//---- ABSA TUTORIAL
+1645 = "SPÉCIAUX CÔTÉ : "
+1646 = "Rester appuyé sur {0,PR_SPECIAL} puis {90,-1}{12,JOY}{270,-1}"
+1647 = "SPÉCIAUX NEUTRES NON CHARGÉS : "
+1648 = "{-1,PR_SPECIAL} puis appuyer rapidement sur {-1,PR_SPECIAL}"
+1649 = "SPÉCIAUX NEUTRES CHARGÉS : "
+1650 = "Placer un nuage, puis {-1,PR_SPECIAL}"
+1651 = "SPÉCIAUX BAS NON CHARGÉS : "
+1652 = "Appuyer sur {270,PR_SPECIAL}"
+1653 = "SPÉCIAUX BAS CHARGÉS : "
+1654 = "Rester appuyé sur {270,PR_SPECIAL}"
+1655 = "TOUCHES AVEC LA DEUXIÈME MOITIÉ DU SPÉCIAL HAUT : "
+1656 = "{90,PR_SPECIAL} puis incliner le stick analogique vers une direction, puis vers une deuxième direction."
+1657 = "ANNULATIONS DU SPÉCIAL HAUT : "
+1658 = "{90,PR_SPECIAL} depuis le sol, puis {-1,PR_ATTACK}{12,JOY}{-1,PR_STRONG}"
+1659 = "AÉRIENS AVANT STATIQUES : "
+1660 = "{-1,PR_JUMP} puis appuyer rapidement sur {-1,PR_JUMP} puis {0,PR_ATTACK}{12,JOY}{-1,PR_STRONG}"
+1661 = "AÉRIENS HAUT MONTANTS : "
+1662 = "{-1,PR_JUMP} puis rester appuyé sur {-1,PR_JUMP} puis {90,PR_ATTACK}{12,JOY}{-1,PR_STRONG}"
+1663 = "SWEETSPOTS ÉTENDUS : "
+1664 = "{0,PR_ATTACK}{12,JOY}{180,PR_ATTACK}{12,JOY}{270,PR_ATTACK} en touchant le nuage avec le sweetspot"
+
+//---- ETALUS TUTORIAL
+1665 = "NORMAUX CÔTÉ : "
+1666 = "SPÉCIAUX CÔTÉ : "
+1667 = "SPÉCIAUX HAUT AU SOL : "
+1668 = "ATTAQUES APRÈS UN SPÉCIAL HAUT : "
+1669 = "Rester appuyé sur {90,PR_SPECIAL} puis {-1,PR_ATTACK}{12,JOY}{-1,PR_STRONG}"
+1670 = "ATTAQUES RÉSISTÉES : "
+1671 = "{-1,PR_SPECIAL} sur la glace, approcher l'adversaire puis charger {-1,PR_STRONG} au maximum"
+1672 = "TOUCHES AUX ÉCLATS : "
+1673 = "{-1,PR_SPECIAL} sur la glace, {-1,PR_STRONG}"
+1674 = "ADVERSAIRES GELÉS : "
+1675 = "{270,PR_SPECIAL} à côté de l'adversaire ou lorsque l'adversaire est sur la glace"
+1676 = "ENCHAÎNEMENTS : (Attaque en course → Aérien Neutre) "
+1677 = "{1,PR_ATTACK} puis {-1,PR_JUMP} puis {-1,PR_ATTACK}"
+1678 = "ANNULATIONS DE L'ATTAQUE EN COURSE PAR UN POWER HAUT : "
+1679 = "{1,PR_ATTACK} puis {90,PR_STRONG}"
+1680 = "PROJECTILES BLOQUÉS : "
+1681 = "{-1,PR_JUMP} puis rester appuyé sur {0,PR_ATTACK}{12,JOY}{-1,PR_STRONG}"
+
+//---- ORI TUTORIAL
+1682 = "ENCHAÎNEMENTS DE FLAMMES SPIRITUELLES : "
+1683 = "{-1,PR_SPECIAL} x3"
+1684 = "FLAMMES ATTISÉES : "
+1685 = "Rester appuyé sur {-1,PR_SPECIAL}"
+1686 = "POWER CÔTÉ : "
+1687 = "{0,PR_STRONG} quand Seyn est loin"
+1688 = "POWER CÔTÉ EN ÉQUIPE : "
+1689 = "{0,PR_STRONG} quand Seyn est près"
+1690 = "POWER HAUT : "
+1691 = "{90,PR_STRONG} quand Seyn est loin"
+1692 = "POWER HAUT EN ÉQUIPE : "
+1693 = "{90,PR_STRONG} quand Seyn est près"
+1694 = "POWER BAS : "
+1695 = "{270,PR_STRONG} quand Seyn est loin"
+1696 = "POWER BAS EN ÉQUIPE : "
+1697 = "{270,PR_STRONG} quand Seyn est près"
+1698 = "SPÉCIAUX BAS : "
+1699 = "{270,PR_SPECIAL} puis lancer Orby vers le bas"
+1700 = "PROJECTILES REFLÉTÉS : "
+1701 = "SPÉCIAUX CÔTÉ REDIRIGÉS : "
+1702 = "{0,PR_SPECIAL} puis {-1,PR_JUMP} puis {270,PR_SPECIAL} puis lancer le projectile vers Orby"
+1703 = "DOUBLE SPÉCIAUX HAUTS : "
+1704 = "{90,PR_SPECIAL} puis {-1,PR_DODGE} puis {90,PR_SPECIAL}"
+
+//---- RANNO TUTORIAL
+1705 = "SUPER SAUTS : "
+1706 = "Rester appuyé sur {270,PR_JUMP}"
+1707 = "CHARGES STOCKÉES : "
+1708 = "Rester appuyé sur {-1,PR_SPECIAL} puis {-1,PR_DODGE}"
+1709 = "PIÈGES : "
+1710 = "{270,PR_SPECIAL} puis envoyer Orby dans la bulle"
+1711 = "SPÉCIAUX CÔTÉ À EMPOISONNEMENT MAXIMAL : "
+1712 = "Empoisonner Orby au maximum, puis {0,PR_SPECIAL}"
+1713 = "CATAPULTAGES LINGAUX : "
+1714 = "Se coller au sol avec {0,PR_SPECIAL}"
+1715 = "COUPS EN PIQUÉ : "
+1716 = "{90,PR_SPECIAL} puis {270,PR_SPECIAL}"
+1717 = "COUPS TOURBILLON : "
+1718 = "{90,PR_SPECIAL} puis rester appuyé sur {-1,PR_ATTACK}"
+1719 = "ENCHAÎNEMENTS : (Catapultage lingual → Aérien Neutre) "
+1720 = "Se coller au sol avec {0,PR_SPECIAL} puis {-1,PR_JUMP} puis {-1,PR_ATTACK}"
+
+//---- CLAIREN TUTORIAL
+1721 = "EXTRÉMITÉ LÉTHALE : "
+1722 = "Avec 3 types distincts d'attaques, toucher Orby avec le bout de l'épée."
+1723 = "PROJECTILES BLOQUÉS : "
+1724 = "COUPS FINAUX DU SPÉCIAL HAUT : "
+1725 = "{90,PR_SPECIAL} puis rester appuyé ou appuyer sur {-1,PR_SPECIAL}"
+1726 = "PRISE AVANT : "
+1727 = "{-1,PR_SPECIAL} puis rester appuyé ou appuyer sur {0,-1}"
+1728 = "PRISE ARRIÈRE : "
+1729 = "{-1,PR_SPECIAL} puis rester appuyé ou appuyer sur {180,-1}"
+1730 = "ENCHAÎNEMENTS : (Aérien bas → Spécial Neutre) "
+1731 = "{-1,PR_JUMP} puis {270,PR_ATTACK}{12,JOY}{-1,PR_STRONG} puis {-1,PR_SPECIAL}"
+
+//---- SYLVANOS TUTORIAL
+1732 = "ANNULATION DU NORMAL NEUTRE PAR UN SPÉCIAL NEUTRE : "
+1733 = "{-1,PR_ATTACK} puis {-1,PR_ATTACK} puis {-1,PR_SPECIAL}"
+1734 = "NORMAUX CÔTÉ : "
+1735 = "{2,PR_ATTACK} avec de l'herbe devant Sylvanos"
+1736 = "SPÉCIAUX BAS : "
+1737 = "{270,PR_SPECIAL} avec de l'herbe au sol"
+1738 = "ENCHAÎNEMENTS : (Spécial côté → Aérien Neutre) "
+1739 = "{0,PR_SPECIAL} puis {-1,PR_JUMP} sur l'herbe, puis {-1,PR_ATTACK}"
+1740 = "COUPS FINAUX DU SPÉCIAL HAUT : "
+1741 = "{90,PR_SPECIAL} puis se déplacer et rester appuyé sur {-1,PR_SPECIAL} sur l'herbe"
+1742 = "ANNULATIONS DU SPÉCIAL HAUT : "
+1743 = "{90,PR_SPECIAL} puis {-1,PR_DODGE} avant de creuser"
+1744 = "ACCROCHAGES : "
+1745 = "{-1,PR_JUMP} puis {180,PR_ATTACK}{12,JOY}{-1,PR_STRONG} rester appuyé sur {270,-1} juste au dessus du sol"
+1812 = "RECOUVRIR TOUTE LA PLATEFORME D'HERBE"
+1813 = "CRÉER DE L'HERBE AVEC LE SPÉCIAL NEUTRE"
+
+//---- ELLIANA TUTORIAL
+1746 = "AÉRIAUX FLOTTANTS : "
+1747 = "{-1,PR_JUMP} puis rester appuyé sur {-1,PR_JUMP} puis {-1,PR_ATTACK}"
+1748 = "ATTAQUES EN COURSE MAXIMALES : "
+1749 = "Rester appuyé sur {1,PR_ATTACK}"
+1750 = "NORMAUX CÔTÉ MAXIMAUX : "
+1751 = "Rester appuyé sur {2,PR_ATTACK}"
+1752 = "NUAGES DE FUMÉE : "
+1753 = "{-1,PR_STRONG} sans surchauffer"
+1754 = "ATTAQUES POWER EN SURCHAUFFE : "
+1755 = "{-1,PR_STRONG} en surchauffe"
+1756 = "EXPLOSIONS DU SPÉCIAL NEUTRE : "
+1757 = "{-1,PR_SPECIAL} puis viser"
+1758 = "SPÉCIAUX CÔTÉ : "
+1759 = "{0,PR_SPECIAL} puis viser"
+1760 = "SPÉCIAUX CÔTÉ CHARGÉS : "
+1761 = "Rester appuyé sur {0,PR_SPECIAL}"
+1762 = "MINES ACTIVÉES : "
+1763 = "{270,PR_SPECIAL} puis {0,PR_SPECIAL}"
+1764 = "MINES ACTIVÉES SUR ORBY : "
+1765 = "{270,PR_SPECIAL} au dessus d'Orby puis le faire exploser avec {0,PR_SPECIAL}"
+1766 = "ESQUIVES AÉRIENNES APRÈS UN SPÉCIAL HAUT : "
+1767 = "{90,PR_SPECIAL} puis {-1,PR_DODGE}"
+
+//---- SHOVEL KNIGHT TUTORIAL
+1768 = "AÉRIENS HAUT AMÉLIORÉS : "
+1769 = "{-1,PR_JUMP} puis rester appuyé sur {90,PR_ATTACK}{12,JOY}{-1,PR_STRONG}"
+1770 = "POWER HAUT CHARGÉS AU MAXIMUM : "
+1771 = "Rester appuyé sur {90,PR_STRONG}"
+1772 = "CAPTURES DES PIÈCES PAR LE SPÉCIAL NEUTRE : "
+1773 = "{-1,PR_SPECIAL} lorsque les gemmes sont proches"
+1774 = "TOUCHES AU COR DE GUERRE : "
+1775 = "TOUCHES AU POING FANTÔME : "
+1776 = "NORMAUX NEUTRES SUR LA MÉCAMOBILE : "
+1777 = "{-1,PR_SPECIAL} puis, sur la Mécamobile, {-1,PR_ATTACK}"
+1778 = "POWER AÉRIENS À L'AIDE DE LA MAILLE DYNAMO : "
+1779 = "{-1,PR_JUMP} puis {270,PR_ATTACK}{12,JOY}{-1,PR_STRONG} pour stocker une charge. Puis {-1,PR_STRONG}"
+1780 = "ROCHERS AU TRÉSOR BRISÉS : "
+1781 = "{270,PR_SPECIAL} puis à nouveau {-1,PR_SPECIAL} lorsque l'indicateur !! apparait"
+1782 = "ANNULATIONS DU SPÉCIAL CÔTÉ PAR UN AÉRIEN NEUTRE : "
+1783 = "{0,PR_SPECIAL} puis {-1,PR_JUMP} puis {-1,PR_ATTACK}"
+1784 = "{-1,PR_TAUNT} puis {-1,PR_ATTACK} pour acheter un objet"
+1785 = "ACHETER LE COR DE GUERRE"
+1786 = "ACHETER LE POING FANTÔME"
+1787 = "ACHETER LA MÉCAMOBILE"
+1788 = "ACHETER LA MAILLE DYNAMO"
+
+//---- GENERIC CHARACTER TUTORIAL STRINGS
+1789 = "SPÉCIAL NEUTRE"
+1790 = "SPÉCIAL CÔTÉ"
+1791 = "SPÉCIAL HAUT"
+1792 = "SPÉCIAL BAS"
+1793 = "AÉRIEN ARRIERE"
+1794 = "{-1,PR_JUMP} puis {180,PR_ATTACK}{12,JOY}{-1,PR_STRONG}"
+1795 = "SPÉCIAL HAUT AU SOL"
+
+//---- BEGINNER MOVEMENT TUTORIAL
+// (1800-1815 used)
+1816 = "MARCHE"
+1817 = "COURSE"
+1818 = "SAUT"
+1819 = "DOUBLE SAUT"
+1820 = "{-1,PR_JUMP} puis {-1,PR_JUMP}"
+1821 = "TRAVERSER LES PLATEFORMES"
+
+//---- VARIOUS TUTORIAL TEXTS
+1822 = " : Revoir les instructions." // press VIEW to repeat instructions.
+1823 = "MOUVEMENT\nNIVEAU : DÉBUTANT"
+1824 = "DEFENSE\nNIVEAU : DÉBUTANT"
+1825 = "ATTAQUE\nNIVEAU : DÉBUTANT"
+1826 = "MOUVEMENT\nNIVEAU : INTERMÉDIAIRE"
+1827 = "DEFENSE\nNIVEAU : INTERMÉDIAIRE"
+1828 = "ATTAQUE\nNIVEAU : INTERMÉDIAIRE"
+1829 = "MOUVEMENT\nNIVEAU : AVANCÉ"
+1830 = "DEFENSE\nNIVEAU : AVANCÉ"
+1831 = "ATTAQUE\nNIVEAU : AVANCÉ"
+1832 = "FÉLICITATIONS !"
+
+//----------------------------------
+// Online Chat Messages [1900-1979]
+//----------------------------------
+
+//---- Online chat pg1 (greetings)
+1900 = "Bonjour !"
+1901 = "C'est parti !"
+1902 = "Bonne chance !"
+1903 = "Doucement avec moi !"
+1904 = "C'est quand tu veux !"
+1905 = "Je vais tout donner !"
+1906 = "J'ai le trac..."
+1907 = "Ce sera un jeu d'enfant !"
+
+//---- Online chat pg2 (responses)
+1908 = "OK !"
+1909 = "Merci !"
+1910 = "Bien joué !"
+1911 = "Refaisons un match !"
+1912 = "Génial !"
+1913 = "Pardon !"
+1914 = "Aie..."
+1915 = "Je t'aurai la prochaine fois !"
+
+//---- Online chat pg3 (misc)
+1916 = "Donne-moi un instant."
+1917 = "Je te défie !"
+1918 = "Je vais en rester là."
+1919 = "J'ai oublié mes commandes."
+1920 = "Tu as eu de la chance !"
+1921 = "C'est ma dernière !"
+1922 = "À plus !"
+1923 = "Je joue avec le gyroscope !"
+
+//---- Online chat pg4 (chars 1)
+1924 = "Il est temps d'allumer le feu !" // zetterburn
+1925 = "Un match en coup de vent !" // wrastor
+1926 = "Je me suis fait fumer..." // forsburn
+1927 = "C'etait foudroyant." // absa
+1928 = "A plus tard dans la mare !" // orcane
+1929 = "Tu t'es fait rouler dessus !" // kragg
+1930 = "C'est le moment de remballer." // maypul
+1931 = "Je reviens, je vais me rafraîchir." // etalus
+
+//---- Online chat pg5 (chars 2)
+1932 = "Peace!" // ranno
+1933 = "Aouuuuh !" // sylvanos
+1934 = "Souris !" // ori
+1935 = ""
+1936 = "Ma présence est un présent." // clairen
+1937 = "J'explose de rage !" // elliana
+1938 = "Une pelle partie, pas vrai ?" // shovel knight
+1939 = ""
+
+
+//-------------------------------------
+// Abyss Rune Descriptions [2000-2209]
+//-------------------------------------
+
+//---- ZETTERBURN
+2000 = "BRÛLURE : Ennemis brûlés plus longtemps"
+2001 = "BOULES DE FEU : Deux fois plus rapides"
+2002 = "PARADE : Brûle les adversaires"
+2003 = "VITESSE AU SOL : Plus élévee"
+2004 = "SPÉCIAL BAS : Plus rapide"
+2005 = "SPÉCIAL HAUT : Démarrage plus rapide"
+2006 = "PIÈGE DE FEU : Explose au contact"
+2007 = "SPÉCIAL CÔTÉ : Boules de feu infinies"
+2008 = "AÉRIEN AVANT et AÉRIEN HAUT : Envoie les adversaires brulés plus loin"
+2009 = "SPÉCIAL BAS : Moins de récuperation, Annulable par un saut ou une esquive aérienne"
+2010 = "BOULES DE FEU : Plus grosses, plus lentes, plus puissantes"
+2011 = "PIÈGE DE FEU : Se propage sur tout le stage"
+2012 = "BOULES DE FEU : Paralyse l'adversaire"
+2013 = "SPÉCIAL HAUT et SPÉCIAL BAS : Super Armure en mouvement"
+2014 = "SPÉCIAL NEUTRE : Charge plus vite, plus puissant"
+
+//---- ORCANE
+2015 = "BULLES : Plus de coups"
+2016 = "SPÉCIAL HAUT : Démarrage plus rapide, récuperation plus rapide"
+2017 = "SPÉCIAL NEUTRE : Frequence de tir augmentée"
+2018 = "ESQUIVE AÉRIENNE : Plus de portée"
+2019 = "SPÉCIAL CÔTÉ : Démarrage plus rapide"
+2020 = "SPÉCIAL CÔTÉ : L'angle peut être modifié"
+2021 = "AÉRIEN BAS : Crée des bulles vers le bas"
+2022 = "AÉRIEN AVANT : Super Armure"
+2023 = "ATTAQUE EN COURSE et AÉRIEN NEUTRE : Peut être continue"
+2024 = "BULLES : Envoient vers Orcane"
+2025 = "SPÉCIAL NEUTRE : Peut être chargé pour avoir plus de portée"
+2026 = "FLAQUE : Peut poser plusieurs flaques sur le terrain"
+2027 = "BULLES : Grosses bulles explosives"
+2028 = "POWER et SPÉCIAL CÔTÉ : Ne consomment pas les flaques"
+2029 = "POWER : Portée des attaques sur flaque augmentée"
+
+//---- WRASTOR
+2030 = "MOUVEMENT AÉRIEN : Plus rapide"
+2031 = "ESQUIVE AÉRIENNE : Inflige des dégâts a l'adversaire"
+2032 = "POWER BAS : Annulable par un saut"
+2033 = "SPÉCIAL BAS : Démarrage plus rapide"
+2034 = "COURANT D'AIR : Plus large"
+2035 = "SPÉCIAL NEUTRE : Plus long"
+2036 = "AÉRIENS : Touchent plusieurs fois"
+2037 = "SAUTS : Restaure l'esquive aérienne"
+2038 = "POWER : Moins de récuperation a l'atterissage"
+2039 = "SPÉCIAL HAUT : Peut être chargé, sweetspot actif durant la charge"
+2040 = "POWER : Plus puissant dans le courant d'air"
+2041 = "COURANT D'AIR : Plus d'un courant d'air peut être en jeu"
+2042 = "COURANT D'AIR : Défense augmentée dans le courant d'air"
+2043 = "GENERAL : Toutes les attaques peuvent être annulées au contact"
+2044 = "SAUTS : Quatre sauts supplémentaires"
+
+//---- KRAGG
+2045 = "POWER CÔTÉ : Fait glisser Kragg"
+2046 = "AÉRIENS : Plus puissants"
+2047 = "SPÉCIAL CÔTÉ : Démarrage plus rapide"
+2048 = "SPÉCIAL CÔTÉ : Invincibilité totale"
+2049 = "SPÉCIAL BAS : Plus puissant"
+2050 = "SPÉCIAL NEUTRE : Lancer des rochers accelère Kragg"
+2051 = "ROCHER : Plus résistant"
+2052 = "SPÉCIAL CÔTÉ : Plus rapide"
+2053 = "SPÉCIAL BAS : Crée plus de pics"
+2054 = "SPÉCIAL NEUTRE : Peut recréer un rocher a tout moment"
+2055 = "SPÉCIAL HAUT : Démarrage plus rapide, Récuperation plus rapide"
+2056 = "ROCHER : Plusieurs rochers peuvent être sur le terrain"
+2057 = "SPÉCIAL BAS : Tous les pics sortent instantanémment"
+2058 = "POWER : Super Armure"
+2059 = "SPÉCIAL HAUT : Peut être utilisé 3 fois avant de toucher terre"
+
+//---- FORSBURN
+2060 = "ESQUIVE AÉRIENNE : Crée un nuage de fumée"
+2061 = "FUMÉE : Ne disparait pas lors de l'obtention de la charge maximale"
+2062 = "SPÉCIAL HAUT : Démarrage plus rapide, Moins de récuperation à l'atterissage"
+2063 = "FUMÉE : Non affectée par les projectiles"
+2064 = "ÉLAN INITIAL : Plus rapide, plus long"
+2065 = "SPÉCIAL CÔTÉ : Pas de récuperation"
+2066 = "CHARGE MAXIMALE : Un seul nuage suffit"
+2067 = "CLONE : Explose apres avoir été touche"
+2068 = "FUMÉE : Forsburn est invisible et deux fois plus puissant dans la fumée"
+2069 = "FUMÉE : Inflige des dégâts"
+2070 = "CLONE : Se comporte toujours comme le clone amélioré"
+2071 = "SPÉCIAL CÔTÉ : Crée deux clones a la fois"
+2072 = "FUMÉE : Défense augmentée dans la fumée"
+2073 = "CLONE : Crée de la fumée en continu"
+2074 = "FUMÉE : Explose lors de l'obtention de la charge maximale"
+
+//---- MAYPUL
+2075 = "AÉRIEN HAUT : Distance verticale parcourue augmentée"
+2076 = "SPÉCIAL NEUTRE : Lance 3 graines"
+2077 = "LILY : Tire automatiquement des graines vers le haut"
+2078 = "SPÉCIAL HAUT : Plus rapide"
+2079 = "POWER : Démarrage plus rapide"
+2080 = "SPÉCIAL CÔTÉ et SPÉCIAL BAS AÉRIEN : Plus rapide, Démarrage plus rapide"
+2081 = "SPÉCIAL HAUT MARQUÉ : Inflige des dégâts apres s'être catapulte"
+2082 = "SPÉCIAL CÔTÉ et SPÉCIAL BAS AÉRIEN : Annulables au contact, restaurent le double saut"
+2083 = "LIGOTTAGE : Durée multipliée par 2"
+2084 = "SPÉCIAL HAUT MARQUÉ : S'accroche a Lily si aucun adversaire n'est marqué"
+2085 = "MARQUE : Les adversaires marques ont une puissance reduite"
+2086 = "LILY : Plusieurs Lily peuvent être sur le terrain"
+2087 = "SPÉCIAL NEUTRE : Envoie les adversaires vers Maypul"
+2088 = "LILY : Ligotte les adversaires au contact"
+2089 = "MARQUE : Un adversaire peut être marque jusqu'a 3 fois"
+
+//---- ABSA
+2090 = "NORMAL BAS : Paralyse l'adversaire"
+2091 = "SPÉCIAL BAS : Temps de charge reduit"
+2092 = "SPÉCIAL CÔTÉ : Plus rapide"
+2093 = "SPÉCIAL HAUT : Plus rapide, Portée augmentée"
+2094 = "SAUT : Un saut supplémentaire"
+2095 = "NUAGE : Ne sera pas detruit si touché par Absa"
+2096 = "SPÉCIAL NEUTRE COURT : Téléporte Absa au nuage"
+2097 = "SPÉCIAL HAUT : Ne provoque pas la chute speciale"
+2098 = "SPÉCIAL BAS CHARGE : N'est pas retiré lorsqu'Absa est touchée"
+2099 = "NUAGE : A un effet météore lorsqu'Absa le place ou le fait exploser"
+2100 = "NUAGE : Explose au contact avec l'ennemi"
+2101 = "NUAGE : Plusieurs nuages peuvent être sur le terrain"
+2102 = "AERIAUX : Sweetspot plus gros"
+2103 = "SPÉCIAL NEUTRE CHARGE : Dure plus longtemps"
+2104 = "SPÉCIAL BAS : Piège les adversaires"
+
+//---- ETALUS
+2105 = "ATTAQUE EN COURSE : Plus rapide"
+2106 = "SPÉCIAL HAUT : Plus rapide"
+2107 = "GLACE AU SOL : Durée augmentée"
+2108 = "SPÉCIAL BAS : Super Armure"
+2109 = "SPÉCIAL HAUT : Inflige des dégâts lors du mouvement"
+2110 = "SPÉCIAL HAUT : Hauteur toujours maximale"
+2111 = "SPÉCIAL CÔTÉ : Plus de projectiles"
+2112 = "ARMURE : Etalus est plus rapide en armure"
+2113 = "SPÉCIAL BAS : Affecte tous les adversaires au sol"
+2114 = "ATTAQUE EN COURSE : Crée de la glace"
+2115 = "AÉRIEN HAUT : Gèle les adversaires lorsqu'ils touchent le sol"
+2116 = "POWER : Ne retirent pas l'armure"
+2117 = "ÉCLATS : Plus puissants"
+2118 = "ARMURE : Défense augmentée"
+2119 = "SPÉCIAL NEUTRE : Démarrage plus rapide"
+
+//--------------------
+
+//---- Character Ability Descriptions [2300-2341]
+2300 = "Zetterburn peut faire brûler ses adversaires avec ses Attaques Spéciales, ce qui leur fait subir des dégâts au cours du temps."
+2301 = "Lorsqu'un adversaire est en feu, Zetterburn peut utiliser une Attaque Power pour l'envoyer deux fois plus loin."
+2302 = "Zetterburn peut placer des pièges de feu sur le stage avec son Spécial Bas. Ces pièges brûlent l'adversaire sans l'expulser."
+2303 = "Orcane peut créer une flaque d'eau avec son Spécial Neutre ou son Spécial Bas, puis se teleporter dans cette flaque avec son Spécial Haut."
+2304 = "Orcane peut transformer sa flaque en un mur de bulles a l'aide de son Spécial Bas, ce qui permet de piéger l'adversaire."
+2305 = "Orcane peut se placer sur sa flaque pour effectuer une Attaque Power avec une meilleure portée."
+2306 = "Wrastor peut sauter jusqu'a 4 fois, ce qui lui permet d'avoir un meilleur contrôle aerien et de revenir sur le terrain facilement."
+2307 = "Wrastor peut créer un courant d'air avec son Spécial Cote. Il se déplace plus rapidement lorsqu'il est dans le courant d'air."
+2308 = "Wrastor effectue ses Attaques Power dans les airs, et non au sol. Il peut rester immobile pour les charger."
+2309 = "Kragg peut sortir un rocher du sol avec son Spécial Neutre. Il peut ensuite attaquer le rocher pour le briser."
+2310 = "Kragg peut se recroqueviller en boule avec son Spécial Cote. Dans cet état, il peut prendre des dégâts mais sera éjecté moins loin."
+2311 = "Kragg peut utiliser son Spécial Haut pour faire surgir un pillier de terre sous ses pieds. Le pillier peut toucher les adversaires a la montée."
+2312 = "Forsburn peut créer un ecran de fumée avec son Spécial Neutre. Il peut se cacher dans la fumée mais ses adversaires y sont visibles."
+2313 = "Forsburn peut absorber la fumée avec son Spécial Bas. Apres avoir consommé 3 nuages, ses Attaques Spéciales sont ameliorées."
+2314 = "Forsburn peut créer un clone de lui-meme avec son Spécial Cote, puis le faire exploser avec son Spécial Bas."
+2315 = "Maypul peut marquer ses adversaires d'une graine avec son Spécial Neutre, son Spécial Cote ou son Spécial Bas Aerien."
+2316 = "Maypul peut ligotter les adversaires marqués avec une Attaque Power."
+2317 = "Maypul peut s'accrocher à un adversaire marqué en restant appuyée sur Spécial Haut. Une pression simple lui permettra d'effectuer un uppercut."
+2318 = "Absa peut placer un nuage dans les airs à l'aide de son Spécial Neutre ou de son Spécial Cote."
+2319 = "Absa peut faire exploser un nuage en effectuant une pression simple sur Spécial Neutre. Rester appuyé lui permettera de créer un éclair."
+2320 = "Absa peut utiliser son Spécial Bas pour creer une barrière électrique explosive autour d'elle ou de son nuage."
+2321 = "Etalus peut créer de la glace sur le sol à l'aide de son Normal Cote, son Spécial Cote ou son Spécial Haut au sol."
+2322 = "Etalus peut se doter d'une armure de glace à l'aide de son Spécial Neutre."
+2323 = "Etalus peut utiliser son Spécial Bas pour geler tout adversaire se trouvant sur sa glace."
+2324 = "Ori et Seyn combattent en equipe. Si Seyn se trouve pres d'Ori, ils peuvent combiner leurs pouvoirs pour améliorer leurs Attaques Power."
+2325 = "Une simple pression de Spécial Neutre fera que Seyn utilisera la Flamme Spirituelle. Rester appuyé lui permettra d'utiliser la Flamme Attisée." // Need official translation from Ori and the Blind Forest
+2326 = "Ori peut utiliser son Spécial Bas pour renvoyer les projectiles ou les adversaires dans n'importe quelle direction."
+2327 = "Ranno peut empoisonner ses adversaires avec ses Attaques Spéciales, ce qui leur fait subir des dégâts à chque fois qu'ils attaquent."
+2328 = "Ranno peut piéger ses adversaires dans une bulle. Plus l'adversaire est empoinsonné, plus il reste longtemps dans la bulle."
+2329 = "Ranno peut utiliser son Spécial Cote pour attraper le sol avec sa langue et se projeter dans les airs."
+2330 = "La pointe de l'épée de Clairen est surchargée et peut paralyser ses adversaires."
+2331 = "Clairen peut contrer une attaque et creer un champ de force anti-projectiles a l'aide de son Spécial Bas"
+2332 = "Clairen peut utiliser son Spécial Neutre pour attraper un adversaire et le lancer vers l'avant ou vers l'arrière."
+2333 = "Sylvanos fait pousser l'herbe partout ou il marche. L'herbe réduit sa récuperation à l'atterissage et améliore ses Attaques Spéciales."
+2334 = "Sylvanos peut creuser dans la terre à l'aide de son Spécial Haut. Il peut croquer ses adversaires s'il sort là ou il y a de l'herbe."
+2335 = "Sylvanos peut ordonner à son herbe d'attaquer à l'aide de son Spécial Bas."
+2336 = "Le robot d'Elliana se réchauffe lorsqu'elle vole ou utilise ses Attaques Spéciales. Si il est en surchauffe, elle perd l'acces a ces capacités."
+2337 = "Les Attaques Power d'Elliana expulsent de la fumée de son robot. En surchauffe, ces attaques deviennent des explosions."
+2338 = "Le Spécial Haut d'Elliana l'ejecte de son robot, ce qui la rend extrêmement vulnerable tant qu'elle ne touche pas le sol."
+2339 = "Shovel Knight peut amasser des trésors en infligeant des dégâts a ses adversaires. Il peut ensuite acheter des objets avec sa moquerie."
+2340 = "L'Attaque Aérienne Basse de Shovel Knight peut être tenue pour rebondir sur les adversaires."
+2341 = "Si Shovel Knight charge son Attaque Power Haute au maximum, il enverra un enorme bloc de terre plein de trésors vers le haut."
+
+//---- Stage Names [2400-2459]
+2400 = "Verrouillé"
+2401 = "Aléatoire"
+2402 = "Blazington D.C." //Fire Capital
+2403 = "Armada de l'Air" //Air Armada
+2404 = "Muraille Protectrice" //The Rock Wall
+2405 = "Port des Marchands" //Merchant Port
+2406 = "Logis Feuillu" //Treetop Lodge
+2407 = "Repère Infernal" //Blazing Hideout
+2408 = "Tower of Heaven" //Tower of Heaven
+2409 = "Mont Tempête" //Tempest Peak
+2410 = "Forteresse Enneigée" //Frozen Fortress
+2411 = "Portes d'Aether" //Aetherial Gates
+2412 = "Abysse Infinie" //The Endless Abyss
+2413 = ""
+2414 = "Arène CEO" //The CEO Ring
+2415 = "Arbre aux Esprits" //Spirit Tree
+2416 = "" // reserved
+2417 = "Blazington D.C - Futur" //Neo Fire Capital
+2418 = "Marais de la Sagesse" //The Swampy Estuary
+2419 = "Coeur de la Foret" //The Forest Floor
+2420 = "Julesvale" //Julesvale
+2421 = "Étang Carponne" //Troupple Pond
+2422 = "Salle d'entrainement" //Training Room
+2423 = "" // reserved
+2424 = ""
+2425 = ""
+2426 = ""
+2427 = ""
+2428 = ""
+2429 = ""
+2430 = "@2400"
+2431 = "@2401"
+2432 = "@2402"
+2433 = "@2403"
+2434 = "@2404"
+2435 = "@2405"
+2436 = "@2406"
+2437 = "@2407"
+2438 = "@2408"
+2439 = "@2409"
+2440 = "@2410"
+2441 = "@2411"
+2442 = "@2412"
+2443 = "@2413"
+2444 = "@2414"
+2445 = "@2415"
+2446 = "@2416"
+2447 = "@2417"
+2448 = "@2418"
+2449 = "@2419"
+2450 = "@2420"
+2451 = "@2421"
+2452 = "@2422"
+2453 = "@2423"
+2454 = "@2424"
+2455 = "@2425"
+2456 = "@2426"
+2457 = "@2427"
+2458 = "@2428"
+2459 = "@2429"
+
+//---- CSS Options [2500-2549]
+2500 = "UTILISER LES COMMANDES CLAVIER PAR DÉFAUT ?"
+2501 = "TESTER"
+2502 = "COMMANDES PERSONNALISÉES"
+2503 = "ATTAQUE"
+2504 = "SPÉCIAL"
+2505 = "SAUT"
+2506 = "POWER"
+2507 = "ESQUIVE"
+2508 = "SAUT RAPIDE"
+2509 = "POWER RAPIDE"
+2510 = "VIBRATIONS" // PC & Switch
+2511 = "VIBRATIONS" // Other platforms
+2512 = "COMMANDES"
+2513 = "MOQUERIE"
+2514 = "GD SAUT"
+2515 = "PT SAUT"
+2516 = "MARCHE"
+2517 = "COURSE"
+2518 = ""
+2519 = "SENSIBILITE"
+2520 = "APPUYEZ SUR LE BOUTON POUR"
+2521 = "*Restez appuyé pour plusieurs\nboutons (`1 : Annuler)"
+2522 = "CHOISIR LE PROFIL"
+2523 = "NOM"
+2524 = "POINTS"
+2525 = "ACHETER ?"
+2526 = "@297"
+2527 = "@298"
+2528 = "`1: ORDI  `2: Quitter"
+2529 = "`1 : Ajouter un ORDI."
+2530 = "`1 : Quitter."
+2531 = "SUPPRIMER CE PROFIL ?"
+2532 = "*Pour sauvegarder ces commandes, créez un profil."
+2533 = "HAUT"
+2534 = "BAS"
+2535 = "GAUCHE"
+2536 = "DROITE"
+2537 = "DBL TAP"
+2538 = "COURSE AUTO"
+2539 = "SOURIS"
+2540 = "LMB"
+2541 = "RMB"
+2542 = "ROULETTE"
+2543 = "SUP"
+2544 = "TEST..."
+2545 = "@2538"
+2546 = "DOUBLE TAP"
+2547 = "DÉFAUT"
+2548 = "@2539"
+2549 = "UN COMPAGNON ?"
+
+//---- CSS Options shortened (width cannot be longer than "SPÉCIAL") [2550-2569]
+2550 = "ACTION" //only used to display DPAD setting in custom controls
+2551 = "@2516"
+2552 = "@2517"
+2553 = "@2503"
+2554 = "@2504"
+2555 = "@2505"
+2556 = "@2506"
+2557 = "@2507"
+2558 = ""
+2559 = "OFF"
+2560 = ""
+2561 = ""
+2562 = ""
+2563 = "@2513"
+2564 = "GD SAUT"
+2565 = "PT SAUT"
+
+//---- Online Ranking Brackets
+2570 = "Bronze"
+2571 = "Argent"
+2572 = "Or"
+2573 = "Platine"
+2574 = "Diamant"
+2575 = "Maître"
+
+//---- Menu Header Text [2600-2699]
+2600 = "MENU"
+2601 = "PRINCIPAL"
+//
+2602 = "LOCAL"
+2603 = ""
+//
+2604 = "EN LIGNE"
+2605 = ""
+//
+2606 = "OPTIONS"
+2607 = ""
+//
+2608 = "EXTRAS"
+2609 = ""
+//
+2610 = "MES"
+2611 = "STATISTIQUES"
+//
+2612 = "MODE"
+2613 = "CLASSE"
+//
+2614 = "CLASSEMENTS"
+2615 = ""
+//
+2616 = "CRÉDITS"
+2617 = ""
+//
+2618 = "JUKE-BOX"
+2619 = ""
+//
+2620 = "REPLAYS"
+2621 = ""
+//
+2622 = "PERSONNALISATION"
+2623 = ""
+//
+2624 = "PROFILS"
+2625 = ""
+//
+2626 = "COMMANDES"
+2627 = "AU CLAVIER"
+//
+2628 = "GAMEPLAY" // sub-section titles for keyboard controls screen
+2629 = "MENU"
+//
+2630 = "EN LIGNE"
+2631 = ""
+//
+2632 = "MATCH"
+2633 = "EN EQUIPES"
+//
+2634 = "TOURNOI"
+2635 = ""
+//
+2636 = "ENTRAINEMENT"
+2637 = ""
+//
+2638 = ""
+2639 = ""
+//
+2640 = "VERSUS"
+2641 = ""
+//
+2642 = "MODE"
+2643 = "SANS FIN"
+//
+2644 = "RUNE VERSUS"
+2645 = ""
+//
+2646 = "MODE"
+2647 = "HISTOIRE"
+//
+2648 = "REPLAYS"
+2649 = ""
+//
+2650 = "MODE TURBO"
+2651 = "(Turbo)" // Used for adding "TURBO" to main menu texts
+//
+2652 = "" // Reserved
+2653 = "" // Reserved
+//
+//2699 = ""
+//2699 = ""
+//
+//2699 = ""
+//2699 = ""
+//
+//2699 = ""
+//2699 = ""
+//
+//2699 = ""
+//2699 = ""
+//
+//2699 = ""
+//2699 = ""
+//
+//2699 = ""
+//2699 = ""
+//
+//2699 = ""
+//2699 = ""
+//
+//2699 = ""
+//2699 = ""
+//
+//2699 = ""
+//2699 = ""
+//
+//2699 = ""
+//2699 = ""
+//
+//2699 = ""
+//2699 = ""
+
+
+//-----------------------------------------
+// Keyboard and Gamepad [2750-2769]
+//-----------------------------------------
+
+2750 = "ESPACE"
+2751 = "GAUCHE"
+2752 = "DROITE"
+2753 = "HAUT"
+2754 = "BAS"
+2755 = "ACCEPTER"
+2756 = "MENU Y"
+2757 = "MENU LB"
+2758 = "MENU RB"
+2759 = "RS GAUCHE"
+2760 = "RS DROITE"
+2761 = "RS HAUT"
+2762 = "RS BAS"
+2763 = "VIEW"
+2764 = "[TOUCHPAD]"
+2765 = "D-PAD BAS"
+
+//-----------------------------------------
+// CSS Match Types [2770-2779]
+//-----------------------------------------
+
+2770 = "CLASSÉ"
+2771 = "DÉFI"
+2772 = "NON CLASSÉ"
+
+//--------------------------------
+// Tutorial Dialogues [3000-3999]
+//--------------------------------
+
+//---- BEGINNER MOVEMENT TUTORIAL
+3000 = "Bienvenue dans le tutoriel de mouvement pour débutants ! Je m'appelle Orby et je vais t'apprendre à jouer à Rivals of Aether."
+3001 = "Commençons par apprendre à marcher."
+3002 = "Pour marcher, incline doucement le stick analogique vers une direction. Ne l'incline pas trop rapidement, sinon tu te mettras à courir."
+3003 = "Bien. Maintenant, passons à la course."
+3004 = "Pour courrir, incline rapidement le stick analogique vers la direction de votre choix."
+3005 = "Abordons maintenant les sauts."
+3006 = "Pour sauter, appuie sur le bouton de saut. Fais attention à bien rester appuyé assez longtemps pour effectuer un grand saut."
+3007 = "Maintenant, suis-moi à l'aide de double sauts."
+3008 = "Pour effectuer un double saut, appuie sur le bouton de saut pendant que tu es dans les airs."
+3009 = "Cependant, fais attention car tu ne peux effectuer qu'un seul double saut avant de devoir revenir sur le sol."
+3010 = "Ces plateformes sont différentes du sol habituel. Non seulement tu peux sauter au travers, mais tu peux également passer au travers."
+3011 = "Incline rapidement le stick analogique pour traverser la plateforme.\nTu peux garder le stick vers le bas pour passer au travers des plateformes suivantes."
+3012 = "Magnifique ! Maintenant que tu maîtrises les bases du mouvement, nous pouvons passer à la suite !"
+
+//---- BEGINNER DEFENSE TUTORIAL
+3013 = "Bienvenue dans le tutoriel de défense pour débutants ! Les leçons qui vont suivre vont te montrer comment se défendre des attaques adverses."
+3014 = "Tout d'abord, la parade. Tu peux effectuer une parade au sol en appuyant sur le bouton d'esquive, sans incliner le stick analogique."
+3015 = "Si tu pares une attaque ennemie, l'adversaire sera étourdi, ce qui te permettera de contre-attaquer."
+3016 = "Attention malgré tout. Une parade devient active 2 images après avoir appuyé sur le bouton d'esquive.\n(NB : Il y a 60 images dans une seconde)"
+3017 = "Essaies donc.\nPare 3 de mes attaques à la suite."
+3018 = "Les parades peuvent également renvoyer les projectiles"
+3019 = "Essaie de refléter 3 de mes projectiles d'afilée."
+3020 = "Passons à la roulade."
+3021 = "Si tu tiens une direction (Droite ou gauche) pendant que tu appuies sur le bouton d'esquive, tu effectueras une roulade en lieu et place d'une parade."
+3022 = "La roulade n'étourdira pas l'adversaire, mais peut parfois être moins riquée qu'une parade car elle peut t'aider à t'éloigner de l'adversaire."
+3023 = "Essaies d'esquiver mon attaque 3 fois de suite avec une roulade."
+3024 = "Et maintenant, voyons les esquives aériennes."
+3025 = "Si tu appuies sur le bouton d'esquive alors que tu es dans les airs, tu effectueras une esquive aérienne. Tu peux également tenir une direction en même temps pour te déplacer."
+3026 = "Cependant, fais attention car tu ne peux effectuer qu'une seule esquive aérienne avant de devoir toucher le sol."
+3027 = "Saute vers moi et j'essaierai de t'attaquer. Essaie d'esquiver mes attaques 3 fois de suite grâce à une esquive aérienne."
+3028 = "Génial ! Comme tu peux le constater, esquiver les attaques requiert un bon timing et peut être dangereux."
+3029 = "Entraîne-toi régulièrement à utiliser toutes ces techniques et plus personne ne pourra te toucher !"
+
+//---- BEGINNER OFFENSE TUTORIAL
+3030 = "Bienvenue dans le tutoriel d'attaque pour débutants ! Ces quelques leçons vont te montrer tous les types d'attaques présentes dans le jeu."
+3031 = "L'attaque la plus simple est l'Attaque Normale Neutre"
+3032 = "Appuie sur le bouton d'attaque sans toucher au stick analogique pour effectuer un normal neutre"
+3033 = "Tu peux ensuite à nouveau appuyer sur le bouton d'attaque pour continuer ton Normal Neutre.\nLa plupart des Attaques Normales Neutres peuvent toucher jusqu'à trois fois."
+3034 = "Essayons. Touche moi avec les trois coups de ton Normal Neutre 3 fois de suite."
+3035 = "Parlons maintenant de l'Attaque en course."
+3036 = "Quand tu cours, tu peux appuyer sur le bouton d'attaque pour effectuer une Attaque en course."
+3037 = "Bien ! Passons à la suite."
+3038 = "Si tu inclines le stick analogique pendant que tu appuies sur le bouton d'attaque et que tu es au sol, tu effectueras un autre type d'Attaque Normale."
+3039 = "Outre l'Attaque Normale Neutre, il y a 3 autres types d'attaques normales, suivant la direction selon laquelle tu inclines le stick analogique."
+3040 = "- Normal Côté : Côté + Attaque\n- Normal Haut : Haut + Attaque\n- Normal Bas : Bas + Attaque"
+3041 = "Essaie de me toucher 3 fois avec chaque type d'Attaque Normale\n(Attention à ne pas courir en essayant de faire un Normal Côté !)
+3042 = "Essayons maintenant les Attaques Power.\nLes Attaques Power sont des attaques très puissantes qui peuvent en général faire beaucoup de dégâts."
+3043 = "Si tu appuies sur le bouton Power alors que tu es au sol, tu effectueras une Attaque Power. Le type d'Attaque Power dépend de la direction selon laquelle tu inclines le stick analogique."
+3044 = "- Power Côté : Appuies sur Power sans direction ou Côté + Power\n- Power Haut : Haut + Power\n- Power Bas : Bas + Power"
+3045 = "Plus tu restes appuyé sur le bouton Power, plus ton attaque sera puissante ! (Ça marche aussi avec le deuxième stick analogique si tu utilises les commandes par défaut)"
+3046 = "Essaie de me toucher 3 fois avec chaque type d'Attaque Power."
+3047 = "Maintenant, direction les airs !"
+3048 = "Si tu appuies sur le bouton d'attaque ou le bouton Power dans les airs, tu effectueras une Attaque Aérienne."
+3049 = "Il y a 5 types d'Attaques Aériennes. Comme tu l'auras deviné, celle que tu feras dépendra de la direction selon laquelle tu inclines le stick analogique."
+3050 = "- Aérien Neutre : Appuies sur Attaque sans toucher au stick analogique\n- Aérien Avant : Avant + Attaque\n- Aérien Arrière : Arrière + Attaque"
+3051 = "- Aérien Haut : Haut + Attaque\n- Aérien Bas : Bas + Attaque"
+3052 = "Avec les commandes par défaut, tu peux même utiliser le deuxième stick analogique pour effectuer les attaques aériennes !"
+3053 = "Essaie de me toucher 3 fois avec chaque type d'Attaque Aérienne."
+3054 = "Le dernier type d'attaque est l'Attaque Spéciale."
+3055 = "Pour utiliser une Attaque Spéciale, appuie sur le bouton Spécial. Les attaques spéciales peuvent être très différentes suivant les personnages et voire même quand elles sont utilisées dans les airs !"
+3056 = "Il y a quatre types d'Attaques Spéciales. Encore une fois, ce que tu feras dépendra de la direction dans laquelle tu inclines le stick analogique."
+3057 = "- Spécial Neutre : Appuies sur Spécial sans toucher au stick analogique\n- Spécial Côté : Côté + Spécial"
+3058 = "- Spécial Haut : Haut + Spécial\n- Spécial Bas : Bas + Spécial"
+3059 = "Essaie de me toucher 3 fois avec chaque type d'Attaque Spéciale"
+3060 = "Parfait ! Maintenant que tu connais tous les types d'attaques, n'hésite pas à expérimenter avec pour découvrir ce que chaque personnage peut faire !"
+3061 = "Évidemment, n'hésite pas à revenir ici si tu as un doute sur comment faire un certain type d'attaque !"
+
+//---- INTERMEDIATE MOVEMENT TUTORIAL
+3062 = "Welcome to the intermediate movement tutorial! In this tutorial, you'll learn some of the more technical ways to move around."
+3063 = "First up is the short hop."
+3064 = "A short hop is exactly what it sounds like: a smaller version of your normal jump."
+3065 = "To do a short hop, just tap the jump button briefly."
+3066 = "If you hold the jump button for more than 5 frames, you will do a full hop instead of a short hop, so you must be quick. (Note: these 5 frames are called jumpsquat.)"
+3067 = "Try short hopping over my projectiles 3 times in a row."
+3068 = "Short hops are great for minimizing the time you're in the air so you can reach the ground faster, which allows you to extend your combos even further."
+3069 = "Another way to land quickly is to fastfall, which gives you an instant downward boost."
+3070 = "To perform a fastfall, quickly press the control stick downward while you are falling."
+3071 = "You cannot fastfall if you are moving upward, so make sure you time the fastfall after the peak of your jump."
+3072 = "Try jumping in front of me and then using fastfall to avoid my attack 3 times in a row."
+3073 = "Sometimes a successful recovery requires more than your regular jumps, and that's where wall jumping comes in."
+3074 = "Performing a walljump is simple: Once you're in the air, hold the control stick toward the wall and press the jump button."
+3075 = "You can only walljump once until you touch the ground or get hit."
+3076 = "Try reaching that platform with a walljump. Sorry, but I've temporarily disabled your double jump."
+3077 = "You can also walljump while in the helpless fall state."
+3078 = "Try reaching the platform, this time using only USPECIALs and walljumps.\n(Note: Zetterburn's USPECIAL travels in the direction of the control stick.)"
+3079 = "Fantastic!"
+3080 = "These wall jump techniques will help your recovery immensely when you're sent offstage. Make sure you practice all of these techniques so you can use them anytime you need them."
+
+//---- INTERMEDIATE DEFENSE TUTORIAL
+3081 = "Welcome to the intermediate defense tutorial! Here you will learn about directional influence and teching. Correct use of these techniques is vital to your survival, so pay attention."
+3082 = "Let's start with Directional Influence, which is often shortened to DI."
+3083 = "DI is the ability to change the angle at which you travel when launched by the enemy. To DI an attack, simply hold a direction on your control stick when you're hit."
+3084 = "If I were to hit you with an attack that naturally sends in this direction..."
+3085 = "And you were to hold your control stick in this direction..."
+3086 = "You would be sent flying in this new direction."
+3087 = "By holding the control stick perpendicular to the original knockback angle, you can change the trajectory angle by up to 18 degrees!"
+3088 = "Remember, DI can only change the angle at which you are hit, not how hard you are hit."
+3089 = "Let's try it out. Move your control stick around to test the effects of DI."
+3090 = "Notice how holding the control stick parallel to the knockback angle has the same effect as no DI at all."
+3091 = "There are two ways to apply DI:\n  1. Surviving strong attacks (Survival DI)\n  2. Escaping combos (Combo DI)"
+3092 = "Lesson 1 will be on Survival DI."
+3093 = "This dotted line represents the blastzone.\nIf you pass the blastzone, you lose one stock."
+3094 = "If you're hit by a strong attack that sends you flying in this direction, you will certainly pass the blastzone if you don't DI."
+3095 = "If you DI this hit downward, you will die even earlier."
+3096 = "If you DI upward, however, you will survive the attack! Notice how the arrow never crosses the dotted line."
+3097 = "Let's try it out! Use good DI to survive my attack 3 times in a row."
+3098 = "Very nice! Once you implement this into your play style, your stocks will last a lot longer."
+3099 = "Now..."
+3100 = "Let's learn how to use DI to escape from combos."
+3101 = "Many combo moves send you at an angle similar to this one."
+3102 = "If you hold inward, the opponent will be able to easily follow up with another attack."
+3103 = "If you hold outward, however, the opponent will have to move a lot farther to hit you again."
+3104 = "Try using DI to escape my combo 3 times in a row. Just try to touch the ground before going offstage."
+3105 = "Those are the basics of DI. With some attacks, applying DI isn't as simple as what you just learned. But with practice, DI will help you out in most bad situations."
+3106 = "Let's move on to teching."
+3107 = "You see, touching the ground while in hitstun will put you in a helpless state for a short time. If you are hit downward hard enough, it can even bounce you off the ground."
+3108 = "To avoid these bad situations, you must tech!"
+3109 = "If you press the dodge button right before touching the ground, you will perform a tech."
+3110 = "Teching makes you briefly invincible, but your opponent can punish you if they predict the tech."
+3111 = "If you hold left or right when teching, you will perform a tech roll."
+3112 = "Tech rolls are slower than a tech in place, but it can create distance between you and your opponent."
+3113 = "When trying to tech, you cannot just mash the dodge button. You must time the button press within 20 frames of hitting the ground."
+3114 = "Immediately after those 20 frames, there is a 20 frame period where you cannot input another tech attempt."
+3115 = "Okay, time to try it out. Tech my attacks 3 times in a row.\nJump near me when you're ready."
+3116 = "You can also tech on walls the same way you tech on the ground."
+3117 = "Let's try combining DI and teching for the final lesson."
+3118 = "DI my attack so that you hit the wall, then tech it so you don't bounce off."
+3119 = "Excellent!"
+3120 = "Now that you understand DI and teching, your opponent will have to try much harder to defeat you."
+3121 = "These techniques take practice though, so keep training until you've mastered them."
+
+//---- INTERMEDIATE OFFENSE TUTORIAL
+3122 = "Welcome to the intermediate offense tutorial! Here you will learn how to apply your attacks in different ways."
+3123 = "First, let's learn more about how attacks work in general."
+3124 = "Each attack consists of one or more hitboxes. An opponent gets hit by an attack if they touch one of its hitboxes."
+3125 = "Hitboxes are normally invisible, but if you go into training mode, you can view the hitboxes for any attack."
+3126 = "Some moves have tiny hitboxes called 'sweet spots'. Sweet spots are usually very small and very powerful."
+3127 = "Sweet spots are usually found inside larger, weaker hitboxes (sour spots). If both hitboxes hit the enemy, the sweet spot usually takes priority over the sour spot."
+3128 = "Here are some examples of sweet spots and sour spots. Notice how much larger the sour spot is."
+3129 = "Zetterburn has sweet spots on his FAIR and UAIR, which are excellent kill moves."
+3130 = "Try hitting me 3 times with the sweet spot of either FAIR or UAIR."
+3131 = "Now let's learn how to combo moves together."
+3132 = "Comboing is the concept of stringing moves together without giving your opponent time to escape."
+3133 = "Because of directional influence, most combos are not guaranteed. In order to continue comboing your opponent, you must react to which direction they go."
+3134 = "Let's test it out. Start a combo on me with the first hit of UTILT, then I'll mix up my DI to either stay close to you or go far away."
+3135 = "When I stay close, hit me with an aerial. When I go far, hit me with a dash attack."
+3136 = "Combo me 3 times in a row. I'll alternate between DIing in and out every time you start a combo."
+3137 = "Many times, you will have to predict your opponent's DI to be able to continue a combo. Certain situations call for certain types of combos, and understanding this comes with practice and experience."
+3138 = "Now let's try edgeguarding."
+3139 = "Edgeguarding is a powerful technique that prevents your opponents from recovering after being knocked off the stage."
+3140 = "There are two main methods for edgeguarding:\n -Staying on stage: safer but easier for the opponent to avoid.\n -Going offstage: riskier but harder for the opponent to avoid."
+3141 = "Powerful attacks that send downward or horizontally are generally very good edgeguard moves, since most opponents have fewer options when recovering low."
+3142 = "Keep in mind that your opponent may use wall jumping for recovery as well, so sending the opponent far away from a wall also limits their options considerably."
+3143 = "Let's try it out. Successfully edgeguard this Zetterburn 3 times. Make sure his feet never touch the ground."
+3144 = "Good! The next lesson will cover how to effectively deal with parries."
+3145 = "As you know, if an opponent parries your attack, you will be stunned. The exception to this rule is the jab combo, excluding the final hit."
+3146 = "If an opponent parries one of the first two hits of your jab combo, they will still gain invincibility but you will not be stunned. This makes jab a safe way to apply pressure to opponents who parry often."
+3147 = "Test it out by jabbing me, then running away from my counterattack after I parry you. Make sure not to do the 3rd hit of jab."
+3148 = "Let's bring tilts into the equation."
+3149 = "After jabbing, you can attack with a tilt instead of continuing the jab combo."
+3150 = "This allows you to hit confirm your jabs into different tilts so you can mix up your combo starters."
+3151 = "Try hitting me with a jab and cancelling it into a tilt 3 times."
+3152 = "Excellent!"
+3153 = "Most of the concepts in this tutorial take a lot of practice to perfect, but it is necessary to master them in order to defeat tougher opponents. Keep training!"
+
+//---- ADVANCED MOVEMENT TUTORIAL
+3154 = "Welcome to the advanced movement tutorial! While the execution of these moves is fairly easy, applying them to your gameplay takes practice and strategy."
+3155 = "Let's start with dash dancing."
+3156 = "When you first input a dash, you enter a state called 'initial dash'.\nThis state lasts for a short time, then transitions into the 'run' state."
+3157 = "If you try to turn around during the 'run' state, you'll have to go through a turnaround animation which slows your movement down."
+3158 = "However, if you try to turn around during the 'initial dash' state, you will instantly dash in the other direction. This is called a dash dance."
+3159 = "Dash dancing is very useful when trying to weave in and out of an opponent's attack range. It also helps to keep your movement unpredictable."
+3160 = "Try to dash underneath me, then dash dance away before I can hit you. (Start your dash relatively close to me, so you don't enter the 'run' state. If you enter the turnaround animation under me, your score will be reset.)"
+3161 = "Repeated use of dash dancing is extremely effective at confusing enemies as long as you keep the timing unpredictable."
+3162 = "Another technique that can keep your movement unpredictable is the wavedash."
+3163 = "Wavedashing is performed by air dodging into the ground immediately after jumping. When landing during an air dodge, you keep the momentum from the air dodge."
+3164 = "If you angle your airdodge horizontally, you will quickly move sideways.\nIf you angle your airdodge straight downward, you will do a wavedash in place."
+3165 = "If you input the air dodge while in jumpsquat, you can wavedash without leaving the ground. This is called buffering a wavedash."
+3166 = "Buffering a wavedash while holding the control stick completely horizontal will give you the maximum distance on your wavedash."
+3167 = "Let's try it out. Keep wavedashing until you're over here.\n(Note: I've disabled all movement options except the buffered wavedash, so you'll need to do the inputs pretty quickly.)"
+3168 = "Like dash dancing, wavedashing is also useful for baiting out enemy attacks."
+3169 = "Next up is wavelanding."
+3170 = "Wavelanding is when you air dodge into the ground while in the air.\nIt is frequently used to quickly land on platforms."
+3171 = "Wavelanding horizontally is also a great way to cover a long distance very quickly."
+3172 = "To try out wavelanding, jump through the platform and air dodge onto it once you're above it. Repeat this 3 times."
+3173 = "Excellent!"
+3174 = "Be sure to practice these movement techniques frequently, as they are vital to having an intimidating offense and a tricky defense."
+3175 = "Even though you know how to execute these moves, you will still need to discover when to use them to get the most out of them. This comes with experience."
+
+//---- ADVANCED DEFENSE TUTORIAL
+3176 = "Welcome to the advanced defense tutorial! The techniques presented in this lesson are fairly situational but incredibly useful."
+3177 = "First, we'll learn how to survive when you're spiked downward offstage."
+3178 = "All you need is a combination of good DI and a wall tech."
+3179 = "DI my attack toward the wall, then tech as soon as you hit the wall."
+3180 = "Nice!"
+3181 = "Now let's learn how to survive strong attacks at the ledge."
+3182 = "Right when you're hit with an attack, you will stop in place for a few frames.\nThis is called hitpause."
+3183 = "While you are in hitpause near a wall, you can input a wall tech regardless of the direction the attack sends you."
+3184 = "Try using a diagonal uspecial to ride up this wall. When you get close to me while using uspecial, I will attack you."
+3185 = "Tech my attack 3 times in a row. Make sure you are touching the wall when you get hit, or else you won't be able to tech against it."
+3186 = "While this technique is useful for all characters, it is absolutely vital to Zetterburn's recovery."
+3187 = "The next lesson is all about SDI, which stands for Shift Directional Influence. It is used to escape from multi-hit moves."
+3188 = "Pressing the left or right stick in a direction right when you are hit by a move will move your character a short distance."
+3189 = "You can only shift once per hit, so the effect is minimal on single-hit moves."
+3190 = "Try to escape my attack before the final hit by pressing the control stick away from me every time you get hit."
+3191 = "Great!"
+3192 = "Now for the final lesson in defense: Drift DI."
+3193 = "After being hit by a move, you can drift left or right while flying through the air. This is separate from DI, as it occurs after you are launched."
+3194 = "For instance, you can drift inward after a strong hit to avoid flying too far. You can also drift outward while being comboed to put more space between you and your opponent."
+3195 = "A combination of inward DI followed by outward Drift DI can help you escape from seemingly guaranteed combos."
+3196 = "DI my hit inward, then drift away to avoid my next attack."
+3197 = "Incredible!"
+3198 = "Proper use of these techniques will serve you well when trying to foil the opponent's plans, so be sure to practice them until they're second nature."
+
+//---- ADVANCED OFFENSE TUTORIAL
+3199 = "Welcome to the advanced offense tutorial! Here, you will learn how to use timing and quick inputs to give you more options for attacking your opponents."
+3200 = "First, let's learn to autocancel multi-hit aerials."
+3201 = "While doing a multi-hit aerial, try landing before the final hit comes out. This way, the enemy will not be sent very far and you'll be able to combo them easily afterward."
+3202 = "It is much easier to autocancel an aerial if you fastfall, since there will be less time for the final hit to come out."
+3203 = "Try hitting me with a autocancelled NAIR followed by an UTILT 3 times.\nBe sure to start your NAIR right before you land so that the final hit never comes out. Fastfalling will also help cancel the final hit."
+3204 = "Some characters benefit from autocancelled aerials more than others, so try it out with all of them."
+3205 = "The next technique will allow you to jump toward an enemy while facing backward. This allows you to use BAIRs to approach your enemies."
+3206 = "This is called a Reverse Aerial Rush, or RAR for short."
+3207 = "To perform a RAR, all you have to do is jump while in the 'run turnaround' state."
+3208 = "In the 'run turnaround' state, you will lose forward momentum gradually. So the earlier you input the jump, the faster your RAR will travel."
+3209 = "Remember, you cannot enter the 'run turnaround' state from the 'initial dash' state, so make sure you've run far enough to enter the 'run' state before pressing backward."
+3210 = "As soon as you leave the ground, you'll want to start holding foward again so you can maintain foward momentum."
+3211 = "So the inputs are:\nRun -> Press backward + Jump -> Hold forward -> Aerial\nThe middle 3 inputs should be done as fast as possible."
+3212 = "Try hitting me with 3 RAR BAIRs while I'm offstage.\nYou can check the text at the bottom to see if you're doing the RAR correctly."
+3213 = "Good!"
+3214 = "The next technique is called the Special Reverse."
+3215 = "When inputting a special attack, you can reverse its direction by pressing the opposite direction immediately afterward."
+3216 = "To test this out, try reversing a DSPECIAL to hit me."
+3217 = "Nice!"
+3218 = "For the next lesson, you'll learn how to beat parries.\nAll it takes is a bit of patience."
+3219 = "If your opponent is parrying a lot of your approaches, it means you're starting to become predictable."
+3220 = "If this happens, you can trick your opponent into thinking that you're going to attack them by delaying your attacks a little bit."
+3221 = "This will cause them to miss their parry and you will get to punish them."
+3222 = "You can also achieve this by purposefully missing them with your attacks."
+3223 = "Let's test it out! As soon as you come near me, I'll try to parry.\nDelay your attack and punish me for missing the parry."
+3224 = "Fantastic!"
+3225 = "If your opponent starts catching on to your delayed attacks, you can start mixing it up by alternating between early and later attacks."
+3226 = "If you really want to optimize your punish game, you will need to incorporate hitfalling."
+3227 = "When you hit an opponent with a melee attack, there will be a few frames of hitpause where both characters are frozen."
+3228 = "If you buffer a fastfall during hitpause, you will cancel your previous momentum and fastfall instead. This is called hitfalling, and is the fastest way to reach the ground after hitting someone."
+3229 = "When you perform a rising aerial, hitfalling allows you to cancel the endlag of your attack and continue your combo."
+3230 = "Try hitting me with rising BAIR then hitfalling into USTRONG 3 times."
+3231 = "Perfect!"
+3232 = "Refine these techniques and you'll have no trouble keeping your opponents on their toes."
+
+//---- ZETTERBURN TUTORIAL
+3233 = "Welcome to the Zetterburn tutorial!"
+3234 = "Zetterburn, the Fire's Roar, is fast and strong with simple mechanics that will feel familiar to veteran players."
+3235 = "His unique mechanic is the ability to light his opponents on fire. All of his special attacks, as well as his BAIR, will ignite his enemies."
+3236 = "Try igniting me with each of these attacks."
+3237 = "When your opponents are burning, they will take damage over time. But that's not all that your fire can do."
+3238 = "If you land a strong attack on a burning opponent, your blow will be greatly amplified."
+3239 = "Try igniting me then using a strong attack while I'm burning."
+3240 = "Zetterburn's main weakness is his recovery."
+3241 = "While Zetterburn is starting his USPECIAL, he is vulnerable for a long duration."
+3242 = "If you have not used your air dodge already, you can use it to cancel the USPECIAL before it starts traveling. This is extremely useful for avoiding enemy attacks while offstage."
+3243 = "Try cancelling your USPECIAL with an airdodge 3 times."
+3244 = "Nice!"
+3245 = "When Zetterburn hits an opponent with a dash attack, he can instantly cancel it into an USTRONG."
+3246 = "This is called a gatling combo. While the USTRONG can usually be avoided with proper DI, it is still an extremely strong tool."
+3247 = "To do a gatling combo, input an USTRONG during the hitpause of the dash attack."
+3248 = "Try hitting me with 3 gatling combos in a row."
+3249 = "Great!"
+3250 = "Not only is Zetterburn's NSPECIAL the fastest move in the game, it can also be jump-cancelled."
+3251 = "If you jump while in the recovery frames of NSPECIAL, it will cancel all of the endlag and allow you to act instantly."
+3252 = "Try jumping out of NSPECIAL 3 times."
+3253 = "Fantastic!"
+3254 = "This concludes the Zetterburn tutorial!"
+
+//---- ORCANE TUTORIAL
+3255 = "Welcome to the Orcane tutorial!"
+3256 = "Orcane, the Puddle Jumper, is one of the more complex rivals with a strong emphasis on zoning opponents out. Succeeding with Orcane requires a lot of planning."
+3257 = "His playstyle revolves around placing puddles on the ground and using them to control space. NSPECIAL, DSPECIAL, and grounded USPECIAL all create puddles."
+3258 = "Try making a puddle with each of these attacks. I'll clean up the puddles right after you make them."
+3259 = "Having a puddle onstage is essential to recovering as Orcane."
+3260 = "If a puddle is already on the stage, your USPECIAL will teleport you directly to the puddle, no matter how far away it is."
+3261 = "Teleporting to a puddle also functions as an extremely strong attack. However, this attack has significant endlag, so it can be punished easily if the opponent is ready."
+3262 = "Try using the aerial version of USPECIAL to teleport to a puddle 3 times."
+3263 = "You can also use puddles to boost your strong attacks."
+3264 = "Using a strong attack while standing on a puddle will extend its range significantly."
+3265 = "Try hitting me with one of each boosted strong attack."
+3266 = "Nice!"
+3267 = "When used on a puddle, Orcane's FSPECIAL receives a significant boost in kill power."
+3268 = "But before that, let's learn a little more about how FSPECIAL works."
+3269 = "Normally, when you use FSPECIAL in the air, you will enter the helpless fall state. If you hit an enemy with the attack, however, you will avoid the helpless fall state and instead remain fully actionable."
+3270 = "You can also change the length of the attack by holding backward or forward after using it."
+3271 = "So now let's try it out. Try hitting me 3 times with a puddle-boosted FSPECIAL, then recovering immediately afterward."
+3272 = "Great!"
+3273 = "One of Orcane's strongest zoning tools is his ability to create a wall of bubbles."
+3274 = "Using DSPECIAL while a puddle already exists will make the puddle erupt into a large column of bubbles. These bubbles can be angled by holding left or right."
+3275 = "Orcane's FAIR creates a horizontal flow of bubbles. These bubbles can be angled by holding up or down."
+3276 = "Bubbles are great for trapping opponents in order to disrupt their attacks or even follow up with an attack of your own."
+3277 = "Try hitting me with both types of bubbles."
+3278 = "Orcane's FAIR has another interesting property."
+3279 = "If he has the right amount of momentum when using it, his back side gains a hitbox. This is called 'Bubble Butt'."
+3280 = "Hold backward immediately after using FAIR, and you'll get an extreme speed boost."
+3281 = "Try hitting me with Bubble Butt 3 times."
+3282 = "This next technique is an advanced way to recover when you have no puddle."
+3283 = "If you use USPECIAL right after using your double jump, you will get a large vertical boost even without a puddle. This is called an 'Orcahop'."
+3284 = "Try Orcahopping 3 times.\nThe timing is very tight, so use USPECIAL immediately after double jumping."
+3285 = "This last technique allows you to slide across the stage while charging a strong attack."
+3286 = "When Orcane turns around while running, he gets a slight boost forward before accelerating backward."
+3287 = "Start a strong attack during the beginning of his turnaround state, and he will maintain his momentum and slide far across the stage. This is called 'Hydroplaning'."
+3288 = "Try hitting me with 3 hydroplane puddle USTRONGs. I'll create a puddle for you."
+3289 = "Fantastic!"
+3290 = "This concludes the Orcane tutorial!"
+
+//---- WRASTOR TUTORIAL
+3291 = "Welcome to the Wrastor tutorial!"
+3292 = "Wrastor, the Wind's Fury, trades survivability for mobility and oppressive combos."
+3293 = "He has the ability to jump 3 times in the air, compared to the single aerial jump every other character has."
+3294 = "Try jumping as high as you can with all of your jumps."
+3295 = "Another unique trait of Wrastor is his ability to perform strong attacks while airborne."
+3296 = "Wrastor can use strong attacks in the air but not on the ground, where he will only perform tilts instead."
+3297 = "FSTRONG and USTRONG both have very strong sweet spots at the tip of the clap."
+3298 = "Try hitting me with 3 of each strong attack."
+3299 = "Nice!"
+3300 = "Wrastor's NSPECIAL makes him spin around inside of a tornado, trapping opponents who are hit by it."
+3301 = "If you hold the special button, you will rise while spinning. This is a great way to carry an enemy beyond the top blastzone."
+3302 = "Try using a rising NSPECIAL to hit me."
+3303 = "Good!"
+3304 = "Wrastor's FSPECIAL creates a wind current that increases his speed dramatically."
+3305 = "While in the current, Wrastor's ground speed, air speed, and wavedash speed become incredibly fast."
+3306 = "Try running around in the current for a bit."
+3307 = "Great!"
+3308 = "Wrastor's strongest attacks are his sweet spots. Along with the ones on his strong attacks, he has one on his USPECIAL."
+3309 = "Right when USPECIAL starts, you will see a sparkle in front of Wrastor. This is the sweet spot."
+3310 = "You can even reverse USPECIAL right after the sweet spot hits, just in case you need to recover after using it offstage."
+3311 = "Try hitting me with the sweet spot of USPECIAL 3 times."
+3312 = "While Wrastor is a terror in the air, his ground attacks can also be very useful."
+3313 = "When one of Wrastor's tilts connects, it allows him to jump to cancel the recovery frames."
+3314 = "Try hitting me with 3 tilts and jump cancelling each of them."
+3315 = "Incredible!"
+3316 = "This concludes the Wrastor tutorial!"
+
+//---- KRAGG TUTORIAL
+3317 = "Welcome to the Kragg tutorial!"
+3318 = "Kragg, Earth's Bastion, is slower than your average fighter. But he is heavy and powerful, and knows how to take a hit."
+3319 = "One of Kragg's most useful tools is his ability to pull a block of earth from any surface."
+3320 = "Use NSPECIAL while grounded to make Kragg pull a rock from the ground."
+3321 = "Once he's holding a rock, he can throw it four ways:\nNeutral throw, Forward throw, Up throw, and Down throw."
+3322 = "Remember: Kragg can only have one rock out at a time, but the existing rock can be picked up if you use NSPECIAL near it."
+3323 = "Try hitting me with 3 of each type of rock throw."
+3324 = "Good!"
+3325 = "Kragg is very heavy, meaning he takes less knockback than the average rival. In addition, using his FSPECIAL ensures that he takes almost no knockback at all."
+3326 = "When Kragg uses FSPECIAL, he curls up into a ball and spins forward. While in this state, he cannot be knocked out of it."
+3327 = "During FSPECIAL, Kragg's horizontal knockback is capped at a low value, meaning he can be knocked backward only slightly. He also takes no vertical knockback in this state."
+3328 = "Try using FSPECIAL to armor through my attack 3 times in a row."
+3329 = "FSPECIAL also has an interesting property when hitting an opponent."
+3330 = "After you hit an enemy with FSPECIAL, you can instantly jump out of it to cancel the endlag."
+3331 = "This also works when hitting rocks or pillars, but only for a brief period after hitting them."
+3332 = "Try hitting me with an aerial after jump-cancelling your FSPECIAL 3 times."
+3333 = "Kragg's USPECIAL is very unique and extremely versatile."
+3334 = "Using USPECIAL will summon a pillar beneath Kragg's feet, allowing him to regain his double jump and air dodge, and even allowing him to use grounded moves where most rivals can't."
+3335 = "On the way up, the pillar will hit your enemies and bring them upward. At higher damage, you can even combo off of the pillar hit."
+3336 = "Be careful, however. The pillar will be instantly broken if hit by any attack, sending anyone standing on top of it into the helpless fall state as long as they aren't invincible."
+3337 = "While rising, the pillar is invincible to all attacks. For a short period afterward, it is invincible to all projectiles."
+3338 = "You can only use pillar once before touching the ground again. Using USPECIAL again before touching the ground will only give you a small upward boost."
+3339 = "You can also pull a rock out of a pillar, but only once per pillar."
+3340 = "Let's try it out. Hit me with a pillar 3 times."
+3341 = "Nice!"
+3342 = "Kragg's dash attack is a great offensive tool, especially since it can be cancelled into a jab or tilt after hitting an opponent."
+3343 = "Try hitting me with a dash attack cancelled into a jab or tilt 3 times."
+3344 = "Great!"
+3345 = "When a rock is hit by an attack, small rock shards are sent flying in the direction of the attack."
+3346 = "Try hitting me with rock shards 3 times. Experiment with different attacks to see all the angles you can send shards."
+3347 = "Incredible!"
+3348 = "This concludes the Kragg tutorial!"
+
+//---- FORSBURN TUTORIAL
+3349 = "Welcome to the Forsburn tutorial!"
+3350 = "Forsburn, the Exiled Flame, is a master of deception. Even when he's not causing confusion among the enemy, he can still go toe to toe with the strongest opponents."
+3351 = "When you use NSPECIAL, Forsburn will begin to emit smoke for a short duration. Smoke hides Forsburn's location as long as he isn't attacking, but enemies will remain fully visible in the smoke."
+3352 = "Smoke is permanent until destroyed, but there is a limit to how many smoke clouds can be on screen at once."
+3353 = "Try placing smoke on the stage with NSPECIAL."
+3354 = "Another one of Forsburn's tools of deception is his decoy clone."
+3355 = "Forsburn's FSPECIAL creates a clone of himself that moves around the stage like a normal CPU character. The clone cannot perform normal attacks, however."
+3356 = "Pressing DSPECIAL causes the clone to explode. The explosion is fairly weak, but can be a very useful combo tool when used near the real Forsburn."
+3357 = "Pressing NSPECIAL or FSPECIAL switches the clone between aggressive and evasive behavior."
+3358 = "The clone disappears if he is hit by an enemy attack, leaving behind a single cloud of smoke."
+3359 = "Try hitting me with the clone's explosion attack 3 times."
+3360 = "Forsburn's DSPECIAL allows him to inhale smoke clouds."
+3361 = "Once 3 smoke clouds have been consumed, DSPECIAL becomes a powerful combust attack originating from Forsburn's center."
+3362 = "When fully charged, NSPECIAL and FSPECIAL also change. NSPECIAL expels a huge formation of smoke, while FSPECIAL allows the clone to attack when you press NSPECIAL or FSPECIAL."
+3363 = "When you consume the final cloud, all existing smoke and clones disappear. This move trades Forsburn's deception for access to extremely powerful options."
+3364 = "Try hitting me 3 times with combust."
+3365 = "Great!"
+3366 = "Forsburn's USPECIAL teleports him a short distance in the direction of the control stick with a hitbox when Forsburn reappears. After the teleport, Forsburn falls helplessly."
+3367 = "If Forsburn teleports into a smoke cloud, however, he will not attack and will instead be fully actionable. This allows him to move sneakily through smoke."
+3368 = "Forsburn can only teleport into smoke twice before touching the ground. Trying a third time will just destroy the smoke."
+3369 = "Try hitting me with USPECIAL 3 times. I'll be too high up to reach from the ground, so you'll need to teleport into this cloud and then teleport again to hit me."
+3370 = "Forsburn's strong attacks have an interesting property as well."
+3371 = "Forsburn's FSTRONG and USTRONG are two-part attacks, meaning pressing the strong button once will do the first hit and pressing it again will execute the second."
+3372 = "Try hitting me with both hits of FSTRONG."
+3373 = "Well done!"
+3374 = "This concludes the Forsburn tutorial!"
+
+//---- MAYPUL TUTORIAL
+3375 = "Welcome to the Maypul tutorial!"
+3376 = "Maypul, the Sylvan Watcher, is extremely agile and equally dangerous."
+3377 = "Her gameplan revolves around keeping her Watcher's Mark on the opponent."
+3378 = "Maypul can mark opponents with NSPECIAL, FSPECIAL, and aerial DSPECIAL."
+3379 = "Try hitting me with each marking move 3 times. As soon as you mark me, I'll remove the mark so you can easily mark me again."
+3380 = "Good!"
+3381 = "If you hit an opponent with a strong attack while they're marked, they will get wrapped in place."
+3382 = "The duration of the wrap is dependent on the opponent's damage and how long you charge the attack."
+3383 = "While wrapped, you can hit them with anything you want."
+3384 = "Try marking and then wrapping me with any strong attack 3 times."
+3385 = "Nice!"
+3386 = "Maypul's USPECIAL is normally just a short uppercut attack, but it changes completely if the opponent is marked."
+3387 = "With a mark in use, her USPECIAL will use a vine to bring her directly to the nearest marked opponent."
+3388 = "If you hold left or right, she will appear on that side of the enemy. Otherwise, she will appear above them."
+3389 = "Try bringing yourself to me with USPECIAL 3 times."
+3390 = "Great!"
+3391 = "You can also do the normal uppercut USPECIAL when an opponent is marked. Just release the special button before the tether comes out."
+3392 = "Try hitting me 3 times with the normal uppercut USPECIAL while I'm marked."
+3393 = "Right on!"
+3394 = "Maypul's DSPECIAL summons her pet plant, Lily. Lily will attack opponents that come near her."
+3395 = "Her attack has a bit of startup, so it can be dodged or parried. If you knock an opponent into her, however, she will attack almost instantly."
+3396 = "Hitting marked opponents into Lily will wrap them, allowing you to easily follow up with an attack."
+3397 = "Lily will disappear after a while, but you can reset her lifespan by feeding her seeds with NSPECIAL."
+3398 = "Try hitting me 3 times with Lily's attack."
+3399 = "Alright!"
+3400 = "Maypul also has the unique ability to cling to walls when wall jumping."
+3401 = "If you hold jump while attempting a wall jump, Maypul will stay on the wall for a short duration."
+3402 = "When you let go of the jump button, Maypul will wall jump like normal. If you hold inward, Maypul will wall jump straight upward."
+3403 = "Try clinging to the wall 3 times."
+3404 = "When trying to recover without a tether, Maypul can sometimes struggle."
+3405 = "Using UAIR will give Maypul a small upward boost relative to her current speed. If you use UAIR right after jumping, Maypul will get a significant upward boost."
+3406 = "Try using an instant UAIR to extend your jumps and hit me. To get maximum height, be sure to input the UAIR as fast as possible."
+3407 = "One of Maypul's more technical moves is the reverse FSPECIAL."
+3408 = "If you press backward right after using FSPECIAL, Maypul will do a short backward dash instead of a long forward dash."
+3409 = "Since FSPECIAL sends opponents behind Maypul, the reverse FSPECIAL can make following up after the attack much easier."
+3410 = "Try hitting me with 3 reverse FSPECIALs followed by UTILT. The timing is very tight, so be quick!"
+3411 = "Excellent!"
+3412 = "This concludes the Maypul tutorial!"
+
+//---- ABSA TUTORIAL
+3413 = "Welcome to the Absa tutorial!"
+3414 = "Absa, the Storm Architect, has all the tools to keep her opponents at a distance while also being a terror in the air."
+3415 = "Absa relies on placing clouds around the battlefield to zone out her opponents."
+3416 = "Use NSPECIAL to place a cloud beneath you and FSPECIAL to place a cloud from a range. While holding FSPECIAL, you can move the cloud up or down."
+3417 = "Clouds made with FSPECIAL have a weak hitbox when they are placed. This can be used to combo enemies."
+3418 = "Try hitting me with FSPECIAL 3 times."
+3419 = "Nice!"
+3420 = "While a cloud is active, tapping NSPECIAL will pop the cloud. Holding NSPECIAL will create a giant lightning bolt between Absa and her cloud."
+3421 = "An opponent hit by the weak NSPECIAL attack will be sent in a different direction depending on which side of the cloud hits them. You can use this to plan your followups."
+3422 = "Use NSPECIAL to create a cloud, then tap NSPECIAL again to hit me with the cloud. Don't hit me with FSPECIAL, or the counter will be reset."
+3423 = "Good!"
+3424 = "Now try using the charged NSPECIAL attack to strike me with your powerful lightning bolt. Just hold NSPECIAL while a cloud is active."
+3425 = "Great!"
+3426 = "Absa's DSPECIAL creates a chain lightning timer around her cloud. If there is no cloud, Absa will create one at her position."
+3427 = "When the lightning chain is completed, it emits a powerful burst of electricity. Before this burst, there are no hitboxes on the chain lightning."
+3428 = "If you hold DSPECIAL until it's done charging, Absa will place the chain lightning on herself instead of on a cloud."
+3429 = "If the chain lightning is following Absa, it will be destroyed when Absa is attacked."
+3430 = "Try hitting me 3 times with both versions of DSPECIAL."
+3431 = "Right on!"
+3432 = "Absa's USPECIAL is a two-part move that allows her to move great distances very quickly."
+3433 = "When you first use USPECIAL, Absa will dart in the direction of the control stick."
+3434 = "If you hold a different direction when the first part finishes, Absa will dart again in the new direction. You cannot go the same direction twice, however."
+3435 = "Try hitting me with the second part of USPECIAL 3 times."
+3436 = "Okay!"
+3437 = "Absa can act out of either part of her USPECIAL if she touches the ground at any time, including the very beginning."
+3438 = "For example, if you start the first part of USPECIAL on the ground and go straight up, you will be able to act freely afterward."
+3439 = "If you end the first part in the air and then do the second part of USPECIAL, you will not be able to act out of it unless you touch the ground while traveling."
+3440 = "If you end the first part on the ground, however, you will always be able to act out of the second part, since it will start on the ground."
+3441 = "This is an incredible tool for approaching enemies if you stay unpredictable with it."
+3442 = "Try hitting me with USPECIAL and then hitting me with an aerial before touching the ground."
+3443 = "Next, let's talk double jumps."
+3444 = "Absa has a unique double jump. She begins by going downward, then accelerates upward quickly."
+3445 = "If Absa does an aerial during her double jump, she can either cancel the acceleration or keep it. This depends on whether the jump button is still held or not."
+3446 = "If the jump button is not held down when the attack button is pressed, the acceleration will stop. This is called a double jump cancel (DJC)."
+3447 = "Double jump cancelling is useful for doing aerials low to the ground, since you will do a falling aerial if you cancel the double jump early enough."
+3448 = "Try performing 3 double jump cancelled FAIRs. Just input the aerial immediately after double jumping, and don't forget to release the jump button."
+3449 = "Cool!"
+3450 = "If you hold the jump button while performing an aerial after a double jump, you will do a rising aerial."
+3451 = "Try doing 3 rising UAIRs. The input is the exact same as a double jump cancelled aerial, except you hold the jump button down when pressing the attack button."
+3452 = "Alright!"
+3453 = "Absa's FAIR, BAIR, and DAIR all have tiny sweet spots that are extremely powerful. Hitting with them can be quite challenging at times."
+3454 = "If you land a sweet spot on a cloud, however, the entire cloud will explode with the same power as the sweet spot."
+3455 = "Try using clouds to hit me with the extended sweet spots 3 times."
+3456 = "Wonderful!"
+3457 = "This concludes the Absa tutorial!"
+
+//---- ETALUS TUTORIAL
+3458 = "Welcome to the Etalus tutorial!"
+3459 = "Etalus, the Glacier's Might, is an enormous powerhouse with slippery movement and terrifying strength."
+3460 = "Etalus is normally pretty slow, but he has the ability to freeze the ground to enhance his movement."
+3461 = "His FTILT, FSPECIAL, and grounded USPECIAL all place ice on the ground. Ice decreases his ground friction and allows his dash attack to go extremely far."
+3462 = "Try using all of the freezing moves 3 times each."
+3463 = "Cool!"
+3464 = "When Etalus uses USPECIAL, he does not enter the helpless fall state. Instead, he can act out of it once he travels far enough."
+3465 = "Try hitting me 3 times with an aerial after using USPECIAL. You'll have to charge USPECIAL various amounts to reach different heights."
+3466 = "Nice!"
+3467 = "Etalus's NSPECIAL is a very slow yet very powerful attack. If you strike frozen ground with it, however, it will give Etalus Ice Armor."
+3468 = "While he has Ice Armor, Etalus falls much faster and cannot take knockback after releasing the charge of a Strong Attack."
+3469 = "Try armoring through my attack using a Strong Attack. I'll attack as soon as you get close to me, so make sure you have your armor ready."
+3470 = "Good!"
+3471 = "Having armor also enhances your offensive powers."
+3472 = "If you use a strong attack with armor, it will shoot ice shards in a cone in the direction of the attack. Doing this removes your armor."
+3473 = "Try hitting me with an armored strong attack or its shards 3 times."
+3474 = "Great!"
+3475 = "Etalus's DSPECIAL will freeze grounded opponents if you hit them with the landing hitbox."
+3476 = "You can also freeze opponents who are standing on ice by using DSPECIAL anywhere on the stage."
+3477 = "Frozen enemies take no knockback, but break out of the ice after a set time. If you watch the ice crack, you'll be able to tell when they are going to break free."
+3478 = "Soon after being frozen, the enemy needs to decide what action to take when they break free. They can tech in place, roll left, or roll right as soon as the ice shatters."
+3479 = "They must input their decision early, so they won't be able to react to your punishment. If you can read their tech, you will be able to capitalize hard."
+3480 = "Try freezing me 3 times. You can use the landing hitbox of DSPECIAL or just use DSPECIAL anywhere while I'm above ice."
+3481 = "Okay!"
+3482 = "Etalus' dash attack is a fantastic burst movement option, especially since you can jump to cancel it."
+3483 = "Try hitting me with a dash attack, then jump cancel it and hit me with a NAIR."
+3484 = "Right on!"
+3485 = "You can also cancel the dash attack with an USTRONG to perform a sliding USTRONG that can cover the entire stage."
+3486 = "Try hitting me with a sliding USTRONG 3 times. The earlier you cancel the dash attack, the more you will slide."
+3487 = "Last one!"
+3488 = "While Etalus has his arm up during the startup of FAIR, he will armor through weaker attacks."
+3489 = "If you hold the attack button, he will keep armoring weak attacks. If you release the attack button before the blocking animation ends, he will release a strong punch."
+3490 = "Try blocking 3 of my projectiles with your FAIR."
+3491 = "Incredible!"
+3492 = "This concludes the Etalus tutorial!"
+
+//---- ORI TUTORIAL
+3493 = "Welcome to the Ori and Sein tutorial!"
+3494 = "Ori is a speedy rival who can team up with Sein to deliver devastating combos."
+3495 = "Sein will follow Ori around and can attack nearby enemies with NSPECIAL."
+3496 = "If you tap NSPECIAL, Sein will use Spirit Flame to instantly attack anyone nearby. You can even use this attack while Ori is performing other moves."
+3497 = "NSPECIAL can be used 3 times quickly before overheating, which will put a short cooldown on the move."
+3498 = "Try hitting me with all 3 hits of Spirit Flame 3 times."
+3499 = "Nice!"
+3500 = "If you hold NSPECIAL, Sein will build up energy to release Charged Flame."
+3501 = "While NSPECIAL is charging, Ori can still fight like normal, but Charged Flame will automatically release after a short time."
+3502 = "Once Charged Flame has started charging, you can release the special button. Press special again to release Charged Flame."
+3503 = "If you hold special too long, however, Charged Flame will come out when you release special."
+3504 = "Try hitting me 3 times with Charged Flame."
+3505 = "Great!"
+3506 = "If Ori performs a Strong Attack when Sein is nearby, Sein will join Ori and make the attack much stronger."
+3507 = "Try hitting me with 3 of each Strong Attack, both the normal Strong Attack and the Team-up Strong Attack."
+3508 = "Excellent!"
+3509 = "One of Ori's strongest attacks is DSPECIAL: Bash."
+3510 = "If you hit an opponent with Bash, you can launch them at any angle you want. The enemy will fly in the opposite direction of your control stick."
+3511 = "Missing a Bash will put Ori in special fall and will likely result in a stock loss if Ori is offstage."
+3512 = "Try launching me downward with Bash 3 times."
+3513 = "Good!"
+3514 = "Ori can also use Bash to throw projectiles back at opponents."
+3515 = "When using Bash on a projectile, the timing is much more lenient and has almost no startup time. You can also release the projectile at any time."
+3516 = "Try redirecting my projectiles 3 times in a row."
+3517 = "Fantastic!"
+3518 = "You can even use Bash to alter the trajectory of your own FSPECIAL."
+3519 = "You can use this to quickly launch yourself in any direction, letting you engage the opponent or mix up your recovery."
+3520 = "Hit me 3 times with a Bashed FSPECIAL."
+3521 = "Incredible!"
+3522 = "Ori's USPECIAL pulls out Kuro's Feather, allowing Ori to glide back to the stage from far away."
+3523 = "Pressing Down on the control stick will cause Ori to put the feather away. You can bring the feather back out by pressing Up on the control stick."
+3524 = "If you hit an opponent with USPECIAL, you can cancel the attack with an air dodge. This allows you to extend your combos with wavelands or get even more distance when recovering."
+3525 = "Try hitting me with USPECIAL into air dodge into a second USPECIAL 3 times."
+3526 = "Perfect!"
+3527 = "This concludes the Ori and Sein tutorial!"
+
+//---- RANNO TUTORIAL
+3528 = "Welcome to the Ranno tutorial!"
+3529 = "Ranno is able to poison his opponents with his jabs, strong attacks, and special moves. His movement is quick on the ground but slow in the air."
+3530 = "By crouching before a full jump, Ranno can perform a super jump. This allows him to gain extra height very quickly."
+3531 = "Try performing 3 super jumps. Make sure you hold the jump input until you leave the ground."
+3532 = "Good!"
+3533 = "Ranno's NSPECIAL throws darts which apply poison to opponents. Each time a poisoned opponent performs an attack, they will take damage."
+3534 = "Poison can stack up to 4 times. A single poison stack is removed when the opponent lands an attack."
+3535 = "The number of darts thrown depends on how long you charge the move. Pressing the dodge button while charging will store the charge."
+3536 = "Try storing a full charge of NSPECIAL 3 times."
+3537 = "Perfect!"
+3538 = "Ranno's DSPECIAL spawns a bubble above him. Knocking enemies into the bubble will trap them inside it. The more poisoned they are, the longer they will be trapped."
+3539 = "While you can easily combo a trapped opponent, they can still slightly move around to avoid your attacks."
+3540 = "Hitting the bubble allows you to position it, and pressing DSPECIAL again will summon the bubble toward you."
+3541 = "Be careful though, as enemies can also knock you into your own bubble and trap you as well."
+3542 = "Try knocking me into your bubble 3 times."
+3543 = "Great!"
+3544 = "Ranno's FSPECIAL is a long-range tongue attack which traps opponents in a bubble. Again, you can trap enemies for a longer duration by poisoning them first."
+3545 = "Try applying 4 stacks of poison then hitting me with FSPECIAL 3 times. Remember that you can poison using jabs, strong attacks, or specials."
+3546 = "Fantastic!"
+3547 = "FSPECIAL can also be used on walls or the ground to launch yourself toward them, aiding in both movement and recovery."
+3548 = "The farther the tongue travels before hitting an object, the stronger your boost will be."
+3549 = "Try grabbing the ground with FSPECIAL 3 times."
+3550 = "Nice!"
+3551 = "Ranno's USPECIAL has 3 different variations depending on which inputs you use during the initial rise. Let's try the first two."
+3552 = "1. If you don't press anything while rising, you will just rise with a poisonous attack and then go into special fall immediately afterward."
+3553 = "2. If you press DSPECIAL while rising, you will cancel the attack into a poisonous dive kick."
+3554 = "Hit me 3 times with the USPECIAL dive kick."
+3555 = "Wonderful! Now for the third variation..."
+3556 = "3. The last variation of Ranno's USPECIAL is activated by holding the attack button while rising."
+3557 = "Ranno will begin to spin and throw a flurry of poison darts in random directions."
+3558 = "Try hitting me 3 times with USPECIAL spin attack."
+3559 = "Excellent!"
+3560 = "One technique for swift airborne movement is to cancel the FSPECIAL tongue pull with a jump."
+3561 = "If you grab the ground with FSPECIAL but jump right before touching the ground, you will maintain your momentum from the tongue sling."
+3562 = "Try hitting me 3 times with a NAIR after sling jumping."
+3563 = "Incredible!"
+3564 = "This concludes the Ranno tutorial!"
+
+//---- CLAIREN TUTORIAL
+3565 = "Welcome to the Clairen tutorial!"
+3566 = "Clairen wields a burning blade which she uses to outrange and oppress opponents."
+3567 = "The end of the blade is supercharged, and hitting someone with just the tip of the sword will stun them for a short duration."
+3568 = "Try hitting me with the tip of Clairen's sword with 3 different kinds of attacks. Precision is key."
+3569 = "Excellent!"
+3570 = "Clairen lacks a projectile of her own, but with the use of DSPECIAL, she can nullify the opponent's projectiles."
+3571 = "Use DSPECIAL right before an attack lands to produce a large plasma field and counter the attack. Projectiles that enter the plasma field are instantly destroyed."
+3572 = "Try destroying 3 of my projectiles with the plasma field."
+3573 = "Great!"
+3574 = "When using USPECIAL, you can perform a final hit which unleashes an enormous slash attack and gives Clairen a little bit of extra height."
+3575 = "To activate it, perform USPECIAL and keep holding the special button or press it again while rising."
+3576 = "Try hitting me 3 times with the final hit of USPECIAL."
+3577 = "Fantastic!"
+3578 = "Clairen's NSPECIAL is a quick grab attack that holds opponents in place, giving you the choice to throw them forward or backward."
+3579 = "If your NSPECIAL hits an enemy while midair, it will restore your double jump once."
+3580 = "Try throwing me both ways 3 times each."
+3581 = "Nice!"
+3582 = "Some tipper attacks stun opponents long enough for you to hit them with another attack before the stun wears off."
+3583 = "Try hitting me with tipper DAIR into NSPECIAL 3 times. Make sure I'm still stunned when NSPECIAL hits."
+3584 = "Perfect!"
+3585 = "This concludes the Clairen tutorial!"
+
+//---- SYLVANOS TUTORIAL
+3586 = "Welcome to the Sylvanos tutorial!"
+3587 = "Sylvanos controls the ground by growing grass that powers up his special attacks and makes his aerial attacks have less landing lag."
+3588 = "He automatically grows grass any time he touches the ground.\nLeaving a grass-covered platform for more than a second will cause all grass on that platform to die."
+3589 = "Try covering the ground in grass by walking on it."
+3590 = "Good!"
+3591 = "Another way to cover the ground in grass is to plant a seed with NSPECIAL. The resulting flower will stay on the ground until it takes damage from an enemy attack. Up to 3 flowers can be active at once."
+3592 = "The flower creates grass in a small area around it, but can maintain grass for the entire platform. If the grass is destroyed, the flower will instantly regrow it."
+3593 = "You can also change the trajectory of the NSPECIAL projectile by holding any direction."
+3594 = "Try planting 3 NSPECIAL flowers."
+3595 = "Nice!"
+3596 = "NSPECIAL can also be used to combo opponents. If it hits an enemy, it will trap them in a flurry of vine attacks."
+3597 = "Another way to plant a flower is to press the SPECIAL button after performing the first 2 attacks of the jab combo."
+3598 = "Creating a seed with his jab combo sends the projectile at a lower angle than NSPECIAL, so it can be used to avoid planting the seed on platforms."
+3599 = "Try using the special jab combo seed 3 times."
+3600 = "Excellent!"
+3601 = "Sylvanos' FTILT sends a wave of petals along the ground as long as there's grass."
+3602 = "Try hitting me with the FTILT petals 3 times."
+3603 = "Great!"
+3604 = "Using DSPECIAL will cause all of your grass to attack. After the attack, the grass will go into a cooldown state where it won't give you any benefits."
+3605 = "Try hitting me with DSPECIAL 3 times."
+3606 = "Wonderful!"
+3607 = "FSPECIAL causes Sylvanos to dash forward and bite enemies, ripping up all grass in the way. The attack will continue to dash forward as long as there is grass under him."
+3608 = "Holding forward or backward will cause Sylvanos to dash faster or slower."
+3609 = "While on grass, you can cancel FSPECIAL with a jump, but you cannot airdodge immediately after this jump, so you will be unable to safely retreat."
+3610 = "Try hitting me with FSPECIAL and then follow up with an aerial 3 times."
+3611 = "Fantastic!"
+3612 = "USPECIAL causes Sylvanos to dig into the ground and emerge anywhere within a large radius. Move sideways while underground to determine where Sylvanos emerges."
+3613 = "If there is grass where Sylvanos emerges, he can perform a strong bite attack by holding SPECIAL."
+3614 = "If you don't hold SPECIAL or if there is no grass where he emerges, he will emerge quicker but with no attack."
+3615 = "Try hitting me with USPECIAL's bite 3 times."
+3616 = "Awesome!"
+3617 = "You can also cancel USPECIAL by pressing the dodge button before digging into the ground."
+3618 = "This is useful if you need to quickly get to the stage without going through the lengthy digging process."
+3619 = "Try cancelling USPECIAL 3 times."
+3620 = "Very good!"
+3621 = "Sylvanos' BAIR fires a strong vine attack that can be angled up or down."
+3622 = "When the vine collides with the ground, it will hold Sylvanos in place, allowing him to perform any action. Performing another BAIR will cancel the attack."
+3623 = "Try using downward-angled BAIR to grab the ground or the wall 3 times."
+3624 = "Perfect!"
+3625 = "This concludes the Sylvanos tutorial!"
+
+//---- ELLIANA TUTORIAL
+3626 = "Welcome to the Elliana tutorial!"
+3627 = "Elliana uses her steam powered mech to fly around the battlefield and unleash an arsenal of various weapons."
+3628 = "Elliana doesn't have a double jump and instead can hover around, even while attacking. Hovering builds up heat, however, and will overheat the mech if used too much."
+3629 = "She cannot hover during the endlag of aerials or strong attacks, so she will lose some height when using them."
+3630 = "Try hitting me with aerials 3 times. You'll have to hover to reach me."
+3631 = "Great!"
+3632 = "Another way to build up heat is to hold the ATTACK button when performing DASH ATTACK or FTILT."
+3633 = "You can repeat these attacks infinitely until you overheat. Once you're overheated, you'll have to cool off before you can repeat them again."
+3634 = "Try doing 3 fully extended DASH ATTACKS followed by 3 fully extended FTILTS."
+3635 = "Good!"
+3636 = "Using special attacks will also build up heat, so you can't use them too frequently."
+3637 = "If you need to cool down, use a strong attack to expel steam from your mech. Steam will hit opponents who come near it, but can be pushed around by attacks."
+3638 = "You can use strong attacks both in the air and on the ground, and all of them give you a momentum boost in the opposite direction they attack."
+3639 = "Try hitting me 3 times with strong attack steam. Be careful not to overheat or your strong attacks will change."
+3640 = "Excellent!"
+3641 = "If Elliana is overheated when performing a strong attack, it will create an explosion instead of steam."
+3642 = "While overheated, you won't be able to hover or use special moves, so be careful. Strong attacks release heat and can quickly return her to her normal state."
+3643 = "Try overheating and hitting me with strong attack explosions 3 times."
+3644 = "Nice!"
+3645 = "Elliana's NSPECIAL allows her to fire a rocket fist in any direction. After traveling a short distance, the fist will explode."
+3646 = "When she fires the rocket fist, the recoil will launch her in the opposite direction."
+3647 = "Try hitting me with NSPECIAL's explosion 3 times. I will disable your jump so you have to aim upward."
+3648 = "Great!"
+3649 = "FSPECIAL fires a missile that can be controlled after firing. Use the control stick to aim the missile, but be careful not to lose track of your own movements."
+3650 = "Try hitting me with FSPECIAL 3 times. Your jump is still disabled, so you'll have to aim from the ground."
+3651 = "Fantastic!"
+3652 = "You can also charge FSPECIAL to fire a large rocket instead. Charged Fspecial can still be controlled, but much less so."
+3653 = "Try hitting me with charged FSPECIAL 3 times."
+3654 = "Awesome!"
+3655 = "Elliana's DSPECIAL drops a sticky bomb straight downward. When it lands on the ground, it stays there and can be detonated with FSPECIAL's missile."
+3656 = "Upon detonation, DSPECIAL will explode 3 times, trapping enemies for a short duration."
+3657 = "Try hitting DSPECIAL with FSPECIAL 3 times."
+3658 = "Awesome!"
+3659 = "DSPECIAL can also stick to opponents if dropped on top of them. The bomb will detonate if the player is hit by FSPECIAL."
+3660 = "Using DSPECIAL again will remove the bomb from the opponent and drop a new one."
+3661 = "Try hitting me with FSPECIAL after sticking me with DSPECIAL 3 times."
+3662 = "Perfect!"
+3663 = "The quickest way to cool down after overheating is to use USPECIAL. This causes Elliana to abandon ship, leaving her mech behind to explode."
+3664 = "This will instantly release all heat, but will put Elliana in a dangerous position, as she is very light and can only air dodge and wall jump when outside of her mech."
+3665 = "You can adjust the height of USPECIAL by holding up or down. Once she reaches the ground, she will quickly rebuild her mech."
+3666 = "Try using USPECIAL and then airdodging 3 times."
+3667 = "Awesome!"
+3668 = "This concludes the Elliana tutorial!"
+
+//---- SHOVEL KNIGHT TUTORIAL
+3669 = "Welcome to the Shovel Knight tutorial!"
+3670 = "Shovel Knight steels his shovel and makes use of his wide array of items to engage his opponents."
+3671 = "Many of his attacks aid him in moving around the stage, such as his UAIR: Rising Dagger."
+3672 = "Holding down the attack button while performing UAIR will cause Shovel Knight to hold the dagger out for longer and rise into the air."
+3673 = "Try performing 3 fully extended UAIRS."
+3674 = "Nice!"
+3675 = "Shovel Knight's USTRONG can throw a block of dirt when fully charged."
+3676 = "You can hold left or right to change the launch angle of the dirt block. Only one block can exist at a time, so you must destroy it before making another one."
+3677 = "Hitting the dirt block with USTRONG or DTILT will launch it without breaking it."
+3678 = "Try hitting me with 3 dirt blocks spawned from a fully charged USTRONG."
+3679 = "Good!"
+3680 = "You may have noticed gems emerging from the dirt blocks when you break them. Gems also spawn any time you hit an opponent."
+3681 = "Shovel Knight can collect these gems to gain currency, which can be used to buy items and armor."
+3682 = "Gems will disappear after a short duration, so you must be quick to collect them. Shovel Knight's NSPECIAL allows him to collect gems from a distance."
+3683 = "Try hitting me to spawn gems, then using NSPECIAL to collect them."
+3684 = "Perfect!"
+3685 = "Now that you have some gems to spend, why not open up the shop menu?\nYou can buy new relics to replace your NSPECIAL."
+3686 = "To start shopping, just press the TAUNT button. Use LEFT and RIGHT to scroll through the shop and press ATTACK to purchase an item.\n(In this tutorial only, you have unlimited gems.)"
+3687 = "One of the relics you can buy is the WAR HORN. It lets out a powerful blast of sound that sends enemies directly away from you. The outer edge of the attack is stronger than the center."
+3688 = "Try purchasing the WAR HORN and using NSPECIAL to hit me 3 times."
+3689 = "Great!"
+3690 = "Another item you can purchase is the GHOST GLOVE. This lets you fire quick, short-ranged projectiles."
+3691 = "If you land after shooting the GHOST GLOVE all endlag will be cancelled, allowing you to follow up with another attack."
+3692 = "Try hitting me with the GHOST GLOVE 3 times."
+3693 = "Fantastic!"
+3694 = "The third and final purchasable relic is the MOBILE GEAR. Once thrown, the MOBILE GEAR will deploy, becoming a moving platform that hits opponents and jumps when reaching the end of a platform."
+3695 = "Hold a direction to change the angle you throw the MOBILE GEAR. Throwing it higher gives you more time to get on before it starts moving, while throwing it lower can make it avoid platforms."
+3696 = "Try hitting me with a JAB while riding on the mobile gear."
+3697 = "Marvelous!"
+3698 = "You can also buy armor from the shop. The cheapest armor is the DYNAMO MAIL."
+3699 = "The DYNAMO MAIL allows Shovel Knight to perform aerial strong attacks after landing a hit with his DAIR: Shovel Drop."
+3700 = "Try hitting me with an aerial strong attack 3 times."
+3701 = "Awesome!"
+3702 = "The other armors are the MAIL OF MOMENTUM and the ORNATE PLATE."
+3703 = "The MAIL OF MOMENTUM makes Shovel Knight significantly heavier, but also makes it harder to stop when moving. This allows for sliding attacks and long wavedashes."
+3704 = "The ORNATE PLATE makes you sparkle gold... and that's it. I'm not sure why you would ever buy it, actually."
+3705 = "Another way to collect gems is to use DSPECIAL: the Fishing Rod."
+3706 = "Cast your line into the bottom blastzone and press SPECIAL once '!!' appears over Shovel Knight's head. He will reel in a treasure rock that releases gems when hit."
+3707 = "Try fishing up 3 treasure rocks and collecting all of their gems."
+3708 = "Terrific!\nIf you time your reel in perfectly, you may fish up something special..."
+3709 = "Shovel Knight's FSPECIAL is the PROPELLER DAGGER. This move shoots Shovel Knight forward, bouncing off of anything that he hits."
+3710 = "Holding down the SPECIAL button will charge the move, making it travel farther and hit harder."
+3711 = "At full charge, Shovel Knight will use the INFINIDAGGER and travel an infinite distance. This move will bounce off of blastzones, so don't worry about flying off the side of the screen."
+3712 = "While traveling on the ground, Shovel Knight can cancel the move by jumping, but only before it hits."
+3713 = "The cancel is not instant, however, so you have to commit to the forward momentum. Holding backward when jump-cancelling will cause Shovel Knight to turn around when he jumps."
+3714 = "Try jump-cancelling FSPECIAL and then hitting me with NAIR 3 times."
+3715 = "Sweet!"
+3716 = "This concludes the Shovel Knight tutorial!"
+
+//-------------------------
+// Buddy Names [4000-4049]
+//-------------------------
+
+4000 = "@12"
+4001 = "Ourson Frostbear"
+4003 = "Kraggy"
+4004 = "Thomas Désépine"
