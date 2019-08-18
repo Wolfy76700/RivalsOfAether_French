@@ -13,7 +13,7 @@
 // Abyss Versus -> Rune Versus
 // Dash Attack -> Attaque en Course
 // Sweetspot -> Sweetspot (Can be changed)
-// Special Fall -> Chute Spéciale
+// Special Fall -> Chute Libre
 // Money Match -> Défi
 // RAR -> Attaque Aérienne Retournée (AAR)
 // B-Reverse -> Spéciaux Retournés
@@ -1120,7 +1120,7 @@
 1540 = "{-1,PR_JUMP} puis {271,-1} à l'apogée du saut"
 1541 = "SAUTS MURAUX : "
 1542 = "{-1,PR_JUMP} vers le mur, puis {0,PR_JUMP}"
-1543 = "SAUTS MURAUX EN CHUTE SPÉCIALE : "
+1543 = "SAUTS MURAUX EN CHUTE LIBRE : "
 1544 = "{90,PR_SPECIAL} en finissant près du mur, puis {0,PR_JUMP}, puis à nouveau {90,PR_SPECIAL}"
 
 //---- INTERMEDIATE OFFENSE TUTORIAL
