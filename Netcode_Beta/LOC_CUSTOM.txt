@@ -1521,27 +1521,6 @@
 1922 = "À plus !"
 1923 = "Je joue avec le gyroscope !"
 
-//---- Online chat pg4 (chars 1)
-1924 = "Il est temps d'allumer le feu !" // zetterburn
-1925 = "Un match en coup de vent !" // wrastor
-1926 = "Je me suis fait fumer..." // forsburn
-1927 = "C'etait foudroyant." // absa
-1928 = "A plus tard dans la mare !" // orcane
-1929 = "Tu t'es fait rouler dessus !" // kragg
-1930 = "C'est le moment de remballer." // maypul
-1931 = "Je reviens, je vais me rafraîchir." // etalus
-
-//---- Online chat pg5 (chars 2)
-1932 = "Peace!" // ranno
-1933 = "Aouuuuh !" // sylvanos
-1934 = "Souris !" // ori
-1935 = ""
-1936 = "Ma présence est un présent." // clairen
-1937 = "J'explose de rage !" // elliana
-1938 = "Une pelle partie, pas vrai ?" // shovel knight
-1939 = ""
-
-
 //-------------------------------------
 // Abyss Rune Descriptions [2000-2209]
 //-------------------------------------
