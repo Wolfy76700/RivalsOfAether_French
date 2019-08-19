@@ -19,6 +19,9 @@ If your game is installed in the default directory (`C:\Program Files (x86)\Stea
 
 NB: Game updates may overwrite `LOC_CUSTOM.txt`. If so, just overwrite that file again with what's in the Git.
 
+### PUBLIC NETCODE BETA:
+If you are using the Public Netcode Beta build, the file for this version of the game can be found in the `Netcode_Beta` folder. The quick install script is provided as well.
+
 ***
 
 ## Français
@@ -37,3 +40,6 @@ Localisation française pour *Rivals of Aether*
 Si votre jeu est installé dans le répertoire par défaut (`C:\Program Files (x86)\Steam\steamapps\common\Rivals of Aether`), vous pouvez également lancer le script `Quick_Install.bat` en tant qu'Administrateur pour installer le fichier nécessaire.
 
 NB : Les mises à jour du jeu peuvent remplacer le fichier `LOC_CUSTOM.txt`. Si cela arrive, remplacez à nouveau le fichier du jeu par celui du Git.
+
+### BETA PUBLIQUE POUR LE NETCODE :
+Si vous utilisez la version Beta permettant de tester le nouveau netcode, le fichier de traduction est présent dans le dossier `Netcode_Beta`. Vous y trouverez également le script d'installation rapide.
