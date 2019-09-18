@@ -174,6 +174,7 @@
 188 = "Zetter" // short form
 189 = "S.K." // shortest form
 190 = "Ragnir"
+191 = "Custom"
 
 //---- Popup Message OK [200-289]
 200 = "User Sign Out Detected\nPlease sign in with a new user."
@@ -232,7 +233,9 @@
 253 = "Your opponent did not rematch."
 254 = "To begin playing online, set your connection settings."
 255 = "To begin playing online, set your region and connection settings."
-256 = "" // reserved
+256 = "Error: This replay contains custom characters not present in your game data." // (alternate header text due to textbox size limit)
+257 = "Spectators can't send messages."
+258 = "Ranked invites are not allowed."
 
 //----
 290 = "READY TO FIGHT"
@@ -315,6 +318,10 @@
 351 = "View your play stats for each Character and Player Tag."
 352 = "Custom Colors"
 353 = "Colorize Rivals with a palette of your choosing."
+554 = "Steam Workshop"
+555 = "Create your own Rivals and Stages to bring into the fight!"
+552 = "Stage Editor" // for console
+553 = "Create your own Stages to bring into the fight!"
 354 = "Credits"
 355 = "Who are the people behind Rivals of Aether? Let's find out!"
 356 = "@318"
@@ -540,23 +547,24 @@
 536 = "@318"
 537 = "@443"
 
-//----
-// (538 used)
-// (539 used)
-// (540 used)
-// (541 used)
-// (542 used)
-// (543 used)
+// (538 unavailable!)
+// (539 unavailable!)
+// (540 unavailable!)
+// (541 unavailable!)
+// (542 unavailable!)
+// (543 unavailable!)
 544 = "Milestones"
 545 = "See how far you've come and unlock exclusive rewards!"
-// (546 used)
-// (547 used)
-// (548 used)
-// (549 used)
-// (550 used)
-// (551 used)
-// (552 used)
-// (553 used)
+// (546 unavailable!)
+// (547 unavailable!)
+// (548 unavailable!)
+// (549 unavailable!)
+// (550 unavailable!)
+// (551 unavailable!)
+// (552 unavailable!)
+// (553 unavailable!)
+// (554 unavailable!)
+// (555 unavailable!)
 
 //----------------------------
 // Main Menu Variable Strings
@@ -924,6 +932,10 @@
 961 = "ARDENT\nRIVAL"
 962 = "COUNTERPICK"
 963 = "Ban a Stage!"
+964 = "MAIN STAGES"
+965 = "CUSTOM STAGES"
+966 = "by"
+967 = ""
 
 //---- Popups
 970 = "EDIT REPLAY NAME"
@@ -1499,10 +1511,10 @@
 1731 = "{-1,PR_JUMP} then {270,PR_ATTACK}{12,JOY}{-1,PR_STRONG} then {-1,PR_SPECIAL}"
 
 //---- SYLVANOS TUTORIAL
-1732 = "SPECIAL JAB COMBO FINISHERS: "
-1733 = "{-1,PR_ATTACK} then {-1,PR_ATTACK} then {-1,PR_SPECIAL}"
-1734 = "FTILTS: "
-1735 = "{2,PR_ATTACK} with grass in front of you"
+1732 = "FTILTS: "
+1733 = "{2,PR_ATTACK}"
+1734 = "SPECIAL JAB COMBO FINISHERS: "
+1735 = "{-1,PR_ATTACK} then {-1,PR_ATTACK} then {-1,PR_SPECIAL}"
 1736 = "DSPECIALS: "
 1737 = "{270,PR_SPECIAL} with grass on the ground"
 1738 = "FSPECIAL INTO AERIAL COMBOS: "
@@ -1573,7 +1585,7 @@
 1795 = "GROUNDED USPECIAL"
 
 //---- BEGINNER MOVEMENT TUTORIAL
-// (1800-1815 used)
+// (1800-1815 unavailable!)
 1816 = "WALK"
 1817 = "RUN"
 1818 = "JUMP"
@@ -1717,7 +1729,7 @@
 //---- WRASTOR
 2030 = "Air movement is faster."
 2031 = "FSPECIAL has more knockback."
-2032 = "Aerials have less endlag."
+2032 = "Aerials are faster."
 2033 = "DSPECIAL has reduced startup."
 2034 = "Slipstream gives a greater speed boost."
 2035 = "NSPECIAL has a longer duration."
@@ -1954,7 +1966,7 @@
 2330 = "The tip of Clairen's sword is supercharged and can stun opponents who are hit by it."
 2331 = "Clairen can use her Down Special to counter attacks and create a projectile nullifying plasma field."
 2332 = "Clairen can use Neutral Special to grab opponents and throw them either forward or backward."
-2333 = "Sylvanos grows grass wherever he walks. The grass reduces his landing lag and powers up his specials."
+2333 = "While grounded, Sylvanos grows grass that powers up his special attacks." //***
 2334 = "Sylvanos can use his Up Special to dig into the ground and emerge with a powerful bite if he's on grass."
 2335 = "Sylvanos' Down Special calls upon all of his grass to rise up and attack at once."
 2336 = "Elliana builds up heat when hovering or using specials. If she overheats, she loses access to both of them."
@@ -2175,8 +2187,8 @@
 2636 = "PRACTICE"
 2637 = "MODE"
 //
-2638 = ""
-2639 = ""
+2638 = "STEAM"
+2639 = "WORKSHOP"
 //
 2640 = "VERSUS"
 2641 = "MODE"
@@ -2232,9 +2244,9 @@
 //2699 = ""
 //2699 = ""
 
-//------------------------
-// Staff Roll [2700-2749]
-//------------------------
+//-----------------------------------
+// Staff Roll [2700-2749, 2780-2799]
+//-----------------------------------
 
 2700 = "Project Lead"
 2701 = "Programming"
@@ -2251,7 +2263,7 @@
 2712 = "Additional Pixel Art"
 2713 = "Additional Programming"
 2714 = "Narrative Design"
-2715 = "Multiplayer Library\nby `1"
+2715 = "Old Multiplayer Library\nby `1"
 2716 = "Intro Animation\nby `1"
 2717 = "Production Consultant"
 2718 = "Design Consultants"
@@ -2260,17 +2272,27 @@
 2721 = "Playtesters"
 2722 = "Special Thanks"
 2723 = "Rights owned by `1"
-2739 = ""
-2740 = ""
-2741 = ""
-2742 = ""
-2743 = ""
+2739 = "Multiplayer Library\nby `1"
+2740 = "Steam Workshop"
+2741 = "Additional Art"
+2742 = "Stage Visual Effects"
+2743 = "Russian Localization"
 2744 = ""
 2745 = ""
 2746 = ""
 2747 = ""
 2748 = ""
 2749 = ""
+2780 = ""
+2781 = ""
+2782 = ""
+2783 = ""
+2784 = ""
+2785 = ""
+2786 = ""
+2787 = ""
+2788 = ""
+2789 = ""
 
 //---- GM:S Team:
 2724 = "General Manager"
@@ -2324,6 +2346,27 @@
 2777 = ""
 2778 = ""
 2779 = ""
+
+// (2780-2799 unavailable!)
+
+//-------------------------------------
+// Workshop Menu [2800-2999?]
+//-------------------------------------
+
+2800 = "VIEW ITEM"
+2801 = "UPLOAD ITEM"
+2802 = "UPLOAD CHANGES"
+2803 = "PLAYTEST"
+2804 = "EDIT STAGE"
+2805 = "UPLOADING..."
+2806 = "LOADING..."
+2807 = "CHARACTERS"
+2808 = "BUDDIES"
+2809 = "STAGES"
+2810 = "MOVE ITEM"
+2811 = "FINISH VIEWING"
+2812 = "FINISH MOVING"
+2813 = "(NO ITEMS)"
 
 //--------------------------------
 // Tutorial Dialogues [3000-3999]
@@ -2957,7 +3000,7 @@
 
 //---- SYLVANOS TUTORIAL
 3586 = "Welcome to the Sylvanos tutorial!"
-3587 = "Sylvanos controls the ground by growing grass that powers up his special attacks and makes his aerial attacks have less landing lag."
+3587 = "Sylvanos controls the ground by growing grass that powers up his special attacks."
 3588 = "He automatically grows grass any time he touches the ground.\nLeaving a grass-covered platform for more than a second will cause all grass on that platform to die."
 3589 = "Try covering the ground in grass by walking on it."
 3590 = "Good!"
@@ -2966,13 +3009,13 @@
 3593 = "You can also change the trajectory of the NSPECIAL projectile by holding any direction."
 3594 = "Try planting 3 NSPECIAL flowers."
 3595 = "Nice!"
-3596 = "NSPECIAL can also be used to combo opponents. If it hits an enemy, it will trap them in a flurry of vine attacks."
-3597 = "Another way to plant a flower is to press the SPECIAL button after performing either of the first 2 attacks of the jab combo."
-3598 = "Creating a seed with his jab combo sends the projectile at a lower angle than NSPECIAL, so it can be used to avoid planting the seed on platforms."
-3599 = "Try using the special jab combo seed 3 times."
+3596 = "Another way to plant a flower is to use FTILT. The trajectory of this projectile can be altered the same way as NSPECIAL's."
+3597 = "Creating a seed with his FTILT sends the projectile at a lower angle than NSPECIAL, so it can be used to avoid planting the seed on platforms."
+3598 = "NSPECIAL and FTILT's seeds can also be used to combo opponents. If it hits an enemy, it will trap them in a flurry of vine attacks."
+3599 = "Try hitting me with FTILT 3 times."
 3600 = "Excellent!"
-3601 = "If Sylvanos' FTILT hits a flower, it sends a wave of petals along the ground, spreading grass as it travels."
-3602 = "Try hitting me with the FTILT petals 3 times."
+3601 = "A quick way to cover an entire platform in grass is to press the special button after performing the first two parts of your jab combo, creating a wave of petals along the ground that grow grass underneath them."
+3602 = "Try hitting me with jab-special's petals 3 times."
 3603 = "Great!"
 3604 = "Using DSPECIAL will cause all of your grass to attack. After the attack, the grass will go into a cooldown state where it won't give you any benefits."
 3605 = "Try hitting me with DSPECIAL 3 times."
@@ -3106,9 +3149,9 @@
 4007 = "Catnip Bravo"
 4008 = "Cannonbreed"
 4009 = "Aldor"
-4010 = "Buddy10"
-4011 = "Buddy11"
-4012 = "Buddy12"
+4010 = "Tony Tailslide"
+4011 = "Freya"
+4012 = "Sunbert"
 4013 = "Buddy13"
 4014 = "Buddy14"
 4015 = "Buddy15"

@@ -228,6 +228,7 @@
 188 = "Zetter" // short form
 189 = "S.K." // shortest form
 190 = "Ragnir"
+191 = "Personnalisé"
 
 //---- Popup Message OK [200-289]
 200 = "Utilisateur déconnecté\nVeuillez vous connecter avec un autre utilisateur."
@@ -286,7 +287,9 @@
 253 = "L'adversaire a quitté la salle."
 254 = "Pour commencer à jouer en ligne, indiquez vos réglages de connexion."
 255 = "Pour commencer à jouer en ligne, indiquez votre région et vos réglages de connexion."
-256 = "" // reserved
+256 = "Erreur : Ce replay contient des personnages personnalisés auxquels vous n'avez pas accès."
+257 = "Les spectateurs ne peuvent pas envoyer de messages."
+258 = "Vous n'avez pas le droit d'inviter un joueur en mode classé."
 
 //----
 290 = "PARÉ AU COMBAT"
@@ -367,6 +370,10 @@
 351 = "Consultez vos statistiques pour chaque Rival et chaque profil."
 352 = "Personnalisation"
 353 = "Coloriez vos Rivaux à votre guise."
+554 = "Steam Workshop"
+555 = "Créez vos propres Rivaux et vos propres terrains !"
+552 = "Éditeur de terrains"
+553 = "Créez vos propres terrains !"
 354 = "Crédits"
 355 = "Qui a contribué à développer Rivals of Aether ? La réponse est ici !" // Too long
 356 = "@318"
@@ -962,6 +969,8 @@
 961 = "ARDENT\nRIVAL"
 962 = "COUNTERPICK"
 963 = "@948"
+964 = "TERRAINS PRINCIPAUX"
+965 = "TERRAINS PERSONNALISÉS"
 
 //---- Popups
 970 = "ÉDITER LE NOM DU REPLAY"
@@ -1392,10 +1401,10 @@
 1731 = "{-1,PR_JUMP} puis {270,PR_ATTACK}{12,JOY}{-1,PR_STRONG} puis {-1,PR_SPECIAL}"
 
 //---- SYLVANOS TUTORIAL
-1732 = "ANNULATION DU NORMAL NEUTRE PAR UN SPÉCIAL NEUTRE : "
-1733 = "{-1,PR_ATTACK} puis {-1,PR_ATTACK} puis {-1,PR_SPECIAL}"
-1734 = "NORMAUX CÔTÉ : "
-1735 = "{2,PR_ATTACK} avec de l'herbe devant Sylvanos"
+1734 = "ANNULATION DU NORMAL NEUTRE PAR UN SPÉCIAL NEUTRE : "
+1735 = "{-1,PR_ATTACK} puis {-1,PR_ATTACK} puis {-1,PR_SPECIAL}"
+1732 = "NORMAUX CÔTÉ : "
+1733 = "{2,PR_ATTACK} avec de l'herbe devant Sylvanos"
 1736 = "SPÉCIAUX BAS : "
 1737 = "{270,PR_SPECIAL} avec de l'herbe au sol"
 1738 = "ENCHAÎNEMENTS : (Spécial côté → Aérien Neutre) "
@@ -1562,7 +1571,7 @@
 //---- WRASTOR
 2030 = "MOUVEMENT AÉRIEN : Plus rapide"
 2031 = "SPÉCIAL CÔTÉ : Envoie plus loin"
-2032 = "AÉRIENS : Moins de récupération"
+2032 = "AÉRIENS : Plus rapides"
 2033 = "SPÉCIAL BAS : Démarrage plus rapide"
 2034 = "COURANT D'AIR : Amélioration plus importante de la vitesse"
 2035 = "SPÉCIAL NEUTRE : Plus long"
@@ -2106,6 +2115,25 @@
 2770 = "CLASSÉ"
 2771 = "DÉFI"
 2772 = "NON CLASSÉ"
+
+//-------------------------------------
+// Workshop Menu [2800-2999?]
+//-------------------------------------
+
+2800 = "VOIR"
+2801 = "METTRE EN LIGNE"
+2802 = "METTRE EN LIGNE UNE NOUVELLE VERSION"
+2803 = "TESTER"
+2804 = "MODIFIER LE TERRAIN"
+2805 = "TÉLÉCHARGEMENT..."
+2806 = "CHARGEMENT..."
+2807 = "PERSONNAGES"
+2808 = "COMPAGNONS"
+2809 = "TERRAINS"
+2810 = "DÉPLACER"
+2811 = "RETOUR"
+2812 = "RETOUR"
+2813 = "(AUCUN ÉLÉMENT)"
 
 //--------------------------------
 // Tutorial Dialogues [3000-3999]
