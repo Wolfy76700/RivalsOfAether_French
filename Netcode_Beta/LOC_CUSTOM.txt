@@ -83,8 +83,8 @@
 26 = "DEFAITES" // lose count
 27 = "TAUX DE VICTOIRES"
 28 = "TAUX DE DECONNEXION" // displayed as a %
-29 = "Si il est supérieur à 20 %, votre score en mode" // (Line 1/2) - This is a warning about penalties for ragequitting
-30 = "classé sera de 1 jusqu'à ce que ce taux diminue." // (Line 2/2)
+29 = "Si il est supérieur à `1, votre score en mode" // (Line 1/2) - This is a warning about penalties for ragequitting
+30 = "classé sera de `1 jusqu'à ce que ce taux diminue." // (Line 2/2)
 31 = "RIVAL FAVORI" // should be translated as "fav character" - displays the character you select most often
 32 = "Aucun" // no favorite character
 33 = "TÉLÉCHARGEMENT DES DONNEES..." // displayed when loading next page of leaderboards
@@ -186,6 +186,8 @@
 131 = "Activer le mode Abysse ?"
 132 = "Désactiver le mode Abysse ?"
 133 = "Souhaitez-vous rester dans la\nalle pour un nouveau combat?"
+134 = "CHANGER LES RÈGLES"
+135 = "`1 veut changer les règles"
 
 //---- Character Titles
 150 = "???"
@@ -287,9 +289,11 @@
 253 = "L'adversaire a quitté la salle."
 254 = "Pour commencer à jouer en ligne, indiquez vos réglages de connexion."
 255 = "Pour commencer à jouer en ligne, indiquez votre région et vos réglages de connexion."
-256 = "Erreur : Ce replay contient des personnages personnalisés auxquels vous n'avez pas accès."
+256 = "- Erreur -\nCe replay contient des personnages personnalisés auxquels vous n'avez pas accès."
 257 = "Les spectateurs ne peuvent pas envoyer de messages."
 258 = "Vous n'avez pas le droit d'inviter un joueur en mode classé."
+259 = "`1 n'a pas accepté la modification des règles"
+256 = "- Erreur -\nCe replay contient un terrain personnalisé auquel vous n'avez pas accès."
 
 //----
 290 = "PARÉ AU COMBAT"
@@ -722,8 +726,8 @@
 //--------------------
 
 //---- Pause Menu
-701 = "`1 : Cacher l'interface"
-702 = "`1 : Quitter"
+701 = "[`1] : Cacher l'interface"
+702 = "[`1] : Quitter"
 703 = "OPTIONS D'ENTRAINEMENT"
 704 = "OPTION DE REPLAY"
 705 = "PAUSE : P`1"
@@ -790,20 +794,22 @@
 754 = "POWER"
 755 = "ESQUIVE"
 756 = "Lorsque le replay est lu :"
-757 = "`1: Activer le contrôle de la camera"
-758 = "`1 / `2: Changer la vitesse de la camera"
+757 = "[`1] : Activer le contrôle de la caméra"
+758 = "[`1] : Changer la vitesse de la caméra
+759 = "[`1] / [`2]: Changer la vitesse de la caméra"
 
 //--- Pause: menu header text
 760 = "MENU PAUSE"
 
 //--- Pause: extras
 770 = "RECONNECTER LES MANETTES" // switch
-771 = "Rester appuyé sur `1 ou `2 pour connecter les manettes." // switch
-772 = "Appuer sur `1 pour annuler." // switch
+771 = "Rester appuyé sur [`1] ou [`2] pour connecter les manettes." // switch
+772 = "Appuer sur [`1] pour annuler." // switch
 
 // --- Practice Mode
-780 = "Appuyez sur `1 pour activer l'image par image."
+780 = "Appuyez sur [`1] pour activer l'image par image."
 781 = "Appuyez sur CTRL+8 pour afficher les messages d'erreur."
+782 = "Messages d'erreur : "
 
 //---- HUD: Abyss Objectives
 801 = "Détruisez `1 ennemis faibles !"
@@ -1910,16 +1916,16 @@
 2518 = ""
 2519 = "SENSIBILITE"
 2520 = "APPUYEZ SUR LE BOUTON POUR"
-2521 = "*Restez appuyé pour plusieurs\nboutons (`1 : Annuler)"
+2521 = "*Restez appuyé pour plusieurs\nboutons ([`1] : Annuler)"
 2522 = "CHOISIR LE PROFIL"
 2523 = "NOM"
 2524 = "POINTS"
 2525 = "ACHETER ?"
 2526 = "@297"
 2527 = "@298"
-2528 = "`1: ORDI  `2: Quitter"
-2529 = "`1 : Ajouter un ORDI."
-2530 = "`1 : Quitter."
+2528 = "[`1] : ORDI  [`2] : Quitter"
+2529 = "[`1] : Ajouter un ORDI."
+2530 = "[`1] : Quitter."
 2531 = "SUPPRIMER CE PROFIL ?"
 2532 = "*Pour sauvegarder ces commandes, créez un profil."
 2533 = "HAUT"
@@ -2029,12 +2035,12 @@
 2631 = ""
 //
 2632 = "MATCH"
-2633 = "EN EQUIPES"
+2633 = "EN ÉQUIPES"
 //
 2634 = "TOURNOI"
 2635 = ""
 //
-2636 = "ENTRAINEMENT"
+2636 = "ENTRAïNEMENT"
 2637 = ""
 //
 2638 = ""
@@ -2060,6 +2066,9 @@
 //
 2652 = "DÉFIS"
 2653 = ""
+//
+2654 = "TERRAINS"
+2655 = "PERSONNALISÉS"
 //
 //2699 = ""
 //2699 = ""
@@ -2132,18 +2141,88 @@
 2801 = "METTRE EN LIGNE"
 2802 = "METTRE EN LIGNE UNE NOUVELLE VERSION"
 2803 = "TESTER"
-2804 = "MODIFIER LE TERRAIN"
+2804 = "SUPPRIMER LE TERRAIN"
 2805 = "TÉLÉCHARGEMENT..."
 2806 = "CHARGEMENT..."
 2807 = "PERSONNAGES"
 2808 = "COMPAGNONS"
 2809 = "TERRAINS"
-2810 = "DÉPLACER"
-2811 = "RETOUR"
+2810 = "COSTUMES"
+2811 = "DÉPLACER"
 2812 = "RETOUR"
 2813 = "(AUCUN ÉLÉMENT)"
 2814 = "Les fichiers téléchargés depuis le Steam Workshop seront affichés ici.\n\nVous pouvez vous abonner au contenu créé par les utilisateurs via la page de Rivals of Aether sur Steam puis en cliquant sur l'onglet Steam Workshop, ou faire vos propres créations pour les partager avec la communauté."
 2815 = "Utilisateur Workshop" // used as the default author name
+2816 = "OUVRIR LE TERRAIN"
+2817 = "NOUVEAU TERRAIN"
+
+//--------------------------
+// Stage Editor [2900-2999]
+//--------------------------
+
+2900 = "TERRAIN PERSONNALISÉ"
+2901 = "ÉDITEUR DE TERRAINS"
+2902 = "ÉDITER LES PARAMÈTRES TERRAIN"
+2903 = "ÉDITER LES INFORMATIONS" // stage name, author, description
+2904 = "ÉDITER L'ARRIÈRE-PLAN"
+2905 = "ÉDITION : " // (EDITING: BG#)
+2906 = "ÉDITER LES INFORMATIONS DU TERRAIN"
+2907 = "QUITTER SANS SAUVEGARDER ?"
+2908 = ""
+2912 = "SAUVEGARDER"
+2913 = "ANNULER"
+2914 = "ÉDITER LE NOM DU TERRAIN"
+2915 = "ÉDITER LE NOM DE L'AUTEUR"
+2916 = "ÉDITER LA DESCRIPTION"
+2917 = ""
+2919 = "LARGEUR"
+2920 = "HAUTEUR"
+2921 = @946
+2922 = @944
+2923 = @945
+2924 = "MODE"
+2925 = "FOND"
+2926 = "MUSIQUE"
+2927 = "DÉCALAGE"
+2928 = "PARALLAX"
+2929 = "ROTATION DU FOND"
+2930 = "DÉFILEMENT AUTOMATIQUE"
+2931 = "VITESSE D'ANIMATION"
+2932 = "SOL"
+2933 = "Terain sauvegardé."
+2934 = "Veuillez réessayer plus tard."
+2935 = "`1 activé."
+2936 = "`1 désactivé."
+2937 = ""
+2940 = " TILES" // "__ TILES"
+2941 = " MODE" // // "____ MODE"
+2942 = "STANDARD" // mode
+2943 = "AVANCÉ" // mode
+2944 = "Mode Souris"
+2945 = "Mode Tactile"
+2946 = "([`1] : Écouter)"
+2947 = "(Appuyer ici pour écouter)" // for mouse mode
+2948 = "H-REPEAT"
+2949 = "V-REPEAT"
+2950 = "RÉINITIALISER LA CAMÉRA"
+2951 = "La couche Objet peut être utilisée pour positionner\nles points d'apparition et les objets spéciaux."
+2952 = "La couche Objet peut être utilisée pour positionner\nles points d'apparition."
+2953 = "Supprimer le terrain sélectionné ?\n[ `1 ]"
+2954 = "- Attention -\nUne fois supprimé, le terrain ne pourra plus être récupéré. Êtes vous sûr de vouloir le supprimer ?"
+2955 = ""
+2960 = "CHANGER DE COUCHE"
+2961 = "TOOL SELECT"
+2962 = "SÉLECTION DE L'OUTIL"
+2963 = "DESSINER"
+2964 = "EFFACER"
+2965 = "DÉPLACER LA CAMÉRA"
+2966 = "OUVRIR LE MENU"
+2967 = ""
+2990 = "Clic Gauche" // mouse left click
+2991 = "Clic Droit" // mouse right click
+2992 = "Clic Milieu" // mouse middle click
+2993 = "Roulette de défilement" // mouse wheel scrolling
+2994 = "Touche Retour"
 
 //--------------------------------
 // Tutorial Dialogues [3000-3999]
@@ -3038,8 +3117,27 @@
 
 //---- Custom Errors
 4179 = "Code d'erreur"
-4180 = "- Erreur -\nLes personnages locaux ne peuvent être joués en ligne."
-4181 = "- Erreur -\nVotre adversaire n'a pas la même version de ce personnage sur son poste."
+4180 = "- Erreur -\nLes contenus locaux ne peuvent être joués en ligne."
+4181 = "- Erreur -\nVotre adversaire n'a pas la même version de ce contenu sur son poste."
 4182 = "- Erreur -\nL'URL du fichier est incorrecte."
 4183 = "- Erreur -\nAucun fichier n'a été chargé."
 4184 = "- Erreur -\nLes objets téléchargés ne peuvent pas être mis en ligne."
+
+//-------------------------
+// Rules Popup [4200-4219]
+//-------------------------
+
+4200 = "VIES"
+4201 = "TEMPS"
+4202 = "ÉQUIPES"
+4203 = "ATTAQUE ÉQUIPE"
+4204 = "TERRAINS ALÉATOIRES"
+4205 = "TERRAINS AETHER"
+4206 = "RUNE VERSUS"
+4207 = "MODE TURBO"
+4208 = "CONTENUS WORKSHOP"
+4209 = "ANNULER"
+4210 = "REFUSER"
+4211 = "ENVOYER"
+4212 = "ACCEPTER"
+

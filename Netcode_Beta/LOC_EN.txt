@@ -30,8 +30,8 @@
 26 = "LOSSES" // lose count
 27 = "WIN PERCENT"
 28 = "DISCONNECT RATE" // displayed as a %
-29 = "If 20% or above, your ranked score will" // (Line 1/2) - This is a warning about penalties for ragequitting
-30 = "be one until your percent decreases." // (Line 2/2)
+29 = "If `1 or above, your ranked score will" // (Line 1/2) - This is a warning about penalties for ragequitting
+30 = "be `1 until your percent decreases." // (Line 2/2)
 31 = "FAVORITE RIVAL" // should be translated as "fav character" - displays the character you select most often
 32 = "None" // no favorite character
 33 = "RETRIEVING DATA..." // displayed when loading next page of leaderboards
@@ -132,6 +132,8 @@
 131 = "Turn on Abyss Mode?"
 132 = "Turn off Abyss Mode?"
 133 = "Do you want to stay in\nthe lobby for a rematch?"
+134 = "CHANGE RULES"
+135 = "`1 wants to change rules:"
 
 //---- Character Titles
 150 = "???"
@@ -225,7 +227,7 @@
 245 = "Congratulations! \nYou unlocked the \nRanked Color Set!"
 246 = "`1 Turned off Turbo Mode."
 247 = "Complete \nall Tutorials \nto unlock."
-248 = "Congratulations! \nYou unlocked \n" // reserved
+248 = "Congratulations! \nYou unlocked \n"
 249 = "- Coming Soon -"
 250 = "New player connected.\nAll match settings were reset."
 251 = "`1 Turned Teams off."
@@ -233,9 +235,11 @@
 253 = "Your opponent did not rematch."
 254 = "To begin playing online, set your connection settings."
 255 = "To begin playing online, set your region and connection settings."
-256 = "Error: This replay contains custom characters not present in your game data." // (alternate header text due to textbox size limit)
+256 = "- Error -\nThis replay contains custom characters not present in your game data."
 257 = "Spectators can't send messages."
 258 = "Ranked invites are not allowed."
+259 = "`1 did not accept new rules."
+260 = "- Error -\nThis replay contains a custom stage not present in your game data."
 
 //----
 290 = "READY TO FIGHT"
@@ -685,8 +689,8 @@
 //--------------------
 
 //---- Pause Menu
-701 = "Press `1 to hide HUD."
-702 = "Press `1 to quit to menu."
+701 = "Press [`1] to hide HUD."
+702 = "Press [`1] to quit to menu."
 703 = "TRAINING OPTIONS"
 704 = "REPLAY OPTIONS"
 705 = "GAME PAUSED: P`1"
@@ -753,20 +757,22 @@
 754 = "STRONG"
 755 = "DODGE"
 756 = "While replay is unpaused:"
-757 = "`1: Toggle camera control"
-758 = "`1 / `2: Change camera max speed"
+757 = "[`1]: Toggle camera control"
+758 = "[`1] / [`2]: Change camera max speed"
+759 = "Press [`1] to enable Frame Advance."
 
 //--- Pause: menu header text
 760 = "PAUSE MENU"
 
 //--- Pause: extras
 770 = "CHANGE CONTROLLERS" // switch
-771 = "Hold `1 or `2 to connect controllers." // switch
-772 = "Press `1 to go back." // switch
+771 = "Hold [`1] or [`2] to connect controllers." // switch
+772 = "Press [`1] to go back." // switch
 
 // --- Practice Mode
 780 = "Press `1 to enable Frame Advance."
 781 = "Press CTRL+8 to toggle error messages."
+782 = "Error messages: " // ... ON / OFF
 
 //---- HUD: Abyss Objectives
 801 = "Defeat `1 weak enemies"
@@ -2068,7 +2074,7 @@
 2518 = ""
 2519 = "SENSITIVITY"
 2520 = "PRESS BUTTON FOR"
-2521 = "*Hold to add multiple\n(Press `1 to cancel)"
+2521 = "*Hold to add multiple\n(Press [`1] to cancel)"
 2522 = "CHOOSE PROFILE"
 2523 = "NAME"
 2524 = "POINTS"
@@ -2076,8 +2082,8 @@
 2526 = "@297"
 2527 = "@298"
 2528 = "`1: CPU  `2: Quit"
-2529 = "Press `1 to add CPU."
-2530 = "Press `1 to quit."
+2529 = "Press [`1] to add CPU."
+2530 = "Press [`1] to quit."
 2531 = "DELETE THIS PROFILE?"
 2532 = "*To save custom controls, create a player profile."
 2533 = "UP"
@@ -2219,8 +2225,8 @@
 2652 = "MILESTONES"
 2653 = ""
 //
-//2699 = ""
-//2699 = ""
+2654 = "CUSTOM"
+2655 = "STAGES"
 //
 //2699 = ""
 //2699 = ""
@@ -2283,7 +2289,7 @@
 2739 = "Multiplayer Library\nby `1"
 2740 = "Steam Workshop"
 2741 = "Additional Art"
-2742 = "Stage Visual Effects"
+2742 = "Stage Visual Effects,\nStage Editor Design"
 2743 = "Russian Localization"
 2744 = ""
 2745 = ""
@@ -2358,25 +2364,95 @@
 // (2780-2799 unavailable!)
 
 //-------------------------------------
-// Workshop Menu [2800-2999?]
+// Workshop Menu [2800-2899]
 //-------------------------------------
 
 2800 = "VIEW ITEM"
 2801 = "UPLOAD ITEM"
 2802 = "UPLOAD CHANGES"
 2803 = "PLAYTEST"
-2804 = "EDIT STAGE"
+2804 = "DELETE STAGE"
 2805 = "UPLOADING..."
 2806 = "LOADING..."
 2807 = "CHARACTERS"
 2808 = "BUDDIES"
 2809 = "STAGES"
-2810 = "MOVE ITEM"
-2811 = "FINISH VIEWING"
+2810 = "SKINS"
+2811 = "MOVE ITEM"
 2812 = "FINISH MOVING"
 2813 = "(NO ITEMS)"
 2814 = "Items obtained from Steam Workshop will be displayed here.\n\nYou can subscribe to user-created content by going to the Rivals of Aether app page on Steam and navigating to the Steam Workshop tab, or make your own creations to upload and share with the community."
 2815 = "Workshop User" // used as the default author name
+2816 = "OPEN STAGE"
+2817 = "NEW STAGE"
+
+//--------------------------
+// Stage Editor [2900-2999]
+//--------------------------
+
+2900 = "CUSTOM STAGE"
+2901 = "STAGE EDITOR"
+2902 = "EDIT STAGE PARAMETERS"
+2903 = "EDIT INFO" // stage name, author, description
+2904 = "EDIT BG LAYERS"
+2905 = "EDITING: " // (EDITING: BG#)
+2906 = "EDIT STAGE INFO"
+2907 = "QUIT AND LOSE UNSAVED CHANGES?"
+2908 = ""
+2912 = "SAVE"
+2913 = "REVERT"
+2914 = "EDIT STAGE NAME"
+2915 = "EDIT AUTHOR NAME"
+2916 = "EDIT DESCRIPTION"
+2917 = ""
+2919 = "STAGE WIDTH"
+2920 = "STAGE HEIGHT"
+2921 = "BLASTZONE SIDE"
+2922 = "BLASTZONE TOP"
+2923 = "BLASTZONE BOTTOM"
+2924 = "STAGE MODE"
+2925 = "STAGE BACKDROP"
+2926 = "MUSIC SELECT"
+2927 = "OFFSET"
+2928 = "PARALLAX"
+2929 = "BG TILING"
+2930 = "AUTOSCROLL"
+2931 = "ANIM SPEED"
+2932 = "GROUND"
+2933 = "Stage saved."
+2934 = "Please wait a moment and try again."
+2935 = "`1 enabled."
+2936 = "`1 disabled."
+2937 = ""
+2940 = " TILES" // "__ TILES"
+2941 = " MODE" // // "____ MODE"
+2942 = "STANDARD" // mode
+2943 = "ADVANCED" // mode
+2944 = "Mouse Mode"
+2945 = "Touch Mode"
+2946 = "(Press `1 to listen)"
+2947 = "(Press to listen)" // for mouse mode
+2948 = "H-REPEAT"
+2949 = "V-REPEAT"
+2950 = "RESET CAMERA"
+2951 = "The Object Layer can be used to set\nspawn points and special objects."
+2952 = "The Object Layer can be used to set\nspawn points and respawn height."
+2953 = "Delete the selected stage?\n[ `1 ]"
+2954 = "- Warning -\nOnce deleted, the stage data cannot be recovered. Really delete the stage?"
+2955 = ""
+2960 = "CHANGE LAYER"
+2961 = "TOOL SELECT"
+2962 = "OBJECT SELECT"
+2963 = "PAINT"
+2964 = "ERASE"
+2965 = "MOVE CAMERA"
+2966 = "OPEN MENU"
+2967 = ""
+2990 = "L-Click" // mouse left click
+2991 = "R-Click" // mouse right click
+2992 = "M-Click" // mouse middle click
+2993 = "Scroll Wheel" // mouse wheel scrolling
+2994 = "Backspace"
 
 //--------------------------------
 // Tutorial Dialogues [3000-3999]
@@ -3175,6 +3251,7 @@
 // Workshop Error Messages [4049-4199]
 //------------------------------------
 
+
 //---- STEAM API Errors (https://partner.steamgames.com/doc/api/steam_api#EResult)
 4049 = "- Steam Workshop Error -" // Header qualifier before the error message
 //
@@ -3287,8 +3364,27 @@
 
 //---- Custom Errors
 4179 = "Error Code"
-4180 = "- Error -\nLocal-only characters cannot be played online."
-4181 = "- Error -\nYour opponent doesn't have the same version of this character installed."
+4180 = "- Error -\nLocal-only items cannot be played online."
+4181 = "- Error -\nYour opponent doesn't have the same version of this item installed."
 4182 = "- Error -\nItem URL is incorrect."
 4183 = "- Error -\nNo item is loaded."
 4184 = "- Error -\nRemote items cannot be submitted."
+
+
+//-------------------------
+// Rules Popup [4200-4219]
+//-------------------------
+
+4200 = "STOCK"
+4201 = "TIME"
+4202 = "TEAMS"
+4203 = "TEAM ATTACK"
+4204 = "RANDOM STAGES"
+4205 = "AETHER STAGES"
+4206 = "ABYSS RUNES"
+4207 = "TURBO MODE"
+4208 = "WORKSHOP"
+4209 = "CANCEL"
+4210 = "DECLINE"
+4211 = "SEND"
+4212 = "ACCEPT"
