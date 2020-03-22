@@ -14,7 +14,7 @@
 10 = "ATTACK" // team attack btn (2)
 11 = "BEST `1 OUT OF `2"
 12 = "NONE" // No Profile (main menu)
-13 = "NO PROFILE" // No Profile (css menu)
+13 = "GUEST" // Guest (css menu)
 14 = "EQUIP RUNES" // css abyss runes
 15 = "Open Sound Test" // css music note button
 16 = "control stick" // term for Analog Stick on PC & Nintendo Switch
@@ -38,10 +38,10 @@
 34 = "VIEW FRIENDS LEADERBOARD" // button instructions - filter learderboard to only see you and your friends
 35 = "JUMP TO MY SCORE" //button instructions - instantly move to your score on the leaderboards
 36 = "VIEW GLOBAL LEADERBOARD" //button instructions -- turn off the friends filter
-37 = "ABYSS LEADERBOARDS" // title for abyss leaderboards
+37 = "ABYSS ENDLESS" // title for abyss leaderboards
 38 = "SCORE" // score - for abyss leaderboard/etc
 39 = "BEST TIME" // quickest time story mode was cleared
-40 = "SELECTED RIVAL" // should be translated as "selected character" - current story mode character
+40 = "CHARACTER"
 41 = "START" // on-screen button to begin a story mode chapter
 42 = "TIME" // shortened version of "BEST TIME" to fit UI
 43 = "VIEW LEADERBOARD" // shortened version of "VIEW FRIENDS LEADERBOARD" to fit UI
@@ -72,7 +72,7 @@
 64 = "DECIDING TO ACCEPT..."
 65 = "DECIDING TO REMATCH..."
 75 = "CANCEL SEARCH"
-76 = "FIND MATCH"
+76 = "FIND A MATCH"
 80 = "CANCEL" // shorten version of "CANCEL SEARCH"
 81 = "SELECT A CHARACTER\nTO START SEARCHING"
 
@@ -96,6 +96,8 @@
 94 = "SEND A MESSAGE..."
 95 = "`1 has joined."
 96 = "`1 has left."
+97 = "`1 is now spectating."
+98 = "`1 is now competing."
 
 //---- Popup Message Yes/No [100-149]
 100 = "`1 wants to change the match settings to a timeless infinite match. Agree?"
@@ -134,6 +136,7 @@
 133 = "Do you want to stay in\nthe lobby for a rematch?"
 134 = "CHANGE RULES"
 135 = "`1 wants to change rules:"
+136 = "The rules are changing:"
 
 //---- Character Titles
 150 = "???"
@@ -240,6 +243,8 @@
 258 = "Ranked invites are not allowed."
 259 = "`1 did not accept new rules."
 260 = "- Error -\nThis replay contains a custom stage not present in your game data."
+261 = "Your Opponent has left."
+262 = "" // reserved
 
 //----
 290 = "READY TO FIGHT"
@@ -364,7 +369,7 @@
 383 = "Face off against an endless horde of shadowy creatures."
 384 = "Abyss Versus"
 385 = "Play a Versus match with your custom Abyss powerups."
-386 = "Abyss Leaderboards"
+386 = "Abyss Leaderboard"
 387 = "See how your top Abyss scores stack up against the Community."
 388 = "@318"
 389 = "@381"
@@ -569,6 +574,8 @@
 // (553 unavailable!)
 // (554 unavailable!)
 // (555 unavailable!)
+// (556 unavailable!)
+// (557 unavailable!)
 
 //----------------------------
 // Main Menu Variable Strings
@@ -621,7 +628,7 @@
 649 = "LVL. " // AI level
 
 //---- CSS profile buttons
-650 = "NONE"
+650 = "GUEST"
 651 = "NEW"
 
 //---- CSS gamepad buttons
@@ -773,6 +780,8 @@
 780 = "Press `1 to enable Frame Advance."
 781 = "Press CTRL+8 to toggle error messages."
 782 = "Error messages: " // ... ON / OFF
+783 = "" // reserved
+784 = "" // reserved
 
 //---- HUD: Abyss Objectives
 801 = "Defeat `1 weak enemies"
@@ -1275,7 +1284,7 @@
 1529 = "SDI ESCAPES: "
 1530 = "Hold {180,-1}"
 1531 = "DRIFT DI ESCAPES: "
-1532 = "Hold {90,-1} and {0,-1} to DI the first hit inward, then hold {180,-1}"
+1532 = "Hold {90,-1} and {0,-1} to DI the first hit inward, then hold {180,-1} and then return to the stage"
 
 //---- ADVANCED MOVEMENT TUTORIAL
 1533 = "DASH DANCES: "
@@ -2093,8 +2102,8 @@
 2537 = "DBL TAP"
 2538 = "AUTO RUN"
 2539 = "MOUSE"
-2540 = "LMB"
-2541 = "RMB"
+2540 = "L. CLICK"
+2541 = "R. CLICK"
 2542 = "WHEEL"
 2543 = "DEL"
 2544 = "TESTING..."
@@ -2140,8 +2149,8 @@
 2575 = "Master"
 
 //---- CSS Spectators Sub-Menu
-2580 = "SPECTATE"
-2581 = "COMPETE"
+2585 = "SPECTATE"
+2586 = "FIGHT"
 
 //---- Menu Header Text [2600-2699]
 2600 = "MAIN"
@@ -2166,7 +2175,7 @@
 2613 = "MODE"
 //
 2614 = "LEADERBOARD"
-2615 = "MODE"
+2615 = ""
 //
 2616 = "STAFF"
 2617 = "ROLL"
@@ -2228,8 +2237,8 @@
 2654 = "CUSTOM"
 2655 = "STAGES"
 //
-//2699 = ""
-//2699 = ""
+2656 = "" // reserved
+2657 = "" // reserved
 //
 //2699 = ""
 //2699 = ""
@@ -2353,7 +2362,7 @@
 2770 = "RANKED MATCH"
 2771 = "MONEY MATCH"
 2772 = "CASUAL MATCH"
-2773 = ""
+2773 = "FRIENDLY MATCH"
 2774 = ""
 2775 = ""
 2776 = ""
@@ -2378,8 +2387,8 @@
 2808 = "BUDDIES"
 2809 = "STAGES"
 2810 = "SKINS"
-2811 = "MOVE ITEM"
-2812 = "FINISH MOVING"
+2811 = "CHANGE ORDER"
+2812 = "FINISH"
 2813 = "(NO ITEMS)"
 2814 = "Items obtained from Steam Workshop will be displayed here.\n\nYou can subscribe to user-created content by going to the Rivals of Aether app page on Steam and navigating to the Steam Workshop tab, or make your own creations to upload and share with the community."
 2815 = "Workshop User" // used as the default author name
@@ -3242,7 +3251,7 @@
 4014 = "Buddy14"
 4015 = "Buddy15"
 4016 = "Buddy16"
-4017 = "Buddy17"
+4017 = "Loxobot"
 4018 = "Buddy18"
 4019 = "Buddy19"
 4020 = "Buddy20"
@@ -3369,6 +3378,9 @@
 4182 = "- Error -\nItem URL is incorrect."
 4183 = "- Error -\nNo item is loaded."
 4184 = "- Error -\nRemote items cannot be submitted."
+4185 = "- Warning -\nAny files in the uploaded directory which are not supported by Steam Workshop will be automatically deleted. Are you sure you want to upload?"
+4186 = "and `1 more" // used after the incompatible files list, if it's long enough
+4187 = "- Error -\nNo items to play online."
 
 
 //-------------------------
@@ -3382,9 +3394,14 @@
 4204 = "RANDOM STAGES"
 4205 = "AETHER STAGES"
 4206 = "ABYSS RUNES"
-4207 = "TURBO MODE"
+4207 = "TURBO"
 4208 = "WORKSHOP"
-4209 = "CANCEL"
-4210 = "DECLINE"
-4211 = "SEND"
-4212 = "ACCEPT"
+4209 = "TOURNEY MODE"
+4210 = "TOURNEY BEST OF"
+4211 = "PAUSE"
+4212 = "KNOCKBACK SCALING"
+4213 = "DEV MODE"
+4214 = "CANCEL"
+4215 = "DECLINE"
+4216 = "SEND"
+4217 = "ACCEPT"
