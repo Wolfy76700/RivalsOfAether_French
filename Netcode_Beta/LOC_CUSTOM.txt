@@ -31,7 +31,9 @@
 // Tongue Tether/Sling -> Catapultage Lingual
 // Tipper -> Extrémité léthale
 // Hovering aerial -> Aérien flottant
-// Free For All -> 1v1v1v1
+// Free For All -> Chacun pour soi
+// Milestone System -> Système de Défis
+// Rivals of Tether -> Aetherball
 
 // FROM SHOVEL KNIGHT:
 // War Horn -> Cor de guerre
@@ -67,7 +69,7 @@
 10 = "ÉQUIPE" // team attack btn (2)
 11 = "PREMIER À `1 VICTOIRE(S)"
 12 = "AUCUN" // No Profile (main menu)
-13 = "AUCUN PROFIL" // No Profile (css menu)
+13 = "INVITÉ" // Guest (css menu)
 14 = "ÉQUIPER DES RUNES" // css abyss runes
 15 = "Ouvrir le Juke-Box" // css music note button
 16 = "stick analogique" // term for Analog Stick on PC & Nintendo Switch
@@ -91,10 +93,10 @@
 34 = "VOIR LE CLASSEMENT AMIS" // button instructions - filter learderboard to only see you and your friends
 35 = "ALLER À MON SCORE" //button instructions - instantly move to your score on the leaderboards
 36 = "VOIR LE CLASSEMENT MONDIAL" //button instructions -- turn off the friends filter
-37 = "CLASSEMENT MODE ABYSSE" // title for abyss leaderboards
+37 = "MODE SANS FIN" // title for abyss leaderboards
 38 = "SCORE" // score - for abyss leaderboard/etc
 39 = "MEILLEUR TEMPS" // quickest time story mode was cleared
-40 = "RIVAL SELECTIONNÉ" // should be translated as "selected character" - current story mode character
+40 = "PERSONNAGE"
 41 = "COMMENCER" // on-screen button to begin a story mode chapter
 42 = "TEMPS" // shortened version of "BEST TIME" to fit UI
 43 = "VOIR LE CLASSEMENT" // shortened version of "VIEW FRIENDS LEADERBOARD" to fit UI
@@ -132,7 +134,7 @@
 //---- Casual Match Types
 77 = "1v1"
 78 = "2v2"
-79 = "1v1v1v1"
+79 = "Chacun pour soi"
 
 
 //---- Money match
@@ -150,6 +152,8 @@
 94 = "ENVOYER UN MESSAGE..."
 95 = "`1 a rejoint la salle."
 96 = "`1 a quitté la salle."
+97 = "`1 est maintenant un spectateur."
+98 = "`1 est maintenant un joueur."
 
 //---- Popup Message Yes/No [100-149]
 100 = "`1 veut changer les réglages pour démarrer un match sans fin. Accepter ?"
@@ -188,6 +192,7 @@
 133 = "Souhaitez-vous rester dans la\nalle pour un nouveau combat?"
 134 = "CHANGER LES RÈGLES"
 135 = "`1 veut changer les règles"
+136 = "Les règles ont été modifiées :"
 
 //---- Character Titles
 150 = "???"
@@ -293,7 +298,9 @@
 257 = "Les spectateurs ne peuvent pas envoyer de messages."
 258 = "Vous n'avez pas le droit d'inviter un joueur en mode classé."
 259 = "`1 n'a pas accepté la modification des règles"
-256 = "- Erreur -\nCe replay contient un terrain personnalisé auquel vous n'avez pas accès."
+260 = "- Erreur -\nCe replay contient un terrain personnalisé auquel vous n'avez pas accès."
+261 = "Votre adversaire a quitté la partie."
+262 = "" // reserved
 
 //----
 290 = "PARÉ AU COMBAT"
@@ -507,7 +514,7 @@
 460 = "@171"
 461 = "Apprenez à embraser vos adversaires avec Zetterburn, le Prince de la Flamme." // Too long
 462 = "@172"
-463 = "Apprenez à jouer avec vos adversaires avec Orcane, le Filou Fluide." // Too long
+463 = "Apprenez à jouer les sacripants avec Orcane, le Filou Fluide." // Too long
 464 = "@173"
 465 = "Apprenez à voler avec Wrastor, la Tornade Incontrôlable."
 466 = "@174"
@@ -658,7 +665,7 @@
 649 = "NIV. " // AI level
 
 //---- CSS profile buttons
-650 = "AUCUN"
+650 = "INVITÉ"
 651 = "NOUVEAU"
 
 //---- CSS gamepad buttons
@@ -871,7 +878,7 @@
 //---- HUD: Frame Advance
 850 = "Activer l'Image par Image"
 851 = "Désactiver l'Image par Image"
-852 = "Image Suivante"
+852 = "Frame Suivante"
 853 = "Moquerie : Redémarrer le chronomètre"
 854 = "CHRONO"
 
@@ -973,7 +980,7 @@
 951 = "`1 bannit..."
 952 = "@951"
 953 = "`1 choisit..."
-954 = "ACH|EVEMENT"
+954 = "SUCCÈS"
 955 = "LE PLUS PETIT"
 956 = "LE PLUS GRAND"
 957 = "PETIT"
@@ -985,6 +992,8 @@
 963 = "@948"
 964 = "TERRAINS PRINCIPAUX"
 965 = "TERRAINS PERSONNALISÉS"
+966 = "par"
+967 = ""
 
 //---- Popups
 970 = "ÉDITER LE NOM DU REPLAY"
@@ -1008,7 +1017,7 @@
 //--------------------
 
 1300 = "SAUVEGARDER"
-1301 = "SAUVEGARDE"
+1301 = "SAUVEGARDÉ"
 1302 = "DÉFAUT"
 1303 = "ANNULER"
 1304 = "CODE COULEUR"
@@ -1165,7 +1174,7 @@
 1529 = "ÉVASIONS via IDA: "
 1530 = "Tenir {180,-1}"
 1531 = "ÉVASIONS via l'INFLUENCE SUR LA DÉRIVE : "
-1532 = "Tenir {90,-1} puis {0,-1} (Le premier coup enverra vers l'adversaire), puis tenir {180,-1}"
+1532 = "Tenir {90,-1} puis {0,-1} (Le premier coup enverra vers l'adversaire), puis revenir sur le terrain"
 
 //---- ADVANCED MOVEMENT TUTORIAL
 1533 = "DASH DANCES : "
@@ -1935,8 +1944,8 @@
 2537 = "DBL TAP"
 2538 = "COURSE AUTO"
 2539 = "SOURIS"
-2540 = "LMB"
-2541 = "RMB"
+2540 = "CLIC GAUCHE"
+2541 = "CLIC DROIT"
 2542 = "ROULETTE"
 2543 = "SUP"
 2544 = "TEST..."
@@ -1982,8 +1991,8 @@
 2575 = "Maître"
 
 //---- CSS Spectators Sub-Menu
-2580 = "SPECTATEUR"
-2581 = "COMBATTANT"
+2585 = "SPECTATEUR"
+2586 = "COMBATTANT"
 
 //---- Menu Header Text [2600-2699]
 2600 = "MENU"
@@ -2069,39 +2078,6 @@
 //
 2654 = "TERRAINS"
 2655 = "PERSONNALISÉS"
-//
-//2699 = ""
-//2699 = ""
-//
-//2699 = ""
-//2699 = ""
-//
-//2699 = ""
-//2699 = ""
-//
-//2699 = ""
-//2699 = ""
-//
-//2699 = ""
-//2699 = ""
-//
-//2699 = ""
-//2699 = ""
-//
-//2699 = ""
-//2699 = ""
-//
-//2699 = ""
-//2699 = ""
-//
-//2699 = ""
-//2699 = ""
-//
-//2699 = ""
-//2699 = ""
-//
-//2699 = ""
-//2699 = ""
 
 
 //-----------------------------------------
@@ -2234,7 +2210,7 @@
 3001 = "Commençons par apprendre à marcher."
 3002 = "Pour marcher, incline doucement le stick analogique vers une direction. Ne l'incline pas trop rapidement, sinon tu te mettras à courir."
 3003 = "Bien. Maintenant, passons à la course."
-3004 = "Pour courrir, incline rapidement le stick analogique vers la direction de votre choix."
+3004 = "Pour courrir, incline rapidement le stick analogique vers la direction de ton choix."
 3005 = "Abordons maintenant les sauts."
 3006 = "Pour sauter, appuie sur le bouton de saut. Fais attention à bien rester appuyé assez longtemps pour effectuer un grand saut."
 3007 = "Maintenant, suis-moi à l'aide de double sauts."
@@ -2248,8 +2224,8 @@
 3013 = "Bienvenue dans le tutoriel de défense pour débutants ! Les leçons qui vont suivre vont te montrer comment se défendre des attaques adverses."
 3014 = "Tout d'abord, la parade. Tu peux effectuer une parade au sol en appuyant sur le bouton d'esquive, sans incliner le stick analogique."
 3015 = "Si tu pares une attaque ennemie, l'adversaire sera étourdi, ce qui te permettera de contre-attaquer."
-3016 = "Attention malgré tout. Une parade devient active 2 images après avoir appuyé sur le bouton d'esquive.\n(NB : Il y a 60 images dans une seconde)"
-3017 = "Essaies donc.\nPare 3 de mes attaques à la suite."
+3016 = "Attention malgré tout. Une parade devient active 2 frames après avoir appuyé sur le bouton d'esquive.\n(NB : Il y a 60 frames dans une seconde)"
+3017 = "Essaie donc.\nPare 3 de mes attaques à la suite."
 3018 = "Les parades peuvent également renvoyer les projectiles"
 3019 = "Essaie de refléter 3 de mes projectiles d'afilée."
 3020 = "Passons à la roulade."
@@ -3123,6 +3099,9 @@
 4182 = "- Erreur -\nL'URL du fichier est incorrecte."
 4183 = "- Erreur -\nAucun fichier n'a été chargé."
 4184 = "- Erreur -\nLes objets téléchargés ne peuvent pas être mis en ligne."
+4185 = "- Attention -\nLes fichiers non supportés par le Steam Workshop seront supprimés. Voulez-vous continuer ?"
+4186 = "+ `1 fichier(s)" // used after the incompatible files list, if it's long enough
+4187 = "- Erreur -\nAucun élément pour le jeu en ligne."
 
 //-------------------------
 // Rules Popup [4200-4219]
