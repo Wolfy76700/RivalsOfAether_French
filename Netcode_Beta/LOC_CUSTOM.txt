@@ -23,7 +23,6 @@
 // Autocancel (Aerial) -> Récupération rapide
 // Drift DI -> Influence sur la Dérive
 // Edgeguard -> Protection du terrain
-// Combo -> Enchaînement
 // Bubble Butt -> Propulsion Bullistique
 // Orcahops -> Orca-saut
 // Double Jump Cancelled N-Air -> Aérien Neutre Statique
@@ -1235,7 +1234,7 @@
 1578 = "{-1,PR_STRONG} sur un adversaire brûlé"
 1579 = "SPÉCIAUX HAUT ANNULÉS : "
 1580 = "{90,PR_SPECIAL} puis {-1,PR_DODGE}"
-1581 = "ENCHAINEMENTS GATLING : "
+1581 = "COMBOS GATLING : "
 1582 = "{1,PR_ATTACK} puis (au moment où l'attaque touche) {90,PR_STRONG}"
 1583 = "SPÉCIAUX NEUTRES ANNULÉS : "
 1584 = "{-1,PR_SPECIAL} puis {-1,PR_JUMP} immédiatement"
@@ -2251,7 +2250,7 @@
 3038 = "Si tu inclines le stick analogique pendant que tu appuies sur le bouton d'attaque et que tu es au sol, tu effectueras un autre type d'Attaque Normale."
 3039 = "Outre l'Attaque Normale Neutre, il y a 3 autres types d'attaques normales, suivant la direction selon laquelle tu inclines le stick analogique."
 3040 = "- Normal Côté : Côté + Attaque\n- Normal Haut : Haut + Attaque\n- Normal Bas : Bas + Attaque"
-3041 = "Essaie de me toucher 3 fois avec chaque type d'Attaque Normale\n(Attention à ne pas courir en essayant de faire un Normal Côté !)
+3041 = "Essaie de me toucher 3 fois avec chaque type d'Attaque Normale\n(Attention à ne pas courir en essayant de faire un Normal Côté !)"
 3042 = "Essayons maintenant les Attaques Power.\nLes Attaques Power sont des attaques très puissantes qui peuvent en général faire beaucoup de dégâts."
 3043 = "Si tu appuies sur le bouton Power alors que tu es au sol, tu effectueras une Attaque Power. Le type d'Attaque Power dépend de la direction selon laquelle tu inclines le stick analogique."
 3044 = "- Power Côté : Appuies sur Power sans direction ou Côté + Power\n- Power Haut : Haut + Power\n- Power Bas : Bas + Power"
@@ -2274,25 +2273,25 @@
 3061 = "Évidemment, n'hésite pas à revenir ici si tu as un doute sur comment faire un certain type d'attaque !"
 
 //---- INTERMEDIATE MOVEMENT TUTORIAL
-3062 = "Welcome to the intermediate movement tutorial! In this tutorial, you'll learn some of the more technical ways to move around."
-3063 = "First up is the short hop."
-3064 = "A short hop is exactly what it sounds like: a smaller version of your normal jump."
-3065 = "To do a short hop, just tap the jump button briefly."
-3066 = "If you hold the jump button for more than 5 frames, you will do a full hop instead of a short hop, so you must be quick. (Note: these 5 frames are called jumpsquat.)"
-3067 = "Try short hopping over my projectiles 3 times in a row."
-3068 = "Short hops are great for minimizing the time you're in the air so you can reach the ground faster, which allows you to extend your combos even further."
-3069 = "Another way to land quickly is to fastfall, which gives you an instant downward boost."
-3070 = "To perform a fastfall, quickly press the control stick downward while you are falling."
-3071 = "You cannot fastfall if you are moving upward, so make sure you time the fastfall after the peak of your jump."
-3072 = "Try jumping in front of me and then using fastfall to avoid my attack 3 times in a row."
-3073 = "Sometimes a successful recovery requires more than your regular jumps, and that's where wall jumping comes in."
-3074 = "Performing a walljump is simple: Once you're in the air, hold the control stick toward the wall and press the jump button."
-3075 = "You can only walljump once until you touch the ground or get hit."
-3076 = "Try reaching that platform with a walljump. Sorry, but I've temporarily disabled your double jump."
-3077 = "You can also walljump while in the helpless fall state."
-3078 = "Try reaching the platform, this time using only USPECIALs and walljumps.\n(Note: Zetterburn's USPECIAL travels in the direction of the control stick.)"
-3079 = "Fantastic!"
-3080 = "These wall jump techniques will help your recovery immensely when you're sent offstage. Make sure you practice all of these techniques so you can use them anytime you need them."
+3062 = "Bienvenue dans le tutoriel de mouvement intermédiaire ! Dans ce tutoriel, tu vas apprendre quelques méthodes plus techniques pour optimiser tes déplacements."
+3063 = "Commençons avec le petit saut."
+3064 = "Le petit saut est, comme son nom l'indique, un saut moins haut que ton saut classique, et permet d'effectuer plus facilement des combos."
+3065 = "Pour faire un petit saut, tu dois appuyer sur le bouton de saut très rapidement."
+3066 = "Si tu restes appuyé sur saut pendant plus de 5 frames, tu feras un saut normal au lieu d'un petit saut, donc fais attention ! (Note : Cette période de 5 frames correspond à l'élan de ton saut)"
+3067 = "Essaie d'éviter mes projectiles 3 fois d'affilée avec des petits sauts."
+3068 = "Les petits sauts sont très pratiques pour minimiser la durée durant laquelle tu es dans les airs, ce qui te permettra d'effectuer plus facilement des combos."
+3069 = "Un autre moyen de revenir rapidement au sol est la chute rapide, qui te permet d'accélérer vers le bas."
+3070 = "Pour effectuer une chute rapide, incline rapidement le stick analogique vers le bas pendant ta chute."
+3071 = "Tu ne peux pas effectuer de chute rapide lorsque tu te déplaces vers le haut, donc attends bien d'avoir atteint le pic de ton saut pour effectuer la chute rapide."
+3072 = "Essaie de sauter devant moi, puis d'effectuer une chute rapide pour éviter mon attaque 3 fois de suite."
+3073 = "Parfois, pour revenir sur le terrain, les sauts classiques ne suffiront pas. C'est là qu'interviennent les sauts muraux."
+3074 = "Pour faire un saut mural, c'est très simple : Il suffit de sauter tout en te dirigeant et te collant à un mur."
+3075 = "En revanche, tu n'auras droit qu'à un seul saut mural... Du moins, jusqu'à ce que tu touches le sol ou te fasses toucher par une attaque."
+3076 = "Essaie d'atteindre cette plateforme, là-haut, avec un saut mural ! Au fait, désolé, j'ai temporairement désactivé ton double saut."
+3077 = "Tu peux aussi effectuer des sauts muraux quand tu es en chute libre."
+3078 = "Essaie à nouveau d'atteindre la plateforme, mais cette fois avec seulement des Spéciaux Haut et ton saut mural.\n(NB : Zetterburn peut changer la direction de son Spécial Haut à l'aide du stick analogique)"
+3079 = "Fantastique !"
+3080 = "Les sauts muraux sont extrêmement pratiques pour revenir lorsque tu es envoyé en dehors du terrain. N'oublie pas de t'habituer à utiliser ces techniques pour pouvoir les utiliser en cas de besoin !"
 
 //---- INTERMEDIATE DEFENSE TUTORIAL
 3081 = "Welcome to the intermediate defense tutorial! Here you will learn about directional influence and teching. Correct use of these techniques is vital to your survival, so pay attention."
