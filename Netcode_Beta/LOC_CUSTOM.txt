@@ -361,7 +361,7 @@
 332 = "Commandes au clavier"
 333 = "Configurez vos commandes au clavier."
 334 = "Son"
-335 = "Adjustez le volume de la musique et des effets sonores."
+335 = "Ajustez le volume de la musique et des effets sonores."
 336 = "Affichage"
 337 = "Ajustez les options d'affichage pour un confort de jeu optimal."
 340 = "@318"
@@ -455,11 +455,11 @@
 
 //---- Sound Options
 414 = "Musique"
-415 = "Ajustez le volume de la musique."
+415 = "Ajuster le volume de la musique."
 416 = "Effets"
-417 = "Ajustez le volume des effets sonores en combat."
+417 = "Ajuster le volume des effets sonores en combat."
 418 = "Menus"
-419 = "Ajustez le volume des effets sonores du menu."
+419 = "Ajuster le volume des effets sonores du menu."
 420 = "@318"
 421 = "@401"
 
@@ -1799,7 +1799,7 @@
 //---- Character Ability Descriptions [2300-2341]
 2300 = "Zetterburn peut faire brûler ses adversaires avec ses Attaques Spéciales, ce qui leur fait subir des dégâts au cours du temps."
 2301 = "Lorsqu'un adversaire est en feu, Zetterburn peut utiliser une Attaque Power pour l'envoyer deux fois plus loin."
-2302 = "Zetterburn peut placer des pièges de feu sur le stage avec son Spécial Bas. Ces pièges brûlent l'adversaire sans l'expulser."
+2302 = "Zetterburn peut placer des pièges de feu sur le terrain avec son Spécial Bas. Ces pièges brûlent l'adversaire sans l'expulser."
 2303 = "Orcane peut créer une flaque d'eau avec son Spécial Neutre ou son Spécial Bas, puis se teleporter dans cette flaque avec son Spécial Haut."
 2304 = "Orcane peut transformer sa flaque en un mur de bulles a l'aide de son Spécial Bas, ce qui permet de piéger l'adversaire."
 2305 = "Orcane peut se placer sur sa flaque pour effectuer une Attaque Power avec une meilleure portée."
@@ -2131,31 +2131,41 @@
 2815 = "Utilisateur Workshop" // used as the default author name
 2816 = "OUVRIR LE TERRAIN"
 2817 = "NOUVEAU TERRAIN"
+2818 = "CHARGEMENT DES IMAGES"
+2819 = "CHARGEMENT DES SONS"
+2820 = "CHARGEMENT DES SCRIPTS"
+2821 = "CHARGEMENT DES ATTAQUES"
 
 //--------------------------
 // Stage Editor [2900-2999]
 //--------------------------
 
+//---- Header text
 2900 = "TERRAIN PERSONNALISÉ"
 2901 = "ÉDITEUR DE TERRAINS"
-2902 = "ÉDITER LES PARAMÈTRES TERRAIN"
+2902 = "ÉDITER LES PARAMÈTRES"
 2903 = "ÉDITER LES INFORMATIONS" // stage name, author, description
 2904 = "ÉDITER L'ARRIÈRE-PLAN"
 2905 = "ÉDITION : " // (EDITING: BG#)
-2906 = "ÉDITER LES INFORMATIONS DU TERRAIN"
+2906 = "ÉDITER LES INFORMATIONS"
 2907 = "QUITTER SANS SAUVEGARDER ?"
-2908 = ""
+2908 = "EFFACER TOUS LES CHANGEMENTS ?"
+2909 = "ÉDITER LE NOM"
+2910 = "ÉDITER L'AUTEUR"
+2911 = "ÉDITER LA DESCRIPTION"
+//---- Options menu text
 2912 = "SAUVEGARDER"
 2913 = "ANNULER"
-2914 = "ÉDITER LE NOM DU TERRAIN"
-2915 = "ÉDITER LE NOM DE L'AUTEUR"
-2916 = "ÉDITER LA DESCRIPTION"
-2917 = ""
+2914 = "@2909"
+2915 = "@2910"
+2916 = "@2911"
+2917 = "RÉPÉTITION HORIZONTALE"
+2918 = "RÉPÉTITION VERTICALE"
 2919 = "LARGEUR"
 2920 = "HAUTEUR"
-2921 = @946
-2922 = @944
-2923 = @945
+2921 = "@946"
+2922 = "@944"
+2923 = "@945"
 2924 = "MODE"
 2925 = "FOND"
 2926 = "MUSIQUE"
@@ -2165,40 +2175,52 @@
 2930 = "DÉFILEMENT AUTOMATIQUE"
 2931 = "VITESSE D'ANIMATION"
 2932 = "SOL"
-2933 = "Terain sauvegardé."
-2934 = "Veuillez réessayer plus tard."
-2935 = "`1 activé."
-2936 = "`1 désactivé."
-2937 = ""
-2940 = " TILES" // "__ TILES"
-2941 = " MODE" // // "____ MODE"
-2942 = "STANDARD" // mode
-2943 = "AVANCÉ" // mode
+2933 = "CRÉER UNE VARIANTE AETHER (SAUVEGARDER)"
+2934 = "OUVRIR LA VARIANTE AETHER (SAUVEGARDER)"
+2935 = "OUVRIR LA VARIANTE BASIQUE (SAUVEGARDER)"
+2936 = ""
+2937 = "@2902"
+2938 = "@2903"
+2939 = "@2904"
+2951 = "Terain sauvegardé."
+2952 = "Veuillez réessayer plus tard."
+2953 = "`1 activé."
+2954 = "`1 désactivé."
+2940 = " CASES" // "__ TILES"
+2941 = "" // // "____ MODE"
+2942 = "MODE STANDARD" // mode
+2943 = "MODE AVANCÉ" // mode
 2944 = "Mode Souris"
 2945 = "Mode Tactile"
 2946 = "([`1] : Écouter)"
 2947 = "(Appuyer ici pour écouter)" // for mouse mode
-2948 = "H-REPEAT"
-2949 = "V-REPEAT"
+2948 = ""
+2949 = ""
 2950 = "RÉINITIALISER LA CAMÉRA"
-2951 = "La couche Objet peut être utilisée pour positionner\nles points d'apparition et les objets spéciaux."
-2952 = "La couche Objet peut être utilisée pour positionner\nles points d'apparition."
-2953 = "Supprimer le terrain sélectionné ?\n[ `1 ]"
-2954 = "- Attention -\nUne fois supprimé, le terrain ne pourra plus être récupéré. Êtes vous sûr de vouloir le supprimer ?"
+//2951 = "La couche Objet peut être utilisée pour\npositionner les points d'apparition et les objets spéciaux."
+//2952 = "La couche Objet peut être utilisée pour\npositionner les points d'apparition."
+//2953 = "Supprimer le terrain sélectionné ?\n[ `1 ]"
+//2954 = "- Attention -\nUne fois supprimé, le terrain ne pourra plus être récupéré. Êtes vous sûr de vouloir le supprimer ?"
 2955 = ""
 2960 = "CHANGER DE COUCHE"
-2961 = "TOOL SELECT"
-2962 = "SÉLECTION DE L'OUTIL"
+2961 = "SÉLECTION DE L'OUTIL"
+2962 = "SÉLECTION DU POINT D'APPARITION"
 2963 = "DESSINER"
 2964 = "EFFACER"
 2965 = "DÉPLACER LA CAMÉRA"
 2966 = "OUVRIR LE MENU"
-2967 = ""
+2967 = "SÉLECTION DE L'OBJET (MODE SCRIPT)"
+2968 = "SÉLECTION DU MARQUEUR (MODE SCRIPT)"
+2969 = ""
 2990 = "Clic Gauche" // mouse left click
 2991 = "Clic Droit" // mouse right click
 2992 = "Clic Milieu" // mouse middle click
 2993 = "Roulette de défilement" // mouse wheel scrolling
 2994 = "Touche Retour"
+//---- Workshop menu
+2998 = "Supprimer le terrain selectionné ?\n[ `1 ]"
+2999 = "- Attention -\nUne fois supprimées, ces données ne pourront être récupérées. Supprimer le terrain malgé tout ?"
+
 
 //--------------------------------
 // Tutorial Dialogues [3000-3999]

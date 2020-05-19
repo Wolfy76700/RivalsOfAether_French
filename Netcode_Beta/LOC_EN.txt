@@ -2394,11 +2394,16 @@
 2815 = "Workshop User" // used as the default author name
 2816 = "OPEN STAGE"
 2817 = "NEW STAGE"
+2818 = "LOADING SPRITES"
+2819 = "LOADING SOUNDS"
+2820 = "LOADING SCRIPTS"
+2821 = "LOADING ATTACKS"
 
 //--------------------------
 // Stage Editor [2900-2999]
 //--------------------------
 
+//---- Header text
 2900 = "CUSTOM STAGE"
 2901 = "STAGE EDITOR"
 2902 = "EDIT STAGE PARAMETERS"
@@ -2407,13 +2412,18 @@
 2905 = "EDITING: " // (EDITING: BG#)
 2906 = "EDIT STAGE INFO"
 2907 = "QUIT AND LOSE UNSAVED CHANGES?"
-2908 = ""
+2908 = "REVERT ALL CHANGES?"
+2909 = "EDIT STAGE NAME"
+2910 = "EDIT AUTHOR NAME"
+2911 = "EDIT DESCRIPTION"
+//---- Options menu text
 2912 = "SAVE"
 2913 = "REVERT"
-2914 = "EDIT STAGE NAME"
-2915 = "EDIT AUTHOR NAME"
-2916 = "EDIT DESCRIPTION"
-2917 = ""
+2914 = "@2909"
+2915 = "@2910"
+2916 = "@2911"
+2917 = "H-REPEAT"
+2918 = "V-REPEAT"
 2919 = "STAGE WIDTH"
 2920 = "STAGE HEIGHT"
 2921 = "BLASTZONE SIDE"
@@ -2428,12 +2438,15 @@
 2930 = "AUTOSCROLL"
 2931 = "ANIM SPEED"
 2932 = "GROUND"
-2933 = "Stage saved."
-2934 = "Please wait a moment and try again."
-2935 = "`1 enabled."
-2936 = "`1 disabled."
-2937 = ""
+2933 = "MAKE AETHER LAYOUT (SAVE)"
+2934 = "SWITCH TO AETHER (SAVE)"
+2935 = "SWITCH TO BASIC (SAVE)"
+2936 = ""
+2937 = "@2902"
+2938 = "@2903"
+2939 = "@2904"
 2940 = " TILES" // "__ TILES"
+//---- Status text
 2941 = " MODE" // // "____ MODE"
 2942 = "STANDARD" // mode
 2943 = "ADVANCED" // mode
@@ -2441,27 +2454,38 @@
 2945 = "Touch Mode"
 2946 = "(Press `1 to listen)"
 2947 = "(Press to listen)" // for mouse mode
-2948 = "H-REPEAT"
-2949 = "V-REPEAT"
+2948 = ""
+2949 = ""
 2950 = "RESET CAMERA"
-2951 = "The Object Layer can be used to set\nspawn points and special objects."
-2952 = "The Object Layer can be used to set\nspawn points and respawn height."
-2953 = "Delete the selected stage?\n[ `1 ]"
-2954 = "- Warning -\nOnce deleted, the stage data cannot be recovered. Really delete the stage?"
+2951 = "Stage saved."
+2952 = "Please wait a moment and try again."
+2953 = "`1 enabled."
+2954 = "`1 disabled."
 2955 = ""
+2956 = ""
+2957 = ""
+2958 = ""
+2959 = ""
+//---- Control guide
 2960 = "CHANGE LAYER"
 2961 = "TOOL SELECT"
-2962 = "OBJECT SELECT"
+2962 = "SPAWNPOINT SELECT"
 2963 = "PAINT"
 2964 = "ERASE"
 2965 = "MOVE CAMERA"
 2966 = "OPEN MENU"
-2967 = ""
+2967 = "OBJECT SELECT (SCRIPTING)"
+2968 = "MARKER SELECT (SCRIPTING)"
+2969 = ""
+//---- Mouse controls
 2990 = "L-Click" // mouse left click
 2991 = "R-Click" // mouse right click
 2992 = "M-Click" // mouse middle click
 2993 = "Scroll Wheel" // mouse wheel scrolling
 2994 = "Backspace"
+//---- Workshop menu
+2998 = "Delete the selected stage?\n[ `1 ]"
+2999 = "- Warning -\nOnce deleted, the stage data cannot be recovered. Really delete the stage?"
 
 //--------------------------------
 // Tutorial Dialogues [3000-3999]
