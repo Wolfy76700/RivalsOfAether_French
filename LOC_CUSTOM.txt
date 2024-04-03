@@ -1083,3 +1083,15 @@
 624 = "REGION FILTERS"
 625 = "SAVE"
 626 = "N/A" // region N/A
+
+//---- ORBY TAUNT
+3721 = "Si vous voulez survivre plus longtemps, essayez de remporter le neutral plus souvent."
+3722 = "Le tutoriel sur la DI est disponible dans la catégorie Défense, niveau Intermédiaire."
+3723 = "Pensez à étudier le personnage de votre adversaire si vous souhaitez gagner."
+3724 = "Si votre gameplan est trop agressif, vous risquez de vous faire punir fréquemment."
+3725 = "Pour apprendre à jouer votre personnage, essayez de finir son tutoriel éponyme."
+3726 = "N’hésitez pas à essayer différents personnages pour trouver celui qui vous convient le mieux."
+3727 = "Entraînez-vous à mieux bouger pour éviter les attaques de votre adversaire."
+3728 = "N’hésitez pas à revisiter la section Débutant du tutoriel si vous avez besoin d’un rappel."
+3729 = "Essayez de construire un nouveau gameplan si votre gameplan actuel ne fonctionne pas."
+3730 = "Variez votre DI si vous restez constamment coincé dans les combos averses."
