@@ -1094,4 +1094,4 @@
 3727 = "Entraînez-vous à mieux bouger pour éviter les attaques de votre adversaire."
 3728 = "N’hésitez pas à revisiter la section Débutant du tutoriel si vous avez besoin d’un rappel."
 3729 = "Essayez de construire un nouveau gameplan si votre gameplan actuel ne fonctionne pas."
-3730 = "Variez votre DI si vous restez constamment coincé dans les combos averses."
+3730 = "Variez votre DI si vous restez constamment coincé dans les combos adverses."
