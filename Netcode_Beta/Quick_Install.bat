@@ -1,1 +1,0 @@
-copy /Y LOC_CUSTOM.txt "C:\Program Files (x86)\Steam\steamapps\common\Rivals of Aether"
